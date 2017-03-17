@@ -1,0 +1,27 @@
+header {
+    color: #fff;
+	padding: 20px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		z-index: 1;
+		position: relative;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.company-name {
+		font-size: 1.7em;
+	    img {
+            margin-bottom: -16px;
+            margin-right: 6px;
+        }
+    }
+}

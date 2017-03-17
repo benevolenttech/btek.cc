@@ -1,0 +1,33 @@
+---
+layout: page
+title: Learning Center
+heading: Learning Center
+subtitle: Our tips and tricks on charting the digital world.
+---
+
+<section class="diagonal">
+    <p style="font-size:50px;text-align:center;">Coming Soon!</p>
+	<div class="text-container">
+	    <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
+		<ul class="blog-posts">
+			{% include list-posts.html posts=paginator.posts %}
+		</ul>
+	</div>
+</section>
+
+{% if paginator.total_pages > 1 %}
+	<section class="diagonal alternate">
+		<!-- Pagination links -->
+		<div class="pagination">
+			{% if paginator.previous_page %}
+				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
+			{% endif %}
+
+			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+			{% if paginator.next_page %}
+				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
+			{% endif %}
+		</div>
+	</section>
+{% endif %}

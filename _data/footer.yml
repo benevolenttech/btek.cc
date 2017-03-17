@@ -1,0 +1,30 @@
+- title: Pages
+  links:
+    - name: Home
+      link: /
+    - name: Portfolio
+      link: /portfolio/
+    - name: Learning Center
+      link: /learning-center/
+    - name: About
+      link: /about/
+    - name: Contact
+      link: /contact/
+- title: Social
+  links:
+    - name: Facebook
+      link: 'https://www.facebook.com/benevolenttech'
+      social_icon: Facebook
+      new_window: true
+    - name: Twitter
+      link: 'https://twitter.com/benevolentweb'
+      social_icon: Twitter
+      new_window: true
+    - name: Google+
+      link: 'https://plus.google.com/116785152170490012211'
+      social_icon: Google Plus
+      new_window: true
+    - name: LinkedIn
+      link: 'https://www.linkedin.com/company-beta/10853689/'
+      social_icon: LinkedIn
+      new_window: true
