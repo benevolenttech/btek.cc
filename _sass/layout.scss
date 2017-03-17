@@ -149,9 +149,11 @@ section {
 		text-align: left;
 		border: 1px solid $brand-color;
 		line-height: 0;
+		display: none;
 
-		@media #{$tablet} {
+		@media #{$mid-point} {
 			flex: 1 1 50%;
+			display: list-item;
 		}
 
 		@media #{$desktop} {
