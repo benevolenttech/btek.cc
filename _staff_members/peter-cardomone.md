@@ -1,8 +1,8 @@
 ---
 name: Peter Cardomone
 position: Writer and Copy Master
-image_path: /uploads/pete1.jpg
-link: https://twitter.com/@petecardomone
+image_path: /uploads/pete1-small.jpg
+link: 'https://twitter.com/@petecardomone'
 ---
 
 
