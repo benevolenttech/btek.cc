@@ -30,7 +30,7 @@
 	<body>
 		<header>
 			<div class="container">
-				<h1 class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="Benevolent Tech" width="50"><strong>Benevolent Tech</strong></a></h1>
+				<div class="company-name"><a href="{{ site.baseurl }}/"></a></div>
 				{% include navigation.html %}
 			</div>
 		</header>
@@ -68,12 +68,36 @@
 						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
 					</ul>
 				</div>
+
+				<div class="footer-links-mobile">
+					{% for column in site.data.footer %}
+						<ul class="footer-links">
+							{% for link in column.links %}
+								{% if link.social_icon %}
+									<li>
+										<a target="_blank" href="{% include relative-src.html src=link.link %}" class="{{ link.social_icon | slugify }}-icon">
+											{% include social-icon.html icon=link.social_icon %}
+										</a>
+									</li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+					{% endfor %}
+				</div>
+
 			</div>
 
-			<div class="legal-line">
+			<div class="legal-line desktop">
 				<p class="container">
 					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}
 					&bull;
+					Made with &lt;3 in DC
+				</p>
+			</div>
+
+			<div class="legal-line mobile">
+				<p class="container">
+					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}<br>
 					Made with &lt;3 in DC
 				</p>
 			</div>

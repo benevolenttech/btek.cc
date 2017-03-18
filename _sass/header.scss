@@ -1,5 +1,5 @@
 header {
-    color: #fff;
+  color: #fff;
 	padding: 20px 0;
 	position: absolute;
 	top: 0;
@@ -18,10 +18,22 @@ header {
 	}
 
 	.company-name {
-		font-size: 1.7em;
-	    img {
-            margin-bottom: -16px;
-            margin-right: 6px;
-        }
-    }
+		background-image: url(/images/logo.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 200px;
+		height: 80px;
+		position: relative;
+		z-index: 99;
+		&:hover {
+			background-image: url(/images/logo-alt.png);
+		}
+
+		a {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+		}
+	}
 }

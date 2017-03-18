@@ -4,7 +4,7 @@ title: Benevolent Tech - Home
 
 <section class="hero diagonal">
 	<div class="container">
-		<h2 class="editable">We build websites</h2>
+		<h2 class="editable">We build brands</h2>
 		<p class="subtext editable">A group of friends with technical and emotional depth with an <strong>altruistic</strong> mission, here to help you <em>catch up to the</em> <em>future</em>.</p>
 		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
 	</div>
@@ -18,10 +18,10 @@ title: Benevolent Tech - Home
 			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
 		</div>
 		<div>
-			<ul class="image-grid">
+			<ul class="image-grid home">
 				{% for client in site.clients limit: 4 %}
 					<!-- <li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}" /></a></li> -->
-					<li><a href="{{ site.baseurl }}{{ client.external_url }}"><img src="{% include relative-src.html src=client.image_path %}" /></a></li>
+					<li style="background-image:url({% include relative-src.html src=client.image_path %});"><a href="{{ site.baseurl }}{{ client.external_url }}"></a></li>
 				{% endfor %}
 			</ul>
 		</div>

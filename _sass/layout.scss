@@ -149,24 +149,43 @@ section {
 		text-align: left;
 		border: 1px solid $brand-color;
 		line-height: 0;
-		display: none;
+		background-size: cover;
+		background-position: center center;
+
+		&:hover:not(.filler) {
+			box-shadow: 0 0 8px 6px $secondary-brand-color;
+			opacity: .8;
+		}
 
 		@media #{$mid-point} {
 			flex: 1 1 50%;
-			display: list-item;
 		}
 
 		@media #{$desktop} {
 			flex: 1 1 30%;
 		}
 
-		img {
-			min-width: 100%;
-			min-height: 100%;
+		> a {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 100%;
 		}
 
-		> a:hover {
-			opacity: 0.9;
+	}
+
+	&.home li {
+		height: 167px;
+		display: none;
+		@media #{$mid-point} {
+			display: list-item;
+		}
+	}
+
+	&.portfolio li {
+		height: 300px;
+		@media #{$mid-point} {
+			
 		}
 	}
 
