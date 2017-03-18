@@ -1,8 +1,8 @@
 title: Benevolent Tech
 url: "https://benevolent.tech"
 baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
+google_analytics_key: UA-80397803-1
+google_maps_javascript_api_key: AIzaSyDKMKUAB7EOak_dTHHeUX8N0MNuYRFh_Ik
 disqus_shortname: benevolenttech
 
 # Default description in social shares for the jekyll-seo-tag gem
