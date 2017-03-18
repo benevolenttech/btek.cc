@@ -1,8 +1,8 @@
 ---
 name: Brian Dombrowski
 position: Brand Evangelist
-image_path: /uploads/brian.jpg
-link: https://twitter.com/@bdombro
+image_path: /uploads/brian-small.jpg
+link: 'https://twitter.com/@bdombro'
 ---
 
 
