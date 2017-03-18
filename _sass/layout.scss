@@ -182,7 +182,7 @@ section {
 		}
 	}
 
-	&.portfolio li {
+	&.portfolio li, &.about li {
 		height: 300px;
 		@media #{$mid-point} {
 			
