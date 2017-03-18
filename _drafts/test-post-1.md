@@ -1,6 +1,7 @@
 ---
 title: Test Post 1
 categories:
+  - Content
 author_staff_member: brian-dombrowski
 show_comments: true
 date:
