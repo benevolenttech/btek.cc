@@ -152,6 +152,13 @@ section {
 		background-size: cover;
 		background-position: center center;
 
+		&.filler {
+			display: none;
+			@media #{$desktop} {
+				display: list-item;
+			}
+		}
+
 		&:hover:not(.filler) {
 			box-shadow: 0 0 8px 6px $secondary-brand-color;
 			opacity: .8;
