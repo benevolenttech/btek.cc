@@ -1,7 +1,7 @@
 ---
 name: Chris Rosenbaum
 position: Marketing Strategy
-image_path: /uploads/chris.png
+image_path: /uploads/chris.jpg
 link: https://twitter.com/@chrisrosenbaum
 ---
 
