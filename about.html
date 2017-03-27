@@ -3,27 +3,30 @@ title: About
 heading: About Us
 subtitle:
 description: Come see what were all about.
-image: /images/chicken.jpg
+image: /images/benevolent_tech_dc_marketing.jpg
 ---
 
 <section class="diagonal alternate">
-	<div class="container">
-	    <div class="editable">
-	    <p>Benevolent Tech invents digital & physical experiences. Our designers, developers, marketers and makers build everything from apps, to connected devices, to wildly creative campaigns that reach audiences globally.</p>
-    
-        <p>Formally Benevolent Web, Benevolent Tech was founded in May 2012 by Brian Dombrowski in Washington, DC. Since its inception, Benevolent Tech has differentiated itself by focusing on clients with altruistic missions.</p>
-    
-        <p>We do a lot. We’re alternately called a web agency, a marketing agency, a software company, a user-experience design firm, a digital transformation agency, a technology consultant, or simply (and hopefully), your partner.</p>
-        </div>
+  <div class="container">
+    <div class="editable">
+      <p>Benevolent Tech invents digital & physical experiences. Our designers, developers, marketers and makers build everything from apps, to connected devices, to wildly creative campaigns that
+        reach audiences globally.</p>
+
+      <p>Formally Benevolent Web, Benevolent Tech was founded in May 2012 by Brian Dombrowski in Washington, DC. Since its inception, Benevolent Tech has differentiated itself by focusing on clients
+        with altruistic missions.</p>
+
+      <p>We do a lot. We’re alternately called a web agency, a marketing agency, a software company, a user-experience design firm, a digital transformation agency, a technology consultant, or simply
+        (and hopefully), your partner.</p>
     </div>
+  </div>
 </section>
 <section class="diagonal patterned">
-	<div class="container">
-	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
-		<ul class="image-grid about">
-			{% for member in site.staff_members %}
-				<li>{% include staff-member.html member=member %}</li>
-			{% endfor %}
-		</ul>
-	</div>
+  <div class="container">
+    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
+    <ul class="image-grid about">
+      {% for member in site.staff_members %}
+      <li>{% include staff-member.html member=member %}</li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
