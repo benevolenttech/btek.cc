@@ -285,3 +285,10 @@ section {
 	    color: $secondary-brand-color;
 	}
 }
+
+.hide-on-mobile {
+	display: none;
+	@media #{$mid-point} {
+		display: block;
+	}
+}

@@ -259,6 +259,12 @@ section, footer {
   .patterned a {
     color: #BCDEE0; }
 
+.hide-on-mobile {
+  display: none; }
+  @media (min-width: 620px) {
+    .hide-on-mobile {
+      display: block; } }
+
 section.map, footer.map {
   position: relative;
   height: 100px;
