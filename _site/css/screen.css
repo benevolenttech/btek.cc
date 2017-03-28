@@ -122,17 +122,24 @@ section, footer {
 .button {
   padding: 13px 38px;
   border-radius: 3px;
+  transition: 0.2s ease-in-out;
   display: inline-block;
-  color: #94040B;
-  text-decoration: none;
   cursor: pointer;
   margin: 20px 0 0 0;
-  border: 1px solid #fff;
-  background: #fff;
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  border: 1px solid #94040B;
+  color: #fff;
+  background: #94040B; }
   .button:hover {
     background: #BCDEE0;
     color: #222; }
+  .button.alt {
+    border: 1px solid #fff;
+    color: #94040B;
+    background: #fff; }
+    .button.alt:hover {
+      background: #BCDEE0;
+      color: #222; }
   .button:active {
     opacity: 1;
     background: rgba(255, 255, 255, 0.1);
@@ -318,21 +325,7 @@ section.map > div, footer.map > div {
       text-decoration: none; }
 
 input[type=submit] {
-  color: #fff;
-  text-decoration: none;
-  padding: 20px 30px;
-  border-radius: 3px;
-  transition: 0.2s ease-in-out;
-  border: 1px solid #94040B;
-  background: #94040B;
-  cursor: pointer; }
-
-input[type=submit]:hover {
-  border: 1px solid #94040B;
-  background: #BCDEE0; }
-
-input[type=submit]:active {
-  transform: translateY(1px); }
+  padding: 20px 30px; }
 
 textarea,
 input,

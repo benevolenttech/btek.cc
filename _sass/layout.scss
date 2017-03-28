@@ -94,18 +94,28 @@ section {
 .button {
 	padding: 13px 38px;
 	border-radius: 3px;
+	transition: 0.2s ease-in-out;
 	display: inline-block;
-	color: $brand-color;
-	text-decoration: none;
 	cursor: pointer;
 	margin: 20px 0 0 0;
-	border: 1px solid #fff;
-	background: #fff;
 	text-decoration: none !important;
 
+	border: 1px solid $brand-color;
+	color: #fff;
+	background: $brand-color;
 	&:hover {
 		background: $secondary-brand-color;
 		color: #222;
+	}
+
+	&.alt {
+		border: 1px solid #fff;
+		color: $brand-color;
+		background: #fff;
+		&:hover {
+			background: $secondary-brand-color;
+			color: #222;
+		}
 	}
 
 	&:active {
