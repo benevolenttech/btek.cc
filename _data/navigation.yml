@@ -1,9 +1,9 @@
 links:
+  - name: About
+    link: /about/
   - name: Work
     link: /work/
   - name: Learn
     link: /learning/
-  - name: About
-    link: /about/
   - name: Contact
     link: /contact/

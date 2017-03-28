@@ -92,6 +92,14 @@ section, footer {
       -moz-transform: skewY(5deg);
       -ms-transform: skewY(5deg);
       transform: skewY(5deg); }
+    section.diagonal.diagonal-newsletter, footer.diagonal.diagonal-newsletter {
+      background: #BCDEE0;
+      text-align: center;
+      padding: 50px 0; }
+      section.diagonal.diagonal-newsletter form, footer.diagonal.diagonal-newsletter form {
+        max-width: 500px;
+        width: 80%;
+        margin: auto; }
   section.hero, footer.hero {
     color: #ffffff;
     background: #94040B;
@@ -224,8 +232,17 @@ section, footer {
 .image-list li {
   list-style: none;
   margin: 0;
-  padding: 0;
-  text-align: center; }
+  padding: 20px 0;
+  text-align: center;
+  display: none; }
+  .image-list.image-list-right li,
+  .image-list li.image-list-right li {
+    padding-right: 15%;
+    text-align: right; }
+  @media (min-width: 620px) {
+    .image-list,
+    .image-list li {
+      display: list-item; } }
 
 .patterned {
   background: #222 url("/images/pattern.png"); }

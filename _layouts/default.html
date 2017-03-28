@@ -38,6 +38,22 @@
 		</header>
 		{{ content }}
 
+		<section class="diagonal diagonal-newsletter">
+			<p>Jump start your marketing skills in <strong>six weeks!</strong></p>
+			<form action="{{ site.baseurl }}/newsletter-success/" method="post">
+				<input type="hidden" name="_to" value="hi@benevolent.tech" />
+				<input type="text" name="_gotcha" style="display: none;" />
+				<div class="halves">
+					<div>
+						<input type="text" name="email" id="email" placeholder="john@appleseed.com" />
+					</div>
+					<div>
+						<input type="submit" value="Sign up!" />
+					</div>
+				</div>
+			</form>
+		</section>
+
 		<footer class="diagonal">
 			<div class="container">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
@@ -93,7 +109,7 @@
 				<p class="container">
 					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}
 					&bull;
-					Made with &lt;3 in DC
+					SEO & Marketing Services for Washington, DC, Baltimore, and VA
 				</p>
 			</div>
 

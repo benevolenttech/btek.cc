@@ -1,13 +1,11 @@
 - title: Pages
   links:
-    - name: Home
-      link: /
-    - name: Portfolio
-      link: /portfolio/
-    - name: Learning Center
-      link: /learning-center/
     - name: About
       link: /about/
+    - name: Work
+      link: /work/
+    - name: Learning
+      link: /learning-center/
     - name: Contact
       link: /contact/
 - title: Social
