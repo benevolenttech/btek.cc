@@ -8,7 +8,7 @@ date:
 ---
 
 
-**How to start building valuable content for your website:**
+&nbsp;
 
 One of the most important aspects of building any website and ranking the pages on the website is to create quality content that keeps visitors around. In the second part of our SEO introduction series we will go through some of the ways that you can impact your customers with high quality content.
 
