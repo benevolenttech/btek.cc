@@ -16,11 +16,11 @@ One of the greatest ways that you can start beating out the competition and gett
 
 ![](/uploads/versions/customer-loyalty-bulb---x----1600-1066x---.jpg)
 
-Focus on your current audience:
+**Focus on your current audience:**
 
-Your current audience involves your e-mail subscribers, social media followers, listers for your podcast as well as your regular website visitors. These people can find their way to your website via direct links, your blog page, social media pages and more. One of the best ways to continue seeing success from your content is to nurture the relationship that you have with your current audience before reaching out to new potential visitors to your site. If you are getting engagement on a particular channel for your webpage, continue delivering value in this particular area and give people new content that they will want to access. The basics of nurturing your current audience by leveraging the channels they are most interested in include:
+Your current audience involves your e-mail subscribers, social media followers, listeners for your podcast as well as your regular website visitors. These people can find their way to your website via direct links, your blog page, social media pages and more. One of the best ways to continue seeing success from your content is to nurture the relationship that you have with your current audience before reaching out to new potential visitors to your site. If you are getting engagement on a particular channel for your webpage, continue delivering value in this particular area and give people new content that they will want to access. The basics of nurturing your current audience by leveraging the channels they are most interested in include:
 
-Keeping website visitors on page:
+**Keeping website visitors on page:**
 
 Once you establish one visitor for your page the goal is to keep them reading your page and keep them regularly going back to your page. Capturing a visitor for your page is simply not enough to make them interested in your website. Creating a simple navigation that keeps them on page and interested in more content is a fantastic way to proceed. Writing an article about an upcoming event and then placing a registration page in the sidebar, tips or secrets for success at that event or other similar posts can keep people continuously looking at your page. By using a variety of analytics tools as possible to see the path that these regular users are taking through your website and continue creating small loops that will keep them regularly accessing your page for the same amount of time.
 
@@ -28,11 +28,11 @@ By combining your analytics together with e-mails, online ad campaigns and other
 
 ![](/uploads/versions/ft0010-rise-of-social-net-ad-spending---x----897-835x---.png)
 
-Focusing on your social network/outside subscribers:
+**Focusing on your social network/outside subscribers:**
 
 Social networks have been an extremely popular way to get people more involved with brands and to create a good strategy for shaping the future of a website. Regularly creating content to get people involved with buying your products, helping you with content creation and more can really help your fans and your regular readers to feel much more involved with your brand. Consider checking into your content to see the posts which are most viewed, check into your e-mail marketing to see which e-mail newsletters are most commonly accessed and regularly send out interactive elements on these sites to help create experiences that will engage your readers and make them feel much more involved with the process of your website. Adding value on every platform or channel that your website is affiliated with while to make sure that your marketing tools are more than just a funnel for your website. It also make sure that your regular users are sharing your content across multiple platforms to engage new audiences.
 
-Borrowing someone else's audience:
+**Borrowing someone else's audience:**
 
 This is an age-old marketing strategy that helps website owners to capture a larger audience in their early stages. Growing an audience quickly sometimes involves doing research in the competition and working at borrowing some of their fans and followers.
 
@@ -40,10 +40,10 @@ A great example of this is checking out your competitors on Facebook or another 
 
 ![](/uploads/versions/write-a-guest-post---x----1024-512x---.jpg)
 
-Offer services as a guest post: guest posting can be mutually beneficial. If you know of a company or website that creates content that is similar to your own or content that may be of interest to their users, you can offer your services as a guest poster. This can be beneficial for their channel as they get custom content that is designed for their users that is mutually beneficial for your own traffic needs. Showcasing your personality and the difference between your page and another, good help you to create a compelling reason for members of their audience to check out your page.
+**Offer services as a guest post:** guest posting can be mutually beneficial. If you know of a company or website that creates content that is similar to your own or content that may be of interest to their users, you can offer your services as a guest poster. This can be beneficial for their channel as they get custom content that is designed for their users that is mutually beneficial for your own traffic needs. Showcasing your personality and the difference between your page and another, good help you to create a compelling reason for members of their audience to check out your page.
 
-Introduce your story: introducing your story through an official interview can be a great way to generate a buzz about your website or the opportunity that you have. Many websites will often complete a press release months before they actually launch and this can be a fantastic way to tell your story and get people interested before you even have much content. Doing an interview on a famous podcast, YouTube or Facebook page can be a great way to tease the project and the content that you are working on and help people to understand you much more personally than they would from a blog post.
+**Introduce your story:** introducing your story through an official interview can be a great way to generate a buzz about your website or the opportunity that you have. Many websites will often complete a press release months before they actually launch and this can be a fantastic way to tell your story and get people interested before you even have much content. Doing an interview on a famous podcast, YouTube or Facebook page can be a great way to tease the project and the content that you are working on and help people to understand you much more personally than they would from a blog post.
 
 ![](/uploads/versions/learn-about-paid-advertising---x----600-450x---.jpg)
 
-Get paid advertising: paid advertising is a common method that involves buying advertising for highly targeted leads to your page. There are several different types of paid advertising that you can employ such as pay per click, paid posts on social media and more. Paying for advertising can sometimes give you a leg up when you first start a page but it can often be difficult to compete with larger websites and more established companies as they will have a larger budget. Checking the analytics of your paid advertising is also important to making sure that you maximize your budget and that it's actually working at capturing new viewers and followers for your webpage.
+**Get paid advertising:**paid advertising is a common method that involves buying advertising for highly targeted leads to your page. There are several different types of paid advertising that you can employ such as pay per click, paid posts on social media and more. Paying for advertising can sometimes give you a leg up when you first start a page but it can often be difficult to compete with larger websites and more established companies as they will have a larger budget. Checking the analytics of your paid advertising is also important to making sure that you maximize your budget and that it's actually working at capturing new viewers and followers for your webpage.
