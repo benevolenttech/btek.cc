@@ -18,13 +18,13 @@ Content strategy should be one of the most talked about suggestions for the futu
 
 ![](/uploads/versions/blog2---x----3456-2304x---.jpg)
 
-So why should you create a blog for your website with ongoing content?
+**So why should you create a blog for your website with ongoing content?**
 
-It can help you drive consistent traffic to your website: every time that you post something new into the blog this gives a chance for new visitors to come and discover your website. Driving new traffic to your website can help you to consistently grow and regardless of what type of site you are running, continuous growth is the only way that you can ensure success for your page.
+**It can help you drive consistent traffic to your website:**every time that you post something new into the blog this gives a chance for new visitors to come and discover your website. Driving new traffic to your website can help you to consistently grow and regardless of what type of site you are running, continuous growth is the only way that you can ensure success for your page.
 
-Converting new traffic into leads: once you start to bring people to your website this can help you convert them into new sales, regular visitors, subscribers and even ad revenue providers. If someone is consistently visiting your website or even viewing ads on your website, this can support the future longevity of that site. Converting traffic into someone that sticks around for just a few minutes could be all you need to do multiple times to make sure that your website starts to make money.
+**Converting new traffic into leads:** once you start to bring people to your website this can help you convert them into new sales, regular visitors, subscribers and even ad revenue providers. If someone is consistently visiting your website or even viewing ads on your website, this can support the future longevity of that site. Converting traffic into someone that sticks around for just a few minutes could be all you need to do multiple times to make sure that your website starts to make money.
 
-It helps with authority back links: Creating new links for your website and gaining authority in your niche can be difficult if you are consistently producing content. By making sure that you have new content that contains keywords in your niche as well as information about your brand, you will make sure that you can start to beat out the competition on search engine rankings.
+**It helps with authority back links:** Creating new links for your website and gaining authority in your niche can be difficult if you are consistently producing content. By making sure that you have new content that contains keywords in your niche as well as information about your brand, you will make sure that you can start to beat out the competition on search engine rankings.
 
 It can be very difficult to actually obtain a top search engine spot or any type of success with search engine optimization without the use of a blog. For many types of businesses such as nonprofits it's almost impossible to even consider starting a website without ongoing content or a high impact blog that continuously brings in new visitors. A great example of how you can leverage a blog from the perspective of a non-profit is by showing off some of the current initiatives that you're working on, the successes you are having, profiles on staff members, chores of your organization as well as helpful ways that your website is making an impact in local communities.
 
@@ -36,7 +36,7 @@ If you are beginning to see the merits of a blog and you've decided that it's ti
 
 ![](/uploads/versions/business-plan---x----1732-1155x---.jpg)
 
-Starting your research:
+**Starting your research:**
 
 Starting with research into your target market and the type of content that they are regularly viewing online is an excellent place to start. Begin by creating a LinkedIn group, checking in on twitter or even searching through online search engine trends. Starting to see some of the most trendy articles in your industry and some of the content that your viewers are seeking out first is important. By determining the type of content that you could create that will also attract a larger audience, you can start to plan out your content strategy for the future. With the use of search engine tools as well as social media networks the process of obtaining this research information has become much easier.
 
@@ -44,7 +44,7 @@ Keyword research is another excellent step in the right direction. Keywords are 
 
 ![](/uploads/versions/keyword-research---x----450-205x---.jpg)
 
-Starting with keywords:
+**Starting with keywords:**
 
 Start with some relevant topics and keywords that are currently trending for all of your content. Trending content will always rank higher especially with news bulletins on search engine results.
 
@@ -52,8 +52,12 @@ Plan out keywords for blogs that you are going to be writing. Starting to create
 
 Check your currently optimized keywords. Checking into Google analytics to see some of your websites traffic sources and understanding the organic keywords that are currently ranking your page will help you to focus on some different keywords or even strengthen the results that you get from keywords you're already ranking for. Checking Google analytics and focusing in on the keywords for new content that will help you rank higher in search engines or gain more followers based off of your current results can be a great step.
 
-Going a step further: when you start to run out of some of the main keywords that you have been targeting, it could be time to use the Google ad words keyword planner and some other tools to work out long tail keywords and rarer keywords that you could use to capture a larger audience. Focus on some of the largest keywords in your market first and then begin building off of the less popular content.
+**Going a step further:**
 
-Check your competition often: with any type of content it's important note the competition is doing. If Dave created a popular post or they have taken over a search engine ranking from you, you can consider looking into the types of keywords that they are optimizing for and the strategies that they are using to try and emulate them yourself or focus on changing your strategy to overtake them.
+When you start to run out of some of the main keywords that you have been targeting, it could be time to use the Google ad words keyword planner and some other tools to work out long tail keywords and rarer keywords that you could use to capture a larger audience. Focus on some of the largest keywords in your market first and then begin building off of the less popular content.
+
+**Check your competition often:**
+
+With any type of content it's important note the competition is doing. If Dave created a popular post or they have taken over a search engine ranking from you, you can consider looking into the types of keywords that they are optimizing for and the strategies that they are using to try and emulate them yourself or focus on changing your strategy to overtake them.
 
 Check out our free SEO template that can be used for keyword optimization through the process of your content creation needs.
