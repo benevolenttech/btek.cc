@@ -8,11 +8,21 @@ date:
 ---
 
 
-If you have spent the time to create quality content for your website that attracts an audience you also need to make sure that it's easy to find on search engines as well is extremely easy to share across social media and other websites. Master ability as well as a high search engine ranking will ensure that the content you spend time making is consumed by a much larger audience. In this section of the SEO introductory series we will go through some of the best impact strategies that you can use for optimizing all content on your website and making it more shareable.
+If you have spent the time to create quality content for your website that attracts an audience you also need to make sure that it's easy to find on search engines as well is extremely easy to share across social media and other websites. Master ability as well as a high search engine ranking will ensure that the content you spend time making is consumed by a much larger audience. In this fourth section of the SEO introductory series we will go through some of **the best impact strategies that you can use for optimizing all content on your website** and making it more shareable.
+
+Part 1: Make your site faster and easier to use
+
+Part 2: How to Start Building Valuable Content for Your Website
+
+Part 3: How to Start Making Great Content
+
+**Part 4: How Can Content Be Optimized For Sharing and Search Engines**
+
+Part 5: &nbsp;How to Promote Your Website
 
 Creating content with descriptions, featured images and great titles simply isn't enough anymore to capture the attention of search engines and maintain a good ranking. These are however extremely important items that need to be addressed before successfully publishing and working at optimizing an article to ensure that it can have success online.
 
-These are elements that many individuals actually forget about before publishing an article on a popular blog site or on a website blog. If a blog is well formatted and well researched as well as optimized this can really help to capture more readers as well as ensure that readers will pass along the information presented in the blog is something that's interesting and funny to their network.
+These are elements that many individuals actually forget about before publishing an article on a popular blog site or on a website blog. If a blog is well formatted and well researched as well as optimized this can really help to**capture more readers** as well as ensure that readers will pass along the information presented in the blog is something that's interesting and funny to their network.
 
 Producing a blog that isn't properly optimized usually means that you end up with an entry that has an extremely small amount of traffic, zero comments, zero engagement and absolutely no shares on social media. Helping a single piece of content go viral however could lead to dozens of organic shares of your content or even hundreds of links to your website with thousands of new visitors as a result.
 
