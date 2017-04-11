@@ -8,11 +8,17 @@ date:
 ---
 
 
-&nbsp;
-
 Having a website is simply not an effective practice if no one has a tendency to stick around for very long. With a website that captures attention but doesn’t keep visitors over long periods of time, you may find it difficult actually rank your page or even attract new users to your site. In this first part of our SEO instruction series we will look into some of the greatest impact strategies that you can use for making your site faster and more accessible to users.
 
-**Part 1:**
+**Part 1: Make your site faster and easier to use**
+
+Part 2: How to Start Building Valuable Content for Your Website
+
+Part 3: How to Start Making Great Content
+
+Part 4: How Can Content Be Optimized For Sharing and Search Engines
+
+Part 5: &nbsp;How to Promote Your Website
 
 In part one we will go through some of the elements of a website that actually make users stick around and keep your website users consistently coming back. Regular users as well as long-term users are some of the most important visitors for your website. Making the first step towards pleasing these visitors will help to make sure that you can create a page that will remain effective for your target market.
 
