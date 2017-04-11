@@ -8,13 +8,21 @@ date:
 ---
 
 
-&nbsp;
-
 One of the most important aspects of building any website and ranking the pages on the website is to create quality content that keeps visitors around. In the second part of our SEO introduction series we will go through some of the ways that you can impact your customers with high quality content.
 
-Fortune 500 companies as well as some the world's largest websites need to continuously produce high-impact content which is interesting and valuable. Creating a blog can do wonders for your website and having ongoing traffic for your website will ensure the longevity of your site as well as a greater chance that you can accomplish the goals you set out for that site.
+Part 1: Make your site faster and easier to use
 
-Content strategy should be one of the most talked about suggestions for the future of your page. Without ongoing content is very difficult for your page to continue staying relevant and you will likely have to spend a lot more money in the process of promoting your page as well. Valuable content and continuously bring people back to your page and keep them on page and if you are somehow able to replicate that success with ongoing instances of viral or valuable content, you can truly create a very special website.
+**Part 2: How to Start Building Valuable Content for Your Website**
+
+Part 3: How to Start Making Great Content
+
+Part 4: How Can Content Be Optimized For Sharing and Search Engines
+
+Part 5: &nbsp;How to Promote Your Website
+
+Fortune 500 companies as well as some the world's largest websites need to continuously produce high-impact content which is interesting and valuable. **Creating a blog can do wonders for your website** and having ongoing traffic for your website will ensure the longevity of your site as well as a greater chance that you can accomplish the goals you set out for that site.
+
+Content strategy should be one of the most talked about suggestions for the future of your page. Without ongoing content is very difficult for your page to continue staying relevant and you will likely have to spend a lot more money in the process of promoting your page as well. **Valuable content will continuously bring people back to your page** and keep them on page and if you are somehow able to replicate that success with ongoing instances of viral or valuable content, you can truly create a very special website.
 
 ![](/uploads/versions/blog2---x----3456-2304x---.jpg)
 
@@ -31,8 +39,6 @@ It can be very difficult to actually obtain a top search engine spot or any type
 You don't necessarily have to include the blog directly on your main page or pay for hosting on blog content either. Even some of the top companies in the world start their blogs on a WordPress site or tumbler in order to link back to pages on their website especially to save on the cost of hosting early on. Creating a blog and hosting it with your own website however does often lead to greater levels of success with your search engine value.
 
 If you are beginning to see the merits of a blog and you've decided that it's time to start creating quality content, it's time to enter into the research phase of creating successful content for your page. If you're going to invest into content creation or even the time that it takes to write content, it's very important to do solid research into the types of content that your visitors are interested.
-
-&nbsp;
 
 ![](/uploads/versions/business-plan---x----1732-1155x---.jpg)
 
