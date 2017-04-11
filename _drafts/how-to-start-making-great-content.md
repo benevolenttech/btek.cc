@@ -8,15 +8,21 @@ date:
 ---
 
 
-&nbsp;
-
 One of the best ways that you can improve the bounce rate for your page and make sure that more people are sticking around, is by improving your content. In the third part of our SEO introductory guide we will go through some of the top strategies that you can use for creating better content.
 
-The overall goal of content on a blog or on a webpage is to have something that really resonates with your audience. If you don't know how to connect your audience or offer them something great with your content, it's possible that the content you are publishing is just filling up dead space on your website and offering almost 0 benefit to your users.
+Part 1: Make your site faster and easier to use
 
-Content creation is an art and while there are many ways that you can outsource content with the help of freelance writers, guest posts and even hiring content creation specialists for your company, some of the best content is materials that come right from your employees. Learning how to produce quality content that your customers and viewers will like and that will also rank well on search engines is a skill that every website owner should learn. Here are some of the biggest elements that go into creating great content:
+Part 2: How to Start Building Valuable Content for Your Website
 
-&nbsp;
+**Part 3: How to Start Making Great Content**
+
+Part 4: How Can Content Be Optimized For Sharing and Search Engines
+
+Part 5: &nbsp;How to Promote Your Website
+
+The overall goal of content on a blog or on a webpage is to have something that really **resonates with your audience**. If you don't know how to connect your audience or offer them something great with your content, it's possible that the content you are publishing is just filling up dead space on your website and offering almost 0 benefit to your users.
+
+**Content creation is an art** and while there are many ways that you can outsource content with the help of freelance writers, guest posts and even hiring content creation specialists for your company, some of the best content is materials that come right from your employees. Learning how to produce quality content that your customers and viewers will like and that will also rank well on search engines is a skill that every website owner should learn. Here are some of the biggest elements that go into creating great content:
 
 **Everything has a use but it’s also fun and easy to read:**
 
@@ -27,8 +33,6 @@ If someone finds an informative article that's been fun to read on your page and
 Painful content that isn't well thought out and content that is simply designed to help you rank on search engines is not quality content. Stealing from other websites and publishing their content is also not quality content and you can be severely penalized for regularly plagiarizing content from other sites not to mention potentially sued.
 
 Developing your own writer's voice and producing content that has personality and usefulness is truly one of the only ways to optimize for Google and other search engines. It's not necessarily about keywords, about the right formatting or even including original images, quality content takes time to really form.
-
-&nbsp;
 
 ***How to focus on each of the three main elements of quality content:***
 
@@ -59,8 +63,6 @@ The vast majority of web users are going to be scanning through content rather t
 Even when covering an extremely complex issue or demonstration of your product, creating structured paragraphs that move from point to point in a particular issue will help people to get the gist of what you are trying to say with some extra content included if they wanted to read further. Subheadings and bolded sections as well as Intergraph can also break up the content and make it more interesting and reader friendly.
 
 Ultimately a blog format can take time to perfect but once you start to get a feel for design in your content posts, you can begin to understand what users are looking for while they are reading Web content.
-
-&nbsp;
 
 **Great content is needed to build your audience:**
 
