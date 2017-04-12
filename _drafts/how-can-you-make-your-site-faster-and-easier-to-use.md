@@ -1,5 +1,5 @@
 ---
-title: How to Make Your Site Fast and Easy to Use
+title: How to Make Your Site Search Engine Friendly
 categories:
   - Content
 author_staff_member: brian-dombrowski
@@ -8,13 +8,13 @@ date:
 ---
 
 
-In this first of our SEO primer series, we will go through effective marketing tactics to convince users do what you want them to do – like what you're selling and remember you when they're on the market.
+In this second of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-1. **Make your site faster and easier to use &nbsp;&lt;– &nbsp;you are here**
-2. How to Start Building Valuable Content for Your Website
-3. How to Start Making Great Content
-4. How Can Content Be Optimized For Sharing and Search Engines
-5. How to Promote Your Website
+1. Make your site search engine friendly
+2. Plan your content&nbsp; &lt;– you are here
+3. Write content worth sharing
+4. Encourage sharing
+5. Advertise on a budget
 
 People are impatient – many will inevitably close your website in within seconds of opening.&nbsp; &nbsp;If you want more attention, then you need to prioritize ease of use and performance.
 
