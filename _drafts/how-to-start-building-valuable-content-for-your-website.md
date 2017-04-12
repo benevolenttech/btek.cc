@@ -1,5 +1,5 @@
 ---
-title: 'How to start building valuable content for your website:'
+title: How to Create Content People Actually Want
 categories:
   - Content
 author_staff_member: brian-dombrowski
@@ -18,7 +18,7 @@ Part 3: How to Start Making Great Content
 
 Part 4: How Can Content Be Optimized For Sharing and Search Engines
 
-Part 5: &nbsp;How to Promote Your Website
+Part 5:  How to Promote Your Website
 
 Fortune 500 companies as well as some the world's largest websites need to continuously produce high-impact content which is interesting and valuable. **Creating a blog can do wonders for your website** and having ongoing traffic for your website will ensure the longevity of your site as well as a greater chance that you can accomplish the goals you set out for that site.
 
