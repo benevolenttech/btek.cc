@@ -1,5 +1,5 @@
 ---
-title: How to Create Content People Actually Want
+title: How to Plan Your Website Content
 categories:
   - Content
 author_staff_member: brian-dombrowski
@@ -8,17 +8,13 @@ date:
 ---
 
 
-One of the most important aspects of building any website and ranking the pages on the website is to create quality content that keeps visitors around. In the second part of our SEO introduction series we will go through some of the ways that you can impact your customers with high quality content.
+In this second of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-Part 1: Make your site faster and easier to use
-
-**Part 2: How to Start Building Valuable Content for Your Website**
-
-Part 3: How to Start Making Great Content
-
-Part 4: How Can Content Be Optimized For Sharing and Search Engines
-
-Part 5:  How to Promote Your Website
+1. Make your site search engine friendly
+2. **Plan your content&nbsp; &lt;-- you are here**
+3. Write content worth sharing
+4. Encourage sharing
+5. Advertise on a budget
 
 Fortune 500 companies as well as some the world's largest websites need to continuously produce high-impact content which is interesting and valuable. **Creating a blog can do wonders for your website** and having ongoing traffic for your website will ensure the longevity of your site as well as a greater chance that you can accomplish the goals you set out for that site.
 
