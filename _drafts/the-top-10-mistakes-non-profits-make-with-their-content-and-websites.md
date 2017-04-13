@@ -1,7 +1,7 @@
 ---
 title: 'The top 10 mistakes non-profits make with their content and websites:'
 categories:
-  - SEO
+  - Marketing
 author_staff_member: brian-dombrowski
 show_comments: true
 date:

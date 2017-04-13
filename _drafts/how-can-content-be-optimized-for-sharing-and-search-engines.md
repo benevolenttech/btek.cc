@@ -1,7 +1,7 @@
 ---
 title: How can content Be Optimized for sharing and search engines?
 categories:
-  - SEO
+  - Marketing
 author_staff_member: brian-dombrowski
 show_comments: true
 date:

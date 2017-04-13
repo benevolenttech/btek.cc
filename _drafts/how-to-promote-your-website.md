@@ -1,7 +1,7 @@
 ---
 title: How to promote your website
 categories:
-  - SEO
+  - Marketing
 author_staff_member: brian-dombrowski
 show_comments: true
 date:
