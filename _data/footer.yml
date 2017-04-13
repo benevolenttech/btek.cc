@@ -1,13 +1,13 @@
 - title: Pages
   links:
     - name: About
-      link: /about/
+      link: /about
     - name: Work
-      link: /work/
+      link: /work
     - name: Learning
-      link: /learning-center/
+      link: /learning
     - name: Contact
-      link: /contact/
+      link: /contact
 - title: Social
   links:
     - name: Facebook
