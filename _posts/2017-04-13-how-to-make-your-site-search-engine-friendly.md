@@ -8,7 +8,7 @@ date: 2017-04-13 11:10:13
 ---
 
 
-In this second of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
+In this first of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
 1. **Make your site search engine friendly &lt;– you are here**
 2. Plan your content
