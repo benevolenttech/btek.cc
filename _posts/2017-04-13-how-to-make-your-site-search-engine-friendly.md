@@ -4,7 +4,7 @@ categories:
   - Content
 author_staff_member: brian-dombrowski
 show_comments: true
-date:
+date: 2017-04-13 11:10:13
 ---
 
 
@@ -46,4 +46,4 @@ Most website platforms support these guidelines, but many of them don't out of t
 
 And…that's it! Now you know how to make your site perfect. Actually no you don’t, there are four more steps in this series, But at least it’s a good start.
 
-**Next up: How to plan your content**
+**Next up: How to plan your content (coming soon)**
