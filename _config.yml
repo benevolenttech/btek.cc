@@ -22,7 +22,7 @@ social:
 
 collections:
   staff_members:
-    output: true
+    output: false
   clients:
     output: false
 
