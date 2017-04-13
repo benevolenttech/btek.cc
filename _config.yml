@@ -26,10 +26,11 @@ collections:
   clients:
     output: false
 
+permalink: none
+
 # These are for paginate v1
 # paginate: 6
 # paginate_path: "/learning/:num/"
-# permalink: pretty
 
 pagination:
   
