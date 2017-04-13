@@ -45,5 +45,3 @@ The amount of time it takes for your web page to load affects perception and sat
 Most website platforms support these guidelines, but many of them don't out of the box. I recommend you google search each guideline coupled with the name of your website platform to research your options.
 
 And…that's it! Now you know how to make your site perfect. Actually no you don’t, there are four more steps in this series, But at least it’s a good start.
-
-**Next up: How to plan your content**

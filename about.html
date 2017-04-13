@@ -16,7 +16,7 @@ image: /images/benevolent_tech_dc_seo.jpg
     <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
     <ul class="image-grid about">
       {% for member in site.staff_members %}
-      <li>{% include staff-member.html member=member %}</li>
+      <li>{% include staff-member.html member=member %}{{ member.url }}</li>
       {% endfor %}
     </ul>
   </div>
