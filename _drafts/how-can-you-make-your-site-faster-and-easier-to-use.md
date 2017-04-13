@@ -1,7 +1,7 @@
 ---
 title: How to Make Your Site Search Engine Friendly
 categories:
-  - Content
+  - SEO
 author_staff_member: brian-dombrowski
 show_comments: true
 date:

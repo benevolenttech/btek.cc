@@ -1,7 +1,7 @@
 ---
 title: How to Improve Your Website Performance
 categories:
-  - Content
+  - SEO
 author_staff_member: brian-dombrowski
 show_comments: true
 date:

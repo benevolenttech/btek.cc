@@ -15,20 +15,22 @@
 	<meta property="fb:app_id" content="1299829076759410">
 
 	<!-- Begin Jekyll SEO tag v2.0.0 -->
-<title>Newsletter - Benevolent Tech</title>
-<meta property="og:title" content="Newsletter" />
-<meta name="description" content="A group of friends with technical and emotional depth with an altruistic mission, here to help you catch up to the future." />
-<meta property="og:description" content="A group of friends with technical and emotional depth with an altruistic mission, here to help you catch up to the future." />
-<link rel="canonical" href="http://localhost:4000/newsletter-success/" />
-<meta property="og:url" content="http://localhost:4000/newsletter-success/" />
+<title>Contact Us - Benevolent Tech</title>
+<meta property="og:title" content="Contact Us" />
+<meta name="description" content="We’d love to help your business with it’s SEO, marketing, and website development." />
+<meta property="og:description" content="We’d love to help your business with it’s SEO, marketing, and website development." />
+<link rel="canonical" href="http://localhost:4000/contact.html" />
+<meta property="og:url" content="http://localhost:4000/contact.html" />
 <meta property="og:site_name" content="Benevolent Tech" />
+<meta property="og:image" content="http://localhost:4000/images/benevolent_tech_dc_seo.jpg" />
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "headline": "Newsletter",
-    "description": "A group of friends with technical and emotional depth with an altruistic mission, here to help you catch up to the future.",
-    "url": "http://localhost:4000/newsletter-success/"
+    "headline": "Contact Us",
+    "image": "http://localhost:4000/images/benevolent_tech_dc_seo.jpg",
+    "description": "We’d love to help your business with it’s SEO, marketing, and website development.",
+    "url": "http://localhost:4000/contact.html"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -76,22 +78,107 @@
 		<section class="hero diagonal">
 	<div class="container" >
 		
-			<h2>Thanks for signing up!</h2>
+			<h2>Get in touch today</h2>
 		
 		
-			<p class="subtext">You're about to up your marketing game</p>
+			<p class="subtext">We'd love to help your business.</p>
 		
 	</div>
 </section>
 
-<style>
-    /* Hide the newsletter signup */
-    .diagonal-newsletter { display: none; }
-</style>
+<section class="diagonal">
+	<div class="container">
+		<form action="/contact-success/" method="post" class="contact-form">
+			<input type="hidden" name="_to" value="hi@benevolent.tech" />
+			<input type="text" name="_gotcha" style="display: none;" />
+
+			<div class="halves">
+				<div>
+					<label for="name">First Name</label>
+					<input type="text" name="first-name" id="first-name" placeholder="John" />
+				</div>
+
+				<div>
+					<label for="name">Last Name</label>
+					<input type="text" name="last-name" id="last-name" placeholder="Doe" />
+				</div>
+			</div>
+
+			<label for="email">Email Address</label>
+			<input type="email" name="email" id="email" placeholder="john@appleseed.com" required />
+
+			<label for="message">Message</label>
+			<textarea name="message" id="message" placeholder="Hi There..."></textarea>
+
+			<input class="button" type="submit" value="Send Message" />
+		</form>
+	</div>
+</section>
+
+<section class="diagonal map">
+	<div id="gmap_canvas"></div>
+</section>
 
 <section class="diagonal">
-    <p style="font-size:50px;text-align:center;">Meanwhile, click <a href="/learning">here</a> to jumpstart learnings!</p>
+	<div class="container halves aligned-top">
+		<div>
+			<h3>Address</h3>
+				<address><a target="_blank" href="https://www.google.com/maps/place/2316+Rhode+Island+Ave+NE%2C+Washington+DC+20018">	<!--2316 Rhode Island Ave NE, <br>Washington DC 20018-->
+					Benevolent Tech HQ<br>2316 Rhode Island Ave NE<br>Washington DC 20018
+				</a></address>
+
+				<address><a target="_blank" href="https://www.google.com/maps/place/1875+Connecticut+Ave+NW,+Washington,+DC+20009/@38.9157725,-77.048244,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7cf85e25661:0x932fc62149d9247f!8m2!3d38.9157683!4d-77.0460553">	<!--2316 Rhode Island Ave NE, <br>Washington DC 20018-->
+					Benevolent Tech Dupont Circle<br>1875 Connecticut Ave NW<br>Washington, DC 20009
+				</a></address>
+
+				<address>	<!--2316 Rhode Island Ave NE, <br>Washington DC 20018-->
+					Benevolent Tech Mailbox<br>2405 Rhode Island Ave NE<br>Washington DC 20002
+				</address>
+		</div>
+		<div>
+			<h3>Email</h3>
+			<p>
+				<a href="mailto:hi@benevolent.tech">hi@benevolent.tech</a><br>
+				<span class="hide-on-mobile">
+					<a href="mailto:hola@benevolent.tech">hola@benevolent.tech</a><br>
+					<a href="mailto:bonjour@benevolent.tech">bonjour@benevolent.tech</a><br>
+					<a href="mailto:namaste@benevolent.tech">namaste@benevolent.tech</a><br>
+					<a href="mailto:marhaba@benevolent.tech">marhaba@benevolent.tech</a>
+				</span>
+			</p>
+		</div>
+	</div>
 </section>
+
+<script type="text/javascript">
+	window.mapData = {"latitude":38.930874,"longitude":-76.972874,"address":"2316 Rhode Island Ave NE, Washington DC 20018","zoom":13};
+
+	function initMap() {
+		var myOptions = {
+			scrollwheel: false,
+			draggable: false,
+			panControl: false,
+			disableDefaultUI: true,
+			styles: [{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}],
+			zoom: window.mapData.zoom,
+			maxZoom: window.mapData.zoom,
+			minZoom: window.mapData.zoom,
+			center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+		marker = new google.maps.Marker({
+			map: map,
+			position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
+		});
+
+		google.maps.event.addDomListener(window, "resize", function () {
+			map.setCenter(myOptions.center);
+		});
+	}
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKMKUAB7EOak_dTHHeUX8N0MNuYRFh_Ik&amp;callback=initMap"></script>
+
 
 
 		<section class="diagonal diagonal-newsletter">

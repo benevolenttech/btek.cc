@@ -1,7 +1,7 @@
 ---
 title: How to Plan Your Website Content
 categories:
-  - Content
+  - SEO
 author_staff_member: brian-dombrowski
 show_comments: true
 date:

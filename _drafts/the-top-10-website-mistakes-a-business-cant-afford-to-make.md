@@ -1,7 +1,7 @@
 ---
 title: "The Top 10 website mistakes a business can't afford to make"
 categories:
-  - Content
+  - SEO
 author_staff_member: brian-dombrowski
 show_comments: true
 date:
