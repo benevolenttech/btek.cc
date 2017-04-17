@@ -34,6 +34,8 @@ So, in order to help you get to that top spot, or at least help you get to the t
 
 You may have a huge fanbase and massive traffic, but ignoring search engine and social network guidelines will sink your online visibility faster than hitting an iceberg on a foggy night.
 
+Most website platforms support these guidelines, but many of them don't out of the box. Do your homework and research your options -- [or have us do it for you.](/contact)
+
 Here are the current guidelines to ensuring compatibility:
 
 **Guideline 1 - Describe your pages with titles, descriptions and a picture**
@@ -65,8 +67,6 @@ Okay, so we might seem spoiled for loading times anymore, but think about it thi
 As technology has gotten faster, we’ve become more accustomed to that speed, and we’ve clamored for more. So, it stands to reason that optimized site performance has to stand up to that level of public expectations. We’re pretty sure here that people aren’t about to say “Yes! Please! Take us to the Dark Ages of computers again!”
 
 We’re actually working on a full tips and tricks article on performance – sign up for our email newsletter to get notified when it’s ready!
-
-Most website platforms support these guidelines, but many of them don't out of the box. I recommend you google search each guideline coupled with the name of your website platform to research your options.
 
 ## And…that's it!
 
