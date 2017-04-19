@@ -397,8 +397,8 @@ header {
     background-image: url(/images/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 80px;
+    width: 160px;
+    height: 70px;
     position: relative;
     z-index: 99; }
     header .company-name:hover {
