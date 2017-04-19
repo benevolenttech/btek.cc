@@ -403,6 +403,13 @@ header {
     z-index: 99; }
     header .company-name:hover {
       background-image: url(/images/logo-alt.png); }
+    header .company-name::after {
+      position: absolute;
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      z-index: -1;
+      content: url(/images/logo-alt.png); }
     header .company-name a {
       position: absolute;
       top: 0;
