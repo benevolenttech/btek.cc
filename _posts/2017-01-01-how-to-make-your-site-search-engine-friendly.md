@@ -6,6 +6,7 @@ author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-01-01 11:10:13
 next: 2017-02-01-how-to-write-content-worth-sharing
+description: Follow these guidelines to avoid sure death by search engine gods.
 ---
 
 
