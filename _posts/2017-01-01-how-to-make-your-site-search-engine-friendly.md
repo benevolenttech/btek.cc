@@ -4,17 +4,18 @@ categories:
   - Marketing
 author_staff_member: brian-dombrowski
 show_comments: true
-date: 2017-04-13 11:10:13
+date: 2017-01-01 11:10:13
+next: 
 ---
 
 
 In this first of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
 1. **Make your site search engine friendly &lt;– you are here**
-2. Plan your content
+2. Plan your content (coming soon)
 3. Write content worth sharing
-4. Encourage sharing
-5. Advertise on a budget
+4. Encourage sharing (coming soon)
+5. Advertise on a budget (coming soon)
 
 ## Introduction
 

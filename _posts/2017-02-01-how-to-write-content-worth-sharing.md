@@ -1,19 +1,21 @@
 ---
 title: How to Write Content Worth Sharing
 categories:
-author_staff_member:
+  - Marketing
+author_staff_member: brian-dombrowski
 show_comments: true
-date: 2017-04-20 14:05:06
+date: 2017-02-01 14:05:06
+previous: 2017-01-01-how-to-make-your-site-search-engine-friendly
 ---
 
 
 In this third of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
 1. Make your site search engine friendly
-2. Plan your content
+2. Plan your content (coming soon)
 3. **Write content worth sharing &lt;– you are here**
-4. Encourage sharing
-5. Advertise on a budget
+4. Encourage sharing (coming soon)
+5. Advertise on a budget (coming soon)
 
 ## **Content is king.**
 
