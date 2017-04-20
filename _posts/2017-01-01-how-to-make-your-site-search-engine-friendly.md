@@ -11,11 +11,12 @@ next: 2017-02-01-how-to-write-content-worth-sharing
 
 In this first of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-1. **Make your site search engine friendly &lt;– you are here**
-2. Plan your content (coming soon)
-3. Write content worth sharing
-4. Encourage sharing (coming soon)
-5. Advertise on a budget (coming soon)
+1. What is SEO? (coming soon)
+2. **Make your site search engine friendly &lt;– you are here**
+3. Plan your content (coming soon)
+4. Write content worth sharing
+5. Encourage sharing (coming soon)
+6. Advertise on a budget (coming soon)
 <br><br>
 
 ## **Series Introduction**

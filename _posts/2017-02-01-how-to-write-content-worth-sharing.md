@@ -11,11 +11,12 @@ previous: 2017-01-01-how-to-make-your-site-search-engine-friendly
 
 In this third of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-1. Make your site search engine friendly
-2. Plan your content (coming soon)
-3. **Write content worth sharing &lt;– you are here**
-4. Encourage sharing (coming soon)
-5. Advertise on a budget (coming soon)
+1. What is SEO? (coming soon)
+2. Make your site search engine friendly
+3. Plan your content (coming soon)
+4. **Write content worth sharing &lt;– you are here**
+5. Encourage sharing (coming soon)
+6. Advertise on a budget (coming soon)
 <br><br>
 
 ## **Content is king.**
