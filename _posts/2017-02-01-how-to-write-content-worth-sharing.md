@@ -16,12 +16,13 @@ In this third of our SEO primer series, we cover the highest impact strategies t
 3. **Write content worth sharing &lt;– you are here**
 4. Encourage sharing (coming soon)
 5. Advertise on a budget (coming soon)
+<br><br>
 
 ## **Content is king.**
 
 That’s the “Om”-like mantra chanted by everyone and their dog, cat and hamster. You can have a site that’s SEO-friendly in other aspects, but if your metrics are down regardless of how welcoming your site is, or any other aspect of bringing in readers and/or customers, then you might want to revisit, and heavily revise, your idea of what makes “quality content.” After all, nobody wants want to share something mediocre.
 
-> **Good content will build an audience faster than anything else**
+**Good content will build an audience faster than anything else.**
 
 Browsing around the Internet, you’ve likely come across some truly uninspiring content. Think of it this way: if you want healthy, delicious homemade meals, but you’re constantly being offered unhealthy fast food, you’re going to get annoyed and disappointed real fast. Even if your home-made meals are pre-prepped and you zap ‘em in the microwave, they’re still home-made.
 
@@ -51,7 +52,7 @@ Put simply, the best content has personality, style, and yes, *authority!* You c
 
 Writing for the web is not the same as writing out essays for English composition class. If you’re writing for the web, forget trying to re-write “The Great Gatsby.” Besides, you are you, with your own 21<sup>st</sup>-century voice, not F. Scott Fitzgerald, with his old-school stylings that would put most modern peeps to sleep.
 
-> Accept that people scan web pages<u>,</u> rather than reading them in detail. Work with this reality rather than fighting it.
+**Accept that people scan web pages, rather than reading them in detail. Work with this reality rather than fighting it.**
 
 Besides, this should actually be a relief to you, not a burden.
 

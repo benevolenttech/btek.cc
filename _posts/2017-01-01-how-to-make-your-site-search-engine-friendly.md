@@ -5,7 +5,7 @@ categories:
 author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-01-01 11:10:13
-next: 
+next: 2017-02-01-how-to-write-content-worth-sharing
 ---
 
 
@@ -16,8 +16,9 @@ In this first of our SEO primer series, we cover the highest impact strategies t
 3. Write content worth sharing
 4. Encourage sharing (coming soon)
 5. Advertise on a budget (coming soon)
+<br><br>
 
-## Introduction
+## **Series Introduction**
 
 Depending on how old you are, you might remember the early days of the Internet, which were sometime around the mid to late 1990s. In those days, there was no Google. The main search engines were Yahoo and AOL, and let’s face it, we remember just how user-un-friendly AOL tended to be.
 
@@ -31,7 +32,7 @@ Of course, because Google has become this behemoth with its own distinct algorit
 
 So, in order to help you get to that top spot, or at least help you get to the top page of listings, we’ve put together this SEO primer series of articles. In this series, we cover the highest impact strategies to attract more people to your site.
 
-## Part 1: How to Make Your Site Search Engine Friendly
+## **Part 1: How to Make Your Site Search Engine Friendly**
 
 You may have a huge fanbase and massive traffic, but ignoring search engine and social network guidelines will sink your online visibility faster than hitting an iceberg on a foggy night.
 
@@ -69,6 +70,6 @@ As technology has gotten faster, we’ve become more accustomed to that speed, a
 
 We’re actually working on a full tips and tricks article on performance – sign up for our email newsletter to get notified when it’s ready!
 
-## And…that's it!
+## **And…that's it!**
 
 Now you know how to make your site perfect. Actually no you don’t, there are four more steps in this series, But at least it’s a good start.
