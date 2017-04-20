@@ -25,7 +25,7 @@ collections:
   clients:
     output: false
 
-permalink: none
+permalink: /learning/:title.html
 
 # These are for paginate v1
 # paginate: 6
