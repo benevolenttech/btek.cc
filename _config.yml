@@ -60,6 +60,7 @@ pagination:
 jekyll-archives:
   enabled:
     - "categories"
+  layout: 'category'
 
 gems:
   - "jekyll-feed"

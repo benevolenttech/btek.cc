@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+<section class="diagonal">
+  <!--<p style="font-size:50px;text-align:center;">Coming Soon!</p>-->
+
+  {% assign posts=site.categories[page.title] %}
+
+  {% unless posts | size > 0 %}
+  <p>No posts in this category at this time.</p>
+  {% endunless %}
+
+  <div class="text-container">
+    <ul class="blog-posts">
+      {% include list-posts.html posts=posts %}
+    </ul>
+  </div>
+</section>
+
