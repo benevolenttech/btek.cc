@@ -52,13 +52,13 @@ Once you get the hang of it, it’s easy to favor certain words in your articles
 
 ## **Getting Started with Keywords**
 
-### Step 1: Make a list of important, relevant topics based on what you know about your business.
+#### Step 1: Make a list of important, relevant topics based on what you know about your business.
 
 To kick off this process, think about the topics you want to rank for in terms of generic “buckets”. You'll come up with about 5-10 topic buckets you think are important to your business. Topics like “security technologies” if you are a cyber security business. Then you'll use those topic buckets to help come up with some specific keywords later in the process.
 
 If you were a company like Benevolent Tech, for example -- selling marketing services and software consulting -- you might have general topic buckets like “SEO Companies in DC”, “Email Marketing in DC”, “responsive website design” and "marketing automation.” Make sense?
 
-### Step 2: Fill in those topic buckets with keywords.
+#### Step 2: Fill in those topic buckets with keywords.
 
 Now that you have a few topic buckets you want to focus on, it's time to identify some keywords that fall into those buckets. These are keyword phrases you think are important to rank for in the SERPs (search engine results pages) because your target customer is probably conducting searches for those specific terms.
 
@@ -75,13 +75,13 @@ For instance, if I took that last topic bucket for an inbound marketing software
 
 And so on and so on. The point of this step isn't to come up with your final list of keyword phrases. You just want to end up with a brain dump of phrases you think potential customers might use to search for content related to that particular topic bucket. We'll narrow the lists down later in the process so the task is much more manageable. Hey, your brain power and your time is precious, right? Right.
 
-### Step 3: Find out which keywords your website is already getting found for
+#### Step 3: Find out which keywords your website is already getting found for
 
 With services Google Analytics, you can learn what people were searching for when they found your site.  Drill down in the Acquisitions->Keywords section of Google analytics to see website's traffic sources, and sift through you organic search traffic bucket to identify the keywords people are using to arrive at your site.
 
 Repeat this exercise for as many topic buckets as you have. You now know what words are currently bringing people to your site. Let’s find more words.
 
-### Step 4: Enhance your list with market research
+#### Step 4: Enhance your list with market research
 
 Now that you've got a mix of keywords, it's time to improve your lists with real world supply and demand statistics. You have a lot of tools at your disposal to do this, but let me share my favorite **FREE** methodology – using Google’s keyword planning tool. 
 
@@ -95,7 +95,7 @@ Here’s an even easier trick to brainstorm keywords -- go to [Google.com](https
 
 Want some help with keyword research? [Contact us](/contact) for **FREE** custom report catered to your business.
 
-### Step 5: Scope out the competition
+#### Step 5: Scope out the competition
 
 Just because your competitor is doing something doesn’t mean you need to. The same goes for keywords. Just because a keyword is important to your competitor, doesn’t mean it's important to you. In fact, they may have done a poor job of building their topic buckets and are using keywords that aren’t that helpful. However, understanding what keywords your competitors are trying to rank for *is* a great way to help you give your list of keywords another evaluation.
 
