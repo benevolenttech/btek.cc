@@ -85,7 +85,7 @@ Repeat this exercise for as many topic buckets as you have. You now know what wo
 
 Now that you've got a mix of keywords, it's time to improve your lists with real world supply and demand statistics. You have a lot of tools at your disposal to do this, but let me share my favorite **FREE** methodology – using Google’s keyword planning tool. 
 
-**The Google AdWords Keyword Planner reveals real world Google search statistics and recommendations based on those statistics.**
+**The [Google AdWords Keyword Planner](https://adwords.google.com/KeywordPlanner) reveals real world Google search statistics and recommendations based on those statistics.**
 
 AdWords is a service for creating advertisements on Google, but you can actually use all of its research tools, like the Keyword Planner, for free forever once you register an account.
 
