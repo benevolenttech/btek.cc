@@ -93,7 +93,7 @@ Start by entering your keywords into the Keyword Planner and generating reports.
 
 Here’s an even easier trick to brainstorm keywords – go to [Google.com](https://google.com) and take a look at the related search terms that appear when you do a search. When scroll to the bottom of search results, you'll notice some suggestions for searches. These keywords can spark ideas for other keywords you may want to take into consideration.
 
-**Want some help with keyword research?****[**C**ontact us](/contact) for a free custom report catered to your business**.
+**Want some help with keyword research? [Contact us](/contact) for a free custom report catered to your business.**
 
 #### Step 5: Scope out the competition
 
