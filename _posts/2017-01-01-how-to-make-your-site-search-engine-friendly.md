@@ -7,6 +7,7 @@ show_comments: true
 date: 2017-01-01 11:10:13
 next: 2017-01-13-how-to-plan-your-content
 description: Follow these guidelines to avoid sure death by search engine gods.
+subtitle: Follow these guidelines to avoid sure death by search engine gods.
 ---
 
 
