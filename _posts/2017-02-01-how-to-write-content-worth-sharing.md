@@ -10,11 +10,11 @@ description: Getting people on your website is just the beginning -- you need gr
 ---
 
 
-In this third of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
+In this fourth of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
 1. What is SEO? (coming soon)
 2. Make your site search engine friendly
-3. Plan your content (coming soon)
+3. Plan your content
 4. **Write content worth sharing &lt;– you are here**
 5. Encourage sharing (coming soon)
 6. Advertise on a budget (coming soon)
@@ -30,7 +30,7 @@ Browsing around the Internet, you’ve likely come across some truly uninspiring
 
 The same goes for website content: your readers want fast, yes. But they want something tasty, interesting and mentally fulfilling with as much variety and spice as they can handle.
 
-By creating content that’s both useful and interesting, you rise above the &nbsp;landfill of Internet trash. Even though creating great content isn’t always easy, it &nbsp;*is*&nbsp;the most straightforward way to make you and your business stand apart from all the rest.
+By creating content that’s both useful and interesting, you rise above the landfill of Internet trash. Even though creating great content isn’t always easy, it &nbsp;*is*&nbsp;the most straightforward way to make you and your business stand apart from all the rest.
 
 And at the end of the day, don’t throw away all your SEO effort by losing attention once you have it.
 

@@ -5,16 +5,16 @@ categories:
 author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-01-01 11:10:13
-next: 2017-02-01-how-to-write-content-worth-sharing
+next: 2017-01-13-how-to-plan-your-content
 description: Follow these guidelines to avoid sure death by search engine gods.
 ---
 
 
-In this first of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
+In this second of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
 1. What is SEO? (coming soon)
 2. **Make your site search engine friendly &lt;– you are here**
-3. Plan your content (coming soon)
+3. Plan your content
 4. Write content worth sharing
 5. Encourage sharing (coming soon)
 6. Advertise on a budget (coming soon)
@@ -42,7 +42,7 @@ Most website platforms support these guidelines, but many of them don't out of t
 
 Here are the current guidelines to ensuring compatibility:
 
-**Guideline 1 - Describe your pages with titles, descriptions and a picture**
+**Guideline 1 - Use thoughtful titles, descriptions and a picture in your webpage editor**
 
 Why? Search engines and social media require this information for search results and sharing. They get really cranky if you don't have them. In other words, your site won’t get ranked very high, and you won’t get noticed. And trust us, like a gymnast doing a triple-back-flip, you *want* to get noticed.&nbsp;
 
