@@ -15,8 +15,7 @@
         return caches.open(version + staticCacheName)
             .then(function (cache) {
                 return cache.addAll([
-                    '/assets/bundle.js',
-                    '/assets/logo-db.png',
+                    '/images/logo.png',
                     '/',
                     '/offline.html'
                 ]);
