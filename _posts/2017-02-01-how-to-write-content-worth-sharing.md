@@ -19,7 +19,7 @@ In this fourth of our SEO primer series, we cover the highest impact strategies 
 4. **Write content worth sharing &lt;– you are here**
 5. Encourage sharing (coming soon)
 6. Advertise on a budget (coming soon)
-<br><br>
+   <br>&nbsp;
 
 ## **Content is king.**
 
@@ -45,7 +45,7 @@ Keep that in mind when you write your content – include actionable tips and tr
 
 ## **2. It has to be interesting**
 
-“Interesting content?” we hear you wail. “But...but...I’m not a writer! I was never able to please my 5th-grade English teacher.” Shhh. It’s okay. We get it. The thing is, you don’t necessarily have to please that particular person. For all you know, he or she may not even read your writing now, let alone know who you became as an adult.
+“Interesting content?” we hear you wail. “But…but…I’m not a writer! I was never able to please my 5th-grade English teacher.” Shhh. It’s okay. We get it. The thing is, you don’t necessarily have to please that particular person. For all you know, he or she may not even read your writing now, let alone know who you became as an adult.
 
 But the truth remains that most of your readers will head over to Wikipedia if they want pure facts. If you want to engage your readers and keep them interested, you have to write stuff that’s both flavorful and opinionated, even if it is about those same facts.
 
@@ -63,7 +63,9 @@ Here are some other ideas to help you:
 
 1) Instead of writing one long blog post, try divvying up each sub-topic into separate posts. It keeps people coming back for more, and even your most voracious readers will find it easier to digest your content if they get it in portion-controlled sizes.
 
-2) Go for the “inverted pyramid” style -- state your conclusions first and push details to the end. Paragraphs should generally become more and more detailed, so that reader can easily follow complex subjects until they get the information they need. This method helps scanners move from point to point and decide where they’d like to dive in deeper.
+2) Go for the “inverted pyramid” style – state your conclusions first and push details to the end. Paragraphs should generally become more and more detailed, so that reader can easily follow complex subjects until they get the information they need. This method helps scanners move from point to point and decide where they’d like to dive in deeper.
+
+3) Use formatting and imagery to boost readability. Your subsections should use large headings to clearly create breaks in the text. At the same time, **major points should be in bold.**
 
 It takes just a few minutes to turn a post from an overwhelming mass of gray text to something that engages the reader and pulls her in.
 
