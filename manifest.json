@@ -1,0 +1,21 @@
+{
+  "short_name": "Benevolent Tech",
+  "name": "Benevolent Tech",
+  "icons": [
+    {
+      "src": "touch-icon.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "touch-icon.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
