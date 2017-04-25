@@ -8,9 +8,9 @@ date:
 ---
 
 
-In this second of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
+In this second of our SEO primer series, we cover the highest impact strategies to attract more people to your site.&nbsp;
 
-1. **Make your site search engine friendly &lt;-- you are here**
+1. **Make your site search engine friendly &lt;– you are here**
 2. Plan your content
 3. Write content worth sharing
 4. Encourage further engagement
@@ -42,6 +42,6 @@ Guideline 5 - Optimize your site's performance
 
 The amount of time it takes for your web page to load affects perception and satisfaction, so Google docks your search ranking if you load slowly.
 
-And...that's it! Most website platforms support these guidelines, but many of them don't out of the box. I recommend you google search each guideline coupled with the name of your website platform to research your options.
+And…that's it! Most website platforms support these guidelines, but many of them don't out of the box. I recommend you google search each guideline coupled with the name of your website platform to research your options.
 
 **Next up: How to plan your content**
