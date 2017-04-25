@@ -1,5 +1,4 @@
----
----
+// sass --watch _sass/screen.scss:_includes/screen.css --style compressed
 
 $pattern: "{{ site.baseurl }}/images/pattern.png";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";

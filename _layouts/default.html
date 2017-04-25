@@ -2,6 +2,32 @@
 
 <html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico">
+  <meta property="fb:app_id" content="1299829076759410">
+
+  {% seo %}
+  {% feed_meta %}
+
+
+  <!-- More info on JSON-LD at https://developers.google.com/search/docs/guides/intro-structured-data -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "https://benevolent.tech",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+1-202-644-2237",
+      "contactType": "leadership"
+    }]
+  }
+  </script>
+
 
 	{% if jekyll.environment == 'production' %}
 		<!-- Google Tag Manager -->
@@ -12,27 +38,32 @@
 		})(window,document,'script','dataLayer','GTM-P3LNW56');</script>
 		<!-- End Google Tag Manager -->
 
-
+    <script>
+      (function () {
+        'use strict';
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/service-worker.js', {
+            scope: "/"
+          }).then(function (registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            // Trim the caches on load
+            navigator.serviceWorker.controller && navigator.serviceWorker.controller.postMessage({
+              command: "trimCaches"
+            });
+          }).catch(function (err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+          });
+        }
+      })();
+    </script>
 	{% endif %}
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-
-	<!--<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">-->
 
 	<style type="text/css">
 		{% include screen.css %}
 	</style>
 
-	<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico">
-
-	<meta property="fb:app_id" content="1299829076759410">
-
-	{% seo %}
-	{% feed_meta %}
 
 </head>
 	<body>
