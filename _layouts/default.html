@@ -23,7 +23,7 @@
   {
     "@context": "http://schema.org",
     "@type": "Organization",
-    "url": "https://benevolent.tech",
+    "url": "{{ site.baseurl }}",
     "contactPoint": [{
       "@type": "ContactPoint",
       "telephone": "+1-202-644-2237",
@@ -32,37 +32,9 @@
   }
   </script>
 
+	{% include google-tag-manager.html %}
 
-	{% if jekyll.environment == 'production' %}
-		<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-P3LNW56');</script>
-		<!-- End Google Tag Manager -->
-
-    <script>
-      (function () {
-        'use strict';
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/service-worker.js', {
-            scope: "/"
-          }).then(function (registration) {
-            // Registration was successful
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            // Trim the caches on load
-            navigator.serviceWorker.controller && navigator.serviceWorker.controller.postMessage({
-              command: "trimCaches"
-            });
-          }).catch(function (err) {
-            // registration failed :(
-            console.log('ServiceWorker registration failed: ', err);
-          });
-        }
-      })();
-    </script>
-	{% endif %}
+	{% include register-service-worker.html %}
 
 	<style type="text/css">
 		{% include screen.css %}
@@ -77,12 +49,8 @@
 			<!-- End Google Tag Manager (noscript) -->
 		{% endif %}
 
-		<header>
-			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"></a></div>
-				{% include navigation.html %}
-			</div>
-		</header>
+		{% include header.html %}
+
 		{{ content }}
 
 		<section class="diagonal diagonal-newsletter">
@@ -101,72 +69,7 @@
 			</form>
 		</section>
 
-		<footer class="diagonal">
-			<div class="container">
-				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
-
-				<div class="footer-columns">
-					{% for column in site.data.footer %}
-						<ul class="footer-links">
-							<li>
-								<h2>{{ column.title }}</h2>
-							</li>
-							{% for link in column.links %}
-								<li>
-									<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
-										{% if link.social_icon %}
-											{% include social-icon.html icon=link.social_icon %}
-										{% endif %}
-
-										{{ link.name }}
-									</a>
-								</li>
-							{% endfor %}
-						</ul>
-					{% endfor %}
-
-					<ul class="footer-links">
-						<li>
-							<h2>{{ site.data.company.title }}</h2>
-						</li>
-						<li>{{ site.data.company.description }}</li>
-						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
-					</ul>
-				</div>
-
-				<div class="footer-links-mobile">
-					{% for column in site.data.footer %}
-						<ul class="footer-links">
-							{% for link in column.links %}
-								{% if link.social_icon %}
-									<li>
-										<a target="_blank" href="{% include relative-src.html src=link.link %}" class="{{ link.social_icon | slugify }}-icon">
-											{% include social-icon.html icon=link.social_icon %}
-										</a>
-									</li>
-								{% endif %}
-							{% endfor %}
-						</ul>
-					{% endfor %}
-				</div>
-
-			</div>
-
-			<div class="legal-line desktop">
-				<p class="container">
-					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}
-					&bull;
-					SEO & Marketing Services for Washington, DC, Baltimore, and VA
-				</p>
-			</div>
-
-			<div class="legal-line mobile">
-				<p class="container">
-					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}<br>
-					Made with &lt;3 in DC
-				</p>
-			</div>
-		</footer>
+		{% include footer.html %}
 
 	</body>
 </html>
