@@ -3,8 +3,7 @@
     <div class="company-name"><a href="{{ site.baseurl }}/"></a></div>
 
     <nav>
-      <a class="nav-toggle" id="open-nav" href="#" onclick="document.body.classList.toggle('nav-open');
-	return false;">&#9776;</a>
+      <a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
       <ul>
         {% for link in site.data.navigation.links %}
         {% assign class = "" %}
@@ -22,3 +21,13 @@
 
   </div>
 </header>
+
+<script>
+  (function() {
+    /* Mobile Header */
+    document.getElementById("open-nav").addEventListener("click", function (event) {
+      event.preventDefault();
+      document.body.classList.toggle("nav-open");
+    });
+  })();
+</script>
