@@ -13,7 +13,7 @@ subtitle: Get more people to your website by creating content they look for.
 
 In this third of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-1. What is SEO? (coming soon)
+1. What is Online Marketing and SEO? (coming soon)
 2. Make your site search engine friendly
 3. **Plan your content &lt;– you are here**
 4. Write content worth sharing

@@ -13,7 +13,7 @@ subtitle: Follow these guidelines to avoid sure death by search engine gods.
 
 In this second of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-1. What is SEO? (coming soon)
+1. What is Online Marketing and SEO? (coming soon)
 2. **Make your site search engine friendly &lt;– you are here**
 3. Plan your content
 4. Write content worth sharing
