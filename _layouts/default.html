@@ -53,7 +53,8 @@
 
 		{{ content }}
 
-		<section id="footer-newsletter" class="diagonal diagonal-newsletter">
+		<section class="diagonal diagonal-newsletter">
+			<div id="footer-newsletter" style="position:absolute; top:-100px;"></div>
 			<p>Keep up with our essential tips by joining our mailing list!</p>
 			<form action="{{ site.baseurl }}/newsletter-success/" method="post">
 				<input type="hidden" name="_to" value="hi@benevolent.tech" />
