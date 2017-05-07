@@ -1,6 +1,6 @@
 ---
 name: Brian Dombrowski
-position: Brand Evangelist
+position: Founder, Tech Lead
 image_path: /uploads/brian-small.jpg
 link: 'https://twitter.com/@bdombro'
 ---

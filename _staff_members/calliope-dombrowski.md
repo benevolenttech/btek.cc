@@ -1,6 +1,6 @@
 ---
 name: Calliope Dombrowski
-position: Chief Fun Officer
+position: Motivator
 image_path: /uploads/callie.jpg
 link: '#'
 ---

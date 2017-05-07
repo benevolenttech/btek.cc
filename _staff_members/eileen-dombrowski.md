@@ -1,6 +1,6 @@
 ---
 name: Eileen Dombrowski
-position: Chief Social Officer
+position: Public Relations
 image_path: /uploads/eileen-small.jpg
 link: 'https://twitter.com/@eileendombro'
 ---

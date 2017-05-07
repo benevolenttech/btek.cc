@@ -1,6 +1,6 @@
 ---
 name: Chris Rosenbaum
-position: Marketing Strategy
+position: Market Intelligence
 image_path: /uploads/chris.jpg
 link: https://twitter.com/@cmrosenbaum
 ---

@@ -1,6 +1,6 @@
 ---
 name: Ryan Troll
-position: Product Maven
+position: Product Management
 image_path: /uploads/ryan.jpg
 link: https://twitter.com/@ryantroll
 ---

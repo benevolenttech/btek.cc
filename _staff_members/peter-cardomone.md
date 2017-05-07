@@ -1,6 +1,6 @@
 ---
 name: Peter Cardomone
-position: Writer and Copy Master
+position: Content
 image_path: /uploads/pete1-small.jpg
 link: 'https://twitter.com/@petecardomone'
 ---
