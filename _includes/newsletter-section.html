@@ -1,0 +1,16 @@
+<section class="diagonal diagonal-newsletter">
+  <div id="footer-newsletter" style="position:absolute; top:-70px;"></div>
+    <p style="padding: 0 20px;">Keep up with our essential tips by joining our mailing list!</p>
+    <form style="padding: 0 20px;" action="{{ site.baseurl }}/newsletter-success/" method="post">
+      <input type="hidden" name="_to" value="hi@benevolent.tech" />
+      <input type="text" name="_gotcha" style="display: none;" />
+      <div class="halves">
+        <div>
+          <input type="text" name="email" id="email" placeholder="john@appleseed.com" />
+        </div>
+        <div>
+          <input class="button" type="submit" value="Sign up!" />
+        </div>
+      </div>
+    </form>
+</section>

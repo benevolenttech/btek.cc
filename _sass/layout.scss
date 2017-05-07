@@ -98,12 +98,18 @@ section {
 		}
 
 		h2 {
-			font-size: 3.5rem;
+			font-size: 3.3rem;
+			@media #{$mid-point} {
+				font-size: 3.5rem;
+			}
 		}
 
 		p {
-			font-size: 1.8rem;
+			font-size: 1.5rem;
 			color: #fff;
+			@media #{$mid-point} {
+				font-size: 1.8rem;
+			}
 		}
 
 		a:not(.button) {
@@ -118,6 +124,10 @@ section {
 }
 
 .button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
 	padding: 13px 38px;
 	border-radius: 3px;
 	transition: 0.2s ease-in-out;
@@ -285,9 +295,11 @@ section {
 .image-list li {
 	list-style: none;
 	margin: 0;
-	padding: 20px 0;
+	padding: 0;
 	text-align: center;
 	display: none;
+	font-size: 60px;
+	line-height: 1.1em;
 
 	&.image-list-right li {
 		padding-right: 15%;
@@ -309,6 +321,12 @@ section {
 	}
 	a {
 	    color: $secondary-brand-color;
+	}
+}
+
+.show-above-mobile {
+	@media #{$mid-point} {
+		display: none;
 	}
 }
 
