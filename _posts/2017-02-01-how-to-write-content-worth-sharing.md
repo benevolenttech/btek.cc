@@ -6,8 +6,8 @@ author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-02-01 14:05:06
 previous: 2017-01-01-how-to-make-your-site-search-engine-friendly
-description: Getting people on your website is just the beginning -- you need great content to go viral.
-subtitle: Getting people on your website is just the beginning -- you need great content to go viral.
+description: Getting people on your website is just the beginning – you need great content to go viral.
+subtitle: Getting people on your website is just the beginning – you need great content to go viral.
 image: /images/benevolent_tech_dc_seo.jpg
 ---
 
