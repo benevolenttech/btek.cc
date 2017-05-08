@@ -38,7 +38,8 @@
 			counter-increment: step-counter;
 			position: relative;
 			padding-left: 67px;
-			min-height: 4em;
+			min-height: 3em;
+			padding-bottom: .5em;
 		}
 		li::before {
 			position: absolute;
