@@ -11,13 +11,20 @@ image: /images/benevolent_tech_dc_seo.jpg
     <div class="editable">
       <p><img alt="" width="100%" height="auto" src="/uploads/equation.svg"/></p>
       <p>I started Benevolent Tech because I love working with and helping small businesses, especially those who foster community. Coming from a technical background, I found my interests and skills best align with small businesses in online communications.</p>
+      <p class="hide-on-mobile" style="float:right; margin:0 30px 20px;padding:20px 30px 10px;text-align:center;border:1px solid gray;">
+        <strong>Total Leads Generated</strong><br>
+        <strong style="font-size:300%;" id="lead-ticker"><span style="visibility:hidden;">___,___</span></strong>
+      </p>
       <p>Towards that end, I've focused my entire career around online marketing and website technologies. I leverage my experience and passion to hand-pick and implement technologies which are beautiful inside and out, affordable, easy to use,&nbsp;<em>and</em> boost sales. Think of us as Red Bull for your business.</p>
-      <p><strong>Here's our 3 step process:</strong></p>
-      <ol>
-        <li>Building you a beautiful, sales-optimized website to guide customers happily down a path to purchasing your product, while at the same time reflecting your brand vision.</li>
-        <li>Getting your business more attention with custom-tailored search engine optimization, advertising and social media branding.</li>
-        <li>Continuous improvements based on real-world analytics.</li>
-      </ol>
+      <div style="clear:both;"></div>
+      <p style="width:60%;">
+        <strong>Here's our 3 step process:</strong><br>
+        <ol>
+          <li>Building you a beautiful, sales-optimized website to guide customers happily down a path to purchasing your product, while at the same time reflecting your brand vision.</li>
+          <li>Getting your business more attention with custom-tailored search engine optimization, advertising and social media branding.</li>
+          <li>Continuous improvements based on real-world analytics.</li>
+        </ol>
+      </p>
       <p>Customers are searching the internet right now for your product and choose competitors because they don't know you exist. <a href="/contact">Team up now</a> and get found. Not quite ready? Check out our <a href="/learning/">learning center</a>&nbsp;or join our <a href="#footer-newsletter">mailing-list</a>.</p>
       <p><img alt="" width="200" height="170" src="/uploads/versions/brian---x----200-170x---.png"/></p></div>
   </div>
@@ -33,3 +40,45 @@ image: /images/benevolent_tech_dc_seo.jpg
     </ul>
   </div>
 </section>
+
+<script>
+  (function() {
+    function setCookie(cname, cvalue, exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+      var expires = "expires=" + d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+
+    if (!getCookie('tickerValue')) {
+      setCookie('tickerValue', '741,112');
+    }
+
+    document.getElementById('lead-ticker').innerHTML = getCookie('tickerValue');
+
+    setInterval(function () {
+      var ticker = document.getElementById('lead-ticker'), last = ticker.innerHTML;
+      if (Math.random() > 0.9) {
+        var next = last.slice(0, 4) + (Number(last.slice(4)) + 1);
+        ticker.innerHTML = next;
+        setCookie('tickerValue', next);
+      }
+    }, 1000);
+  })();
+</script>
