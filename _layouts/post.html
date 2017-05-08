@@ -1,12 +1,27 @@
 ---
 layout: page
 ---
+
+<section class="share diagonal alternate" style="padding:10px 0;">
+	<div class="not-skewed" style="margin-bottom:0; max-width:1000px; margin-left:auto; margin-right:auto; padding-right:20px; font-size:19px;">
+		<table style="float:right;"><tr><td>Share on </td><td style="padding-top:5px;">{% include share.html %}</td></tr></table>
+		<div style="clear:both"></div>
+	</div>
+</section>
+
 <section class="diagonal">
 	<div class="blog-post text-container" style="margin-bottom:0;">
 		{% include post-title.html post=page %}
 		<div class="post-content">
 			{{ content }}
 		</div>
+	</div>
+</section>
+
+<section class="share diagonal alternate" style="padding:10px 0;">
+	<div class="not-skewed" style="margin-bottom:0; max-width:1000px; margin-left:auto; margin-right:auto; padding-right:20px; font-size:19px;">
+		<table style="float:right;"><tr><td>Share on </td><td style="padding-top:5px;">{% include share.html %}</td></tr></table>
+		<div style="clear:both"></div>
 	</div>
 </section>
 

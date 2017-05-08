@@ -68,7 +68,7 @@ section {
 		-ms-transform: skewY(-$section-rotation);
 		transform: skewY(-$section-rotation);
 
-		> div {
+		> div:not(.not-skewed) {
 			-webkit-transform: skewY($section-rotation);
 			-moz-transform: skewY($section-rotation);
 			-ms-transform: skewY($section-rotation);
@@ -121,6 +121,30 @@ section {
 
 	&.alternate {
 		background: #eee;
+	}
+
+	&.share {
+		.blurb-share {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+
+			li {
+				display: inline-block;
+				//margin-top: 15px;
+				a {
+					text-decoration: none;
+					svg {
+						fill: black;
+						border: 2px solid rgba(0, 0, 0, 0);
+						&:hover {
+							border: 2px solid black;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
