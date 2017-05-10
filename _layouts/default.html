@@ -1,63 +1,18 @@
-<!doctype html>
+---
+layout: html
+---
 
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-  <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico">
-  <meta property="fb:app_id" content="1299829076759410">
-
-  {% seo %}
-  {% feed_meta %}
+<style type="text/css">
+	{% include screen.css %}
+</style>
 
 
-	<!-- Chrome browser theming -->
-	<link rel="manifest" href="/manifest.json">
-	<meta name="theme-color" content="#94040B">
+{% include header.html %}
 
-  <!-- More info on JSON-LD at https://developers.google.com/search/docs/guides/intro-structured-data -->
-  <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "url": "{{ site.baseurl }}",
-    "contactPoint": [{
-      "@type": "ContactPoint",
-      "telephone": "+1-202-644-2237",
-      "contactType": "leadership"
-    }]
-  }
-  </script>
+{{ content }}
 
-	{% include google-tag-manager.html %}
+{% include newsletter-section.html %}
 
-	{% include register-service-worker.html %}
-
-	<style type="text/css">
-		{% include screen.css %}
-	</style>
-
-
-</head>
-	<body>
-		{% if jekyll.environment == 'production' %}
-			<!-- Google Tag Manager (noscript) -->
-			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3LNW56" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-			<!-- End Google Tag Manager (noscript) -->
-		{% endif %}
-
-		{% include header.html %}
-
-		{{ content }}
-
-		{% include newsletter-section.html %}
-
-		{% include footer.html %}
-		{% include load-deferred-images.html %}
-		{% include animate-anchor-scrolls.html %}
-
-	</body>
-</html>
+{% include footer.html %}
+{% include load-deferred-images.html %}
+{% include animate-anchor-scrolls.html %}
