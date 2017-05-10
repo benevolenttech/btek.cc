@@ -817,8 +817,8 @@ layout: html
     while (match = search.exec(query))
       urlParams[decode(match[1])] = decode(match[2]);
   })();
-  if (urlParams['backUrl']) {
-    document.querySelector('#back-button a').href = urlParams['backUrl'];
+  if (urlParams['src']) {
+    document.querySelector('#back-button a').href = urlParams['src'];
   }
 
 </script>
