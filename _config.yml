@@ -88,7 +88,7 @@ gems:
   - "jekyll-seo-tag"
   - "jekyll-paginate-v2"
   - "jekyll-archives"
-#  - "algoliasearch-jekyll"
+  - "algoliasearch-jekyll"
 
 defaults:
   - scope:
