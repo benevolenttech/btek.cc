@@ -6,7 +6,9 @@
     "gulp-compass": "*",
     "gulp-clean-css": "*",
     "pump": "*",
-    "gulp-uglify": "*",
-    "browser-sync": "*"
+    "browser-sync": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-babel": "*",
+    "babel-preset-es2015": "*"
   }
 }

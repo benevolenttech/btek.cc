@@ -6,7 +6,8 @@ var browserSync = require('browser-sync');
 var minifyCss = require('gulp-clean-css');
 var cp = require('child_process');
 var pump = require('pump');
-var uglify = require('gulp-uglify');
+var sourcemaps = require('gulp-sourcemaps');
+var babel = require('gulp-babel');
 
 
 gulp.task('css', function (cb) {
@@ -28,13 +29,19 @@ gulp.task('css', function (cb) {
 
 
 gulp.task('js', function (cb) {
+
   pump([
       gulp.src([
         '_js/load-deferred-images.js',
         '_js/smooth-scroll.js'
       ]),
-      uglify(),
+      sourcemaps.init(),
+      babel({
+        presets: ['es2015'],
+        compact: true
+      }),
       concat('bundle.js'),
+      sourcemaps.write(),
       browserSync.reload({stream: true}),
       gulp.dest('assets')
     ],
