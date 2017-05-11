@@ -11,22 +11,20 @@ var uglify = require('gulp-uglify');
 
 gulp.task('css', function (cb) {
   pump([
-    gulp.src('_sass/screen.scss'),
-    compass({
-      css: 'assets',
-      sass: '_sass',
-      image: 'assets/images',
-      sourcemap: 'assets'
-    }),
-    minifyCss(),
-    browserSync.reload({stream:true}),
-    gulp.dest('assets/temp')
+      gulp.src('_sass/screen.scss'),
+      compass({
+        css: 'assets',
+        sass: '_sass',
+        image: 'assets/images',
+        sourcemap: 'assets'
+      }),
+      minifyCss(),
+      browserSync.reload({stream: true}),
+      gulp.dest('assets/temp')
     ],
     cb
   );
 });
-
-
 
 
 gulp.task('js', function (cb) {
@@ -37,7 +35,7 @@ gulp.task('js', function (cb) {
       ]),
       uglify(),
       concat('bundle.js'),
-      browserSync.reload({stream:true}),
+      browserSync.reload({stream: true}),
       gulp.dest('assets')
     ],
     cb
@@ -47,7 +45,7 @@ gulp.task('js', function (cb) {
 
 gulp.task('jekyll-build', function (done) {
   browserSync.notify('<span style="color: grey">Running:</span> $ bundle exec jekyll build');
-  return cp.spawn( 'bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
     .on('close', done);
 });
 
@@ -57,8 +55,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 });
 
 
-
-gulp.task('browser-sync', ['js', 'css', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['js', 'css', 'jekyll-build'], function () {
   browserSync({
     server: {
       baseDir: '_site',
@@ -78,4 +75,16 @@ gulp.task('watch', function () {
 
 gulp.task('serve', ['browser-sync', 'watch']);
 
-gulp.task('default', ['css', 'js', 'jekyll-build']);
+gulp.task('build-all', ['css', 'js', 'jekyll-build']);
+
+gulp.task('deploy', ['build-all'], function (done) {
+  pump([
+      cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'}),
+      cp.spawn('bundle', ['exec', 'jekyll', 'algolia', 'push'], {stdio: 'inherit'}),
+      cp.spawn('git', ['push'], {stdio: 'inherit'})
+    ],
+    done
+  );
+});
+
+gulp.task('default', ['build-all']);
