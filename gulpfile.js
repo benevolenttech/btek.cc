@@ -78,13 +78,10 @@ gulp.task('serve', ['browser-sync', 'watch']);
 gulp.task('build-all', ['css', 'js', 'jekyll-build']);
 
 gulp.task('deploy', ['build-all'], function (done) {
-  pump([
-      cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'}),
-      cp.spawn('bundle', ['exec', 'jekyll', 'algolia', 'push'], {stdio: 'inherit'}),
-      cp.spawn('git', ['push'], {stdio: 'inherit'})
-    ],
-    done
-  );
+  cp.spawn('bundle', ['exec', 'jekyll', 'algolia', 'push'], {stdio: 'inherit'}).on('close', function () {
+    cp.spawn('git', ['push'], {stdio: 'inherit'}).on('close',
+      done)
+  });
 });
 
 gulp.task('default', ['build-all']);
