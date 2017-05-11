@@ -361,7 +361,7 @@ section {
   }
 }
 
-.hidden-above-mobile {
+.hide-above-mobile {
   @media #{$mid-point} {
     display: none;
   }

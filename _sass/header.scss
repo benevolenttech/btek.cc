@@ -145,7 +145,7 @@ header {
 		margin: 20px 0 0 0;
 		border: 0;
 
-		a {
+		a:not(.hide-on-mobile) {
 			display: block;
 		}
 
