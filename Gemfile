@@ -8,4 +8,5 @@ group :jekyll_plugins do
 	gem 'jekyll-paginate-v2', '1.1.0'
 	gem 'jekyll-archives', '2.1.1'
 	gem 'algoliasearch-jekyll'
+	gem 'compass'
 end

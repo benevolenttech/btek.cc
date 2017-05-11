@@ -1,0 +1,12 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-compass": "*",
+    "gulp-clean-css": "*",
+    "pump": "*",
+    "gulp-uglify": "*",
+    "browser-sync": "*"
+  }
+}

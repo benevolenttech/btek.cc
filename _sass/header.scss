@@ -19,7 +19,7 @@ header {
 	}
 
 	.company-name {
-		background-image: url(/images/logo.png);
+		background-image: url(/assets/images/logo.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 		width: 160px;
@@ -27,13 +27,13 @@ header {
 		position: relative;
 		z-index: 99;
 		&:hover {
-			background-image: url(/images/logo-alt.png);
+			background-image: url(/assets/images/logo-alt.png);
 		}
 
 		// Pre-fetch hover logo before hover
 		&::after{
 			position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-			content:url(/images/logo-alt.png);
+			content:url(/assets/images/logo-alt.png);
 		}
 
 		a {

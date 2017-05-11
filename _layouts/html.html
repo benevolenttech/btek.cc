@@ -1,13 +1,13 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="en" class="page--{{ page.url | slice: 1,page.url.size | replace: '/','--' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Jekyll v{{ jekyll.version }}">
   <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.ico">
   <meta property="fb:app_id" content="1299829076759410">
 
   {% seo %}
@@ -32,21 +32,20 @@
   }
   </script>
 
-  {% include google-tag-manager.html %}
-
   {% include ie.html %}
 
   {% include register-service-worker.html %}
 
+  <link rel="stylesheet" href="/assets/screen.css" />
+
 </head>
 <body>
-{% if jekyll.environment == 'production' %}
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3LNW56" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-{% endif %}
 
 {{ content }}
+
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+<script defer async type="text/javascript" src="/assets/bundle.js"></script>
+{% include google-tag-manager.html %}
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 // sass --watch _sass/screen.scss:_includes/screen.css --style compressed
 
-$pattern: "{{ site.baseurl }}/images/pattern.png";
-$screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
+$pattern: "{{ site.baseurl }}/assets/images/pattern.png";
+$screenshot-buttons: "{{ site.baseurl }}/assets/images/screenshot-buttons.svg";
 
 $brand-color: #94040B;
 $html-background-color: #222;
@@ -23,3 +23,4 @@ $section-rotation: 5deg;
 @import "header";
 @import "footer";
 @import "cloudcannon";
+@import "search";
