@@ -680,7 +680,7 @@ layout: html
   });
 
   function app(opts) {
-    const search = instantsearch({
+    var search = instantsearch({
       appId: opts.appId,
       apiKey: opts.apiKey,
       indexName: opts.indexName,
@@ -797,11 +797,11 @@ layout: html
   }
 
   function getTemplate(templateName) {
-    return document.querySelector(`#${templateName}-template`).innerHTML;
+    return document.querySelector('#' + templateName + '-template').innerHTML;
   }
 
   function getHeader(title) {
-    return `<h5>${title}</h5>`;
+    return '<h5>' + title + '</h5>';
   }
 
 
