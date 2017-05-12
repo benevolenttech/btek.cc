@@ -4,3 +4,4 @@ _site
 _algolia_api_key
 node_modules
 assets/temp
+*.map

@@ -41,8 +41,11 @@
 
 {{ content }}
 
-<!--<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>-->
+{% if jekyll.environment == 'production' %}
+<script defer async type="text/javascript" src="/assets/bundle.min.js"></script>
+{% else %}
 <script defer async type="text/javascript" src="/assets/custom.min.js"></script>
+{% endif %}
 
 {% include google-tag-manager.html %}
 
