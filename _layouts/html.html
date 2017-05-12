@@ -33,9 +33,7 @@
   </script>
 
   {% include ie.html %}
-
   {% include register-service-worker.html %}
-
   <link rel="stylesheet" href="/assets/screen.css" />
 
 </head>
@@ -44,7 +42,8 @@
 {{ content }}
 
 <!--<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>-->
-<script defer async type="text/javascript" src="/assets/bundle.js"></script>
+<script defer async type="text/javascript" src="/assets/custom.min.js"></script>
+
 {% include google-tag-manager.html %}
 
 <!-- Load instantsearch last b/c is really big, and only needed for search page. -->

@@ -9,6 +9,7 @@
     "browser-sync": "*",
     "gulp-sourcemaps": "*",
     "gulp-babel": "*",
-    "babel-preset-es2015": "*"
+    "babel-preset-es2015": "*",
+    "gulp-uglify": "*"
   }
 }

@@ -8,6 +8,7 @@ var cp = require('child_process');
 var pump = require('pump');
 var sourcemaps = require('gulp-sourcemaps');
 var babel = require('gulp-babel');
+var uglify = require('gulp-uglify');
 
 
 gulp.task('css', function (cb) {
@@ -20,7 +21,7 @@ gulp.task('css', function (cb) {
         sourcemap: 'assets'
       }),
       minifyCss(),
-      browserSync.reload({stream: true}),
+      // browserSync.reload({stream: true}),
       gulp.dest('assets/temp')
     ],
     cb
@@ -40,9 +41,9 @@ gulp.task('js', function (cb) {
         presets: ['es2015'],
         compact: true
       }),
-      concat('bundle.js'),
+      concat('custom.min.js'),
       sourcemaps.write(),
-      browserSync.reload({stream: true}),
+      // browserSync.reload({stream: true}),
       gulp.dest('assets')
     ],
     cb
@@ -52,7 +53,7 @@ gulp.task('js', function (cb) {
 
 gulp.task('jekyll-build', function (done) {
   browserSync.notify('<span style="color: grey">Running:</span> $ bundle exec jekyll build');
-  return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--incremental'], {stdio: 'inherit'})
     .on('close', done);
 });
 
@@ -77,7 +78,7 @@ gulp.task('browser-sync', ['js', 'css', 'jekyll-build'], function () {
 gulp.task('watch', function () {
   gulp.watch('_sass/*', ['css']);
   gulp.watch('_js/*', ['js']);
-  gulp.watch(['*.html', '_layouts/*.html', '_posts/*', 'assets/screen.css', 'assets/bundle.js'], ['jekyll-rebuild']);
+  gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*', 'assets/screen.css', 'assets/bundle.js'], ['jekyll-rebuild']);
 });
 
 gulp.task('serve', ['browser-sync', 'watch']);

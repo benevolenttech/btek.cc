@@ -90,6 +90,13 @@ gems:
   - "jekyll-archives"
   - "algoliasearch-jekyll"
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+  - node_modules
+
 defaults:
   - scope:
       path: ""
