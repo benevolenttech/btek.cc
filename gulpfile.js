@@ -51,7 +51,7 @@ gulp.task('js-custom', function (cb) {
 });
 
 
-gulp.task('js-production', function (cb) {
+gulp.task('js-production', ['js-custom'], function (cb) {
   pump([
       gulp.src([
         // 'assets/vendor.min.js',
@@ -98,7 +98,7 @@ gulp.task('watch', function () {
 
 gulp.task('serve', ['browser-sync', 'watch']);
 
-gulp.task('build-all', ['css', 'js-custom', 'jekyll-build']);
+gulp.task('build-all', ['css', 'js-production', 'jekyll-build']);
 
 gulp.task('deploy', ['build-all'], function (done) {
   cp.spawn('bundle', ['exec', 'jekyll', 'algolia', 'push'], {stdio: 'inherit'}).on('close', function () {
