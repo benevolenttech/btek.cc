@@ -1,115 +1,107 @@
-/*
- Copyright 2014 Google Inc. All Rights Reserved.
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- http://www.apache.org/licenses/LICENSE-2.0
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
- */
+'use strict';
 
-// While overkill for this specific sample in which there is only one cache,
-// this is one best practice that can be followed in general to keep track of
-// multiple caches used by a given service worker, and keep them all versioned.
-// It maps a shorthand identifier for a cache to a specific, versioned cache name.
+// From https://gist.githubusercontent.com/adactio/fbaa3a5952774553f5e7/raw/82eb94f9ed57bf3452e8e585eb8ca609216a5d84/basicServiceWorker.js
+// Licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+// http://creativecommons.org/publicdomain/zero/1.0/
 
-// Note that since global state is discarded in between service worker restarts, these
-// variables will be reinitialized each time the service worker handles an event, and you
-// should not attempt to change their values inside an event handler. (Treat them as constants.)
+(function() {
 
-// If at any point you want to force pages that use this service worker to start using a fresh
-// cache, then increment the CACHE_VERSION value. It will kick off the service worker update
-// flow and the old cache(s) will be purged as part of the activate event handler when the
-// updated service worker is activated.
-var CACHE_VERSION = 1;
-var CURRENT_CACHES = {
-  'read-through': 'read-through-cache-v' + CACHE_VERSION
-};
+    // Update 'version' if you need to refresh the cache
+    var staticCacheName = 'static';
+    var version = 'v1::';
 
-self.addEventListener('activate', function(event) {
-  // Delete all caches that aren't named in CURRENT_CACHES.
-  // While there is only one cache in this example, the same logic will handle the case where
-  // there are multiple versioned caches.
-  var expectedCacheNames = Object.keys(CURRENT_CACHES).map(function(key) {
-    return CURRENT_CACHES[key];
-  });
+    // Store core files in a cache (including a page to display when offline)
+    function updateStaticCache() {
+        return caches.open(version + staticCacheName)
+            .then(function (cache) {
+                return cache.addAll([
+                    '/assets/images/logo.png',
+                    '/',
+                    '/offline.html'
+                ]);
+            });
+    };
 
-  event.waitUntil(
-    caches.keys().then(function(cacheNames) {
-      return Promise.all(
-        cacheNames.map(function(cacheName) {
-          if (expectedCacheNames.indexOf(cacheName) === -1) {
-            // If this cache name isn't present in the array of "expected" cache names, then delete it.
-            console.log('Deleting out of date cache:', cacheName);
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    })
-  );
-});
+    self.addEventListener('install', function (event) {
+        event.waitUntil(updateStaticCache());
+    });
 
-// This sample illustrates an aggressive approach to caching, in which every valid response is
-// cached and every request is first checked against the cache.
-// This may not be an appropriate approach if your web application makes requests for
-// arbitrary URLs as part of its normal operation (e.g. a RSS client or a news aggregator),
-// as the cache could end up containing large responses that might not end up ever being accessed.
-// Other approaches, like selectively caching based on response headers or only caching
-// responses served from a specific domain, might be more appropriate for those use cases.
-self.addEventListener('fetch', function(event) {
-  console.log('Handling fetch event for', event.request.url);
+    self.addEventListener('activate', function (event) {
+        event.waitUntil(
+            caches.keys()
+                .then(function (keys) {
+                    // Remove caches whose name is no longer valid
+                    return Promise.all(keys
+                        .filter(function (key) {
+                            return key.indexOf(version) !== 0;
+                        })
+                        .map(function (key) {
+                            return caches.delete(key);
+                        })
+                    );
+                })
+        );
+    });
 
-  event.respondWith(
-    caches.open(CURRENT_CACHES['read-through']).then(function(cache) {
-      return cache.match(event.request).then(function(response) {
-        if (response) {
-          // If there is an entry in the cache for event.request, then response will be defined
-          // and we can just return it.
-          console.log(' Found response in cache:', response);
-
-          return response;
+    self.addEventListener('fetch', function (event) {
+        var request = event.request;
+        // Always fetch non-GET requests from the network
+        if (request.method !== 'GET') {
+            event.respondWith(
+                fetch(request)
+                    .catch(function () {
+                        return caches.match('/offline.html');
+                    })
+            );
+            return;
         }
 
-        // Otherwise, if there is no entry in the cache for event.request, response will be
-        // undefined, and we need to fetch() the resource.
-        console.log(' No response for %s found in cache. ' +
-          'About to fetch from network...', event.request.url);
+        // For HTML requests, try the network first, fall back to the cache, finally the offline page
+        if (request.headers.get('Accept').indexOf('text/html') !== -1) {
+            // Fix for Chrome bug: https://code.google.com/p/chromium/issues/detail?id=573937
+            if (request.mode != 'navigate') {
+                request = new Request(request.url, {
+                    method: 'GET',
+                    headers: request.headers,
+                    mode: request.mode,
+                    credentials: request.credentials,
+                    redirect: request.redirect
+                });
+            }
+            event.respondWith(
+                fetch(request)
+                    .then(function (response) {
+                        // Stash a copy of this page in the cache
+                        var copy = response.clone();
+                        caches.open(version + staticCacheName)
+                            .then(function (cache) {
+                                cache.put(request, copy);
+                            });
+                        return response;
+                    })
+                    .catch(function () {
+                        return caches.match(request)
+                            .then(function (response) {
+                                return response || caches.match('/offline.html');
+                            })
+                    })
+            );
+            return;
+        }
 
-        // We call .clone() on the request since we might use it in the call to cache.put() later on.
-        // Both fetch() and cache.put() "consume" the request, so we need to make a copy.
-        // (see https://fetch.spec.whatwg.org/#dom-request-clone)
-        return fetch(event.request.clone()).then(function(response) {
-          console.log('  Response for %s from network is: %O',
-            event.request.url, response);
+        // For non-HTML requests, look in the cache first, fall back to the network
+        event.respondWith(
+            caches.match(request)
+                .then(function (response) {
+                    return response || fetch(request)
+                            .catch(function () {
+                                // If the request is for an image, show an offline placeholder
+                                if (request.headers.get('Accept').indexOf('image') !== -1) {
+                                    return new Response('<svg width="400" height="300" role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#D8D8D8" d="M0 0h400v300H0z"/><text fill="#9B9B9B" font-family="Helvetica Neue,Arial,Helvetica,sans-serif" font-size="72" font-weight="bold"><tspan x="93" y="172">offline</tspan></text></g></svg>', { headers: { 'Content-Type': 'image/svg+xml' }});
+                                }
+                            });
+                })
+        );
+    });
 
-          // Optional: add in extra conditions here, e.g. response.type == 'basic' to only cache
-          // responses from the same domain. See https://fetch.spec.whatwg.org/#concept-response-type
-          if (response.status < 400) {
-            // This avoids caching responses that we know are errors (i.e. HTTP status code of 4xx or 5xx).
-            // One limitation is that, for non-CORS requests, we get back a filtered opaque response
-            // (https://fetch.spec.whatwg.org/#concept-filtered-response-opaque) which will always have a
-            // .status of 0, regardless of whether the underlying HTTP call was successful. Since we're
-            // blindly caching those opaque responses, we run the risk of caching a transient error response.
-            //
-            // We need to call .clone() on the response object to save a copy of it to the cache.
-            // (https://fetch.spec.whatwg.org/#dom-request-clone)
-            cache.put(event.request, response.clone());
-          }
-
-          // Return the original response object, which will be used to fulfill the resource request.
-          return response;
-        });
-      }).catch(function(error) {
-        // This catch() will handle exceptions that arise from the match() or fetch() operations.
-        // Note that a HTTP error response (e.g. 404) will NOT trigger an exception.
-        // It will return a normal response object that has the appropriate error code set.
-        console.error('  Read-through caching failed:', error);
-
-        throw error;
-      });
-    })
-  );
-});
+})();
