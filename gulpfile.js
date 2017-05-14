@@ -59,13 +59,6 @@ gulp.task('screenshot', function (done) {
 });
 
 
-// Requires http-server to be installed globally using `npm install -g http-server`
-gulp.task('serve-basic', function(done) {
-  return cp.spawn('http-server', ['-p', '9000', '_site'], {stdio: 'inherit'})
-    .on('close', done);
-});
-
-
 gulp.task('css', function (cb) {
   pump([
       gulp.src('css/_src/screen.scss'),
@@ -83,12 +76,28 @@ gulp.task('css', function (cb) {
 });
 
 
+gulp.task('js-libs', function (cb) {
+  pump([
+      gulp.src([
+        'js/_src/libs/smooth-scroll.js'
+      ]),
+      sourcemaps.init(),
+      concat('libs.min.js'),
+      uglify({preserveComments: 'license'}),
+      sourcemaps.write('.'),
+      gulp.dest('js')
+    ],
+    cb
+  );
+});
+
+
 gulp.task('js-custom', function (cb) {
 
   pump([
       gulp.src([
         'js/_src/load-deferred-images.js',
-        'js/_src/smooth-scroll.js'
+        'js/_src/smooth-scroll-init.js'
       ]),
       sourcemaps.init(),
       babel({
@@ -105,10 +114,10 @@ gulp.task('js-custom', function (cb) {
 });
 
 
-gulp.task('js-production', ['js-custom'], function (cb) {
+gulp.task('js-production', ['js-libs', 'js-custom'], function (cb) {
   pump([
       gulp.src([
-        // 'js/vendor.min.js',
+        'js/libs.min.js',
         'js/custom.min.js'
       ]),
       concat('bundle.min.js'),

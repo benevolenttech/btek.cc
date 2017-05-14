@@ -61,6 +61,7 @@ section {
   padding: 100px 0;
   background: #fff;
   margin-top: -2px;
+  position: relative;
 
   &.diagonal {
     -webkit-transform: skewY(-$section-rotation);
