@@ -27,6 +27,11 @@ gulp.task('cf-purge', function (done) {
     .on('close', done);
 });
 
+gulp.task('algolia-push', ['build-all'], function (done) {
+  cp.spawn('bundle', ['exec', 'jekyll', 'algolia', 'push'], {stdio: 'inherit'})
+    .on('close', done);
+});
+
 // Starts a webserver, takes a snapshot, closes webserver, optimizes snapshot
 // Requires http-server to be installed globally using `npm install -g http-server`
 // Requires imagemagick to be installed globally using `brew install imagemagick`
@@ -163,11 +168,9 @@ gulp.task('serve', ['browser-sync', 'watch']);
 
 gulp.task('build-all', ['css', 'js-production', 'jekyll-build']);
 
-gulp.task('deploy', ['build-all'], function (done) {
-  cp.spawn('bundle', ['exec', 'jekyll', 'algolia', 'push'], {stdio: 'inherit'}).on('close', function () {
-    cp.spawn('git', ['push'], {stdio: 'inherit'}).on('close',
-      done)
-  });
+gulp.task('deploy', ['algolia-push'], function (done) {
+  cp.spawn('git', ['push'], {stdio: 'inherit'})
+  .on('close', done)
 });
 
 gulp.task('default', ['build-all']);
