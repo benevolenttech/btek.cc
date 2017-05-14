@@ -5,3 +5,4 @@ _algolia_api_key
 node_modules
 assets/temp
 *.map
+tmp

@@ -45,15 +45,15 @@ gulp.task('screenshot', function (done) {
     .viewport(1200, 1200)
     .screenshot('tmp/screenshot.png')
     .end()
-    .then(function (result) { child.kill(); })
+    .then(function (result) { return child.kill(); })
     .then(function (result) {
       return cp.spawn('convert', ['-resize', '1200', 'tmp/screenshot.png', 'tmp/screenshot.jpg'], {stdio: 'inherit'})
-    })
-    .then(function (result) {
-      cp.spawn('jpegtran', ['-optimize', '-progressive', '-outfile', 'images/screenshot.square.jpg', 'tmp/screenshot.jpg'], {stdio: 'inherit'});
-    })
-    .then(function (result) {
-      cp.spawn('jpegtran', ['-optimize', '-progressive', '-crop', '1200x500', '-outfile', 'images/screenshot.fold.jpg', 'tmp/screenshot.jpg'], {stdio: 'inherit'});
+        .on('close', function() {
+          return cp.spawn('jpegtran', ['-optimize', '-progressive', '-outfile', 'images/screenshot.square.jpg', 'tmp/screenshot.jpg'], {stdio: 'inherit'})
+            .on('close', function () {
+              return cp.spawn('jpegtran', ['-optimize', '-progressive', '-crop', '1200x500', '-outfile', 'images/screenshot.fold.jpg', 'tmp/screenshot.jpg'], {stdio: 'inherit'});
+            });
+        });
     })
     .catch(function (error) {
       child.kill();
