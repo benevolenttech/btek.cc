@@ -84,11 +84,12 @@ algolia:
       - newsletter-success.html
 
 gems:
-  - "jekyll-feed"
-  - "jekyll-seo-tag"
-  - "jekyll-paginate-v2"
-  - "jekyll-archives"
-  - "algoliasearch-jekyll"
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+  - jekyll-archives
+  - algoliasearch-jekyll
+
 
 exclude:
   - Gemfile
@@ -96,6 +97,7 @@ exclude:
   - README.md
   - LICENCE
   - node_modules
+  - gulpfile.js
 
 defaults:
   - scope:

@@ -8,7 +8,7 @@ date: 2017-12-22 11:10:13
 next: 2017-01-01-how-to-make-your-site-search-engine-friendly
 description: With just a few steps, you'll easily double client leads. 
 subtitle: With just a few steps, you'll easily double client leads.
-image: /assets/images/benevolent_tech_dc_seo.png
+image: /images/benevolent_tech_dc_seo.png
 ---
 
 

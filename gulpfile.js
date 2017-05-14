@@ -9,27 +9,74 @@ var pump = require('pump');
 var sourcemaps = require('gulp-sourcemaps');
 var babel = require('gulp-babel');
 var uglify = require('gulp-uglify');
+var nightmare = require('nightmare');
+var imagemin = require('gulp-imagemin');
+
+
+gulp.task('optimize-images', function () {
+  gulp.src(['images/**/*', 'uploads/**/*'])
+    .pipe(imagemin())
+    .pipe(gulp.dest('images'));
+});
 
 
 // Just a shortcut for purging cloudflare
-gulp.task('cf-purge', function(done) {
+// Requires cfcli to be installed globally using `npm install -g cfcli`
+gulp.task('cf-purge', function (done) {
   return cp.spawn('cfcli', ['purge', '-d', 'benevolent.tech'], {stdio: 'inherit'})
+    .on('close', done);
+});
+
+// Starts a webserver, takes a snapshot, closes webserver, optimizes snapshot
+// Requires http-server to be installed globally using `npm install -g http-server`
+// Requires imagemagick to be installed globally using `brew install imagemagick`
+// Requires jpegtran to be installed globally using `brew install jpegtran`
+gulp.task('screenshot', function (done) {
+
+  var child = cp.spawn('http-server', ['-p', '9000', '_site'], {stdio: 'inherit'});
+
+  return nightmare()
+    .goto('http://localhost:9000')
+    .viewport(1200, 1200)
+    .screenshot('tmp/screenshot.png')
+    .end()
+    .then(function (result) { child.kill(); })
+    .then(function (result) {
+      return cp.spawn('convert', ['-resize', '1200', 'tmp/screenshot.png', 'tmp/screenshot.jpg'], {stdio: 'inherit'})
+    })
+    .then(function (result) {
+      cp.spawn('jpegtran', ['-optimize', '-progressive', '-outfile', 'images/screenshot.square.jpg', 'tmp/screenshot.jpg'], {stdio: 'inherit'});
+    })
+    .then(function (result) {
+      cp.spawn('jpegtran', ['-optimize', '-progressive', '-crop', '1200x500', '-outfile', 'images/screenshot.fold.jpg', 'tmp/screenshot.jpg'], {stdio: 'inherit'});
+    })
+    .catch(function (error) {
+      child.kill();
+      console.error('Screenshot failed:', error);
+      return done(error);
+    })
+    ;
+});
+
+
+// Requires http-server to be installed globally using `npm install -g http-server`
+gulp.task('serve-basic', function(done) {
+  return cp.spawn('http-server', ['-p', '9000', '_site'], {stdio: 'inherit'})
     .on('close', done);
 });
 
 
 gulp.task('css', function (cb) {
   pump([
-      gulp.src('_sass/screen.scss'),
+      gulp.src('css/_src/screen.scss'),
       compass({
-        css: 'assets',
-        sass: '_sass',
-        image: 'assets/images',
-        sourcemap: 'assets'
-      }),
-      minifyCss(),
+        css: 'css',
+        sass: 'css/_src',
+        image: 'images',
+        sourcemap: 'css',
+        style: 'compressed'
+      })
       // browserSync.reload({stream: true}),
-      gulp.dest('assets/temp')
     ],
     cb
   );
@@ -40,8 +87,8 @@ gulp.task('js-custom', function (cb) {
 
   pump([
       gulp.src([
-        '_js/load-deferred-images.js',
-        '_js/smooth-scroll.js'
+        'js/_src/load-deferred-images.js',
+        'js/_src/smooth-scroll.js'
       ]),
       sourcemaps.init(),
       babel({
@@ -51,7 +98,7 @@ gulp.task('js-custom', function (cb) {
       concat('custom.min.js'),
       sourcemaps.write('.'),
       // browserSync.reload({stream: true}),
-      gulp.dest('assets')
+      gulp.dest('js')
     ],
     cb
   );
@@ -61,12 +108,12 @@ gulp.task('js-custom', function (cb) {
 gulp.task('js-production', ['js-custom'], function (cb) {
   pump([
       gulp.src([
-        // 'assets/vendor.min.js',
-        'assets/custom.min.js'
+        // 'js/vendor.min.js',
+        'js/custom.min.js'
       ]),
       concat('bundle.min.js'),
-      uglify({ preserveComments: 'license' }),
-      gulp.dest('assets')
+      uglify({preserveComments: 'license'}),
+      gulp.dest('js')
     ],
     cb
   );
@@ -98,9 +145,9 @@ gulp.task('browser-sync', ['js-custom', 'css', 'jekyll-build'], function () {
 
 
 gulp.task('watch', function () {
-  gulp.watch('_sass/*', ['css']);
-  gulp.watch('_js/*', ['js-custom']);
-  gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*', 'assets/screen.css', 'assets/bundle.js'], ['jekyll-rebuild']);
+  gulp.watch('css/_src/*', ['css']);
+  gulp.watch('js/_src/*', ['js-production']);
+  gulp.watch(['_config.yml', '*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md', 'css/*.css', 'js/*.js'], ['jekyll-rebuild']);
 });
 
 gulp.task('serve', ['browser-sync', 'watch']);

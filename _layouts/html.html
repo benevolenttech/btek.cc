@@ -7,7 +7,7 @@
   <meta name="generator" content="Jekyll v{{ jekyll.version }}">
   <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.ico">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico">
   <meta property="fb:app_id" content="1299829076759410">
 
   {% seo %}
@@ -34,7 +34,7 @@
 
   {% include ie.html %}
   {% include register-service-worker.html %}
-  <link rel="stylesheet" href="/assets/screen.css" />
+  <link rel="stylesheet" href="/css/screen.css" />
 
 </head>
 <body>
@@ -42,15 +42,15 @@
 {{ content }}
 
 {% if jekyll.environment == 'production' %}
-<script defer async type="text/javascript" src="/assets/bundle.min.js"></script>
+<script defer async type="text/javascript" src="/js/bundle.min.js"></script>
 {% else %}
-<script defer async type="text/javascript" src="/assets/custom.min.js"></script>
+<script defer async type="text/javascript" src="/js/custom.min.js"></script>
 {% endif %}
 
 {% include google-tag-manager.html %}
 
 <!-- Load instantsearch last b/c is really big, and only needed for search page. -->
-<script async defer src="/assets/instantsearch.min.js"></script>
+<script async defer src="/js/instantsearch.min.js"></script>
 
 </body>
 </html>

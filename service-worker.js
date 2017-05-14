@@ -15,7 +15,7 @@
         return caches.open(version + staticCacheName)
             .then(function (cache) {
                 return cache.addAll([
-                    '/assets/images/logo.png',
+                    '/images/logo.png',
                     '/',
                     '/offline.html'
                 ]);
