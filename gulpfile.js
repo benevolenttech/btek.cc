@@ -84,7 +84,8 @@ gulp.task('css', function (cb) {
 gulp.task('js-libs', function (cb) {
   pump([
       gulp.src([
-        'js/_src/libs/smooth-scroll.js'
+        'js/_src/libs/smooth-scroll.js',
+        'js/_src/libs/echo.js'
       ]),
       sourcemaps.init(),
       concat('libs.min.js'),
@@ -98,11 +99,9 @@ gulp.task('js-libs', function (cb) {
 
 
 gulp.task('js-custom', function (cb) {
-
   pump([
       gulp.src([
-        'js/_src/load-deferred-images.js',
-        'js/_src/smooth-scroll-init.js'
+        'js/_src/example.js'
       ]),
       sourcemaps.init(),
       babel({

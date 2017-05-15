@@ -599,3 +599,7 @@
   return smoothScroll;
 
 }));
+
+window.addEventListener("load", function () {
+    smoothScroll.init({selector: "a[href*=\\#]"}); // default selector = [data-scroll]
+});
