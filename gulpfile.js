@@ -140,8 +140,12 @@ gulp.task('jekyll-build', ['css', 'js-production'], function (done) {
 });
 
 
-gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
-  browserSync.reload();
+gulp.task('jekyll-rebuild', function (done) {
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--incremental'], {stdio: 'inherit'})
+      .on('close', function () {
+        browserSync.reload();
+        return done();
+      });
 });
 
 
@@ -159,7 +163,7 @@ gulp.task('browser-sync', ['js-custom', 'css', 'jekyll-build'], function () {
 
 gulp.task('watch', function () {
   gulp.watch('css/_src/*', ['css']);
-  gulp.watch('js/_src/*', ['js-production']);
+  gulp.watch('js/_src/*', ['js-custom']);
   gulp.watch(['_config.yml', 'learning/*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md', '_plugins/*', 'css/*.css', 'js/*.js'], ['jekyll-rebuild']);
 });
 
