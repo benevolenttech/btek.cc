@@ -600,6 +600,7 @@
 
 }));
 
+smoothScroll.init({selector: "a[href*=\\#]"}); // default selector = [data-scroll]
 window.addEventListener("load", function () {
     smoothScroll.init({selector: "a[href*=\\#]"}); // default selector = [data-scroll]
 });

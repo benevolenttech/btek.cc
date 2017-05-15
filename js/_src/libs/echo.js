@@ -135,9 +135,7 @@
 });
 
 // Init after dom is loaded but before everything is loaded
-document.addEventListener("load", function() {
-    echo.init({
-        offset: 1000,
-        unload: true
-    });
+echo.init({
+    offset: 1000,
+    unload: true
 });
