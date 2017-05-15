@@ -34,8 +34,8 @@ gulp.task('algolia-push', ['build-all'], function (done) {
 
 // Starts a webserver, takes a snapshot, closes webserver, optimizes snapshot
 // Requires http-server to be installed globally using `npm install -g http-server`
-// Requires imagemagick to be installed globally using `brew install imagemagick`
-// Requires jpegtran to be installed globally using `brew install jpegtran`
+// Requires imagemagick to be installed globally using `brew install -g imagemagick`
+// Requires jpegtran to be installed globally using `brew install -g jpegtran`
 gulp.task('screenshot', function (done) {
 
   var child = cp.spawn('http-server', ['-p', '9000', '_site'], {stdio: 'inherit'});
@@ -161,7 +161,7 @@ gulp.task('browser-sync', ['js-custom', 'css', 'jekyll-build'], function () {
 gulp.task('watch', function () {
   gulp.watch('css/_src/*', ['css']);
   gulp.watch('js/_src/*', ['js-production']);
-  gulp.watch(['_config.yml', '*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md', 'css/*.css', 'js/*.js'], ['jekyll-rebuild']);
+  gulp.watch(['_config.yml', 'learning/*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md', '_plugins/*', 'css/*.css', 'js/*.js'], ['jekyll-rebuild']);
 });
 
 gulp.task('serve', ['browser-sync', 'watch']);

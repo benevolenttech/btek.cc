@@ -88,6 +88,8 @@ gems:
   - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-mentions
   - algoliasearch-jekyll
 
 
@@ -98,6 +100,10 @@ exclude:
   - LICENCE
   - node_modules
   - gulpfile.js
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
 
 defaults:
   - scope:
