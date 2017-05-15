@@ -1,7 +1,7 @@
 // sass --watch _sass/screen.scss:_includes/screen.css --style compressed
 
-$pattern: "{{ site.baseurl }}/images/pattern.png";
-$screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
+$pattern: "/images/pattern.png";
+$screenshot-buttons: "/images/screenshot-buttons.svg";
 
 $brand-color: #94040B;
 $html-background-color: #222;
