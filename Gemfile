@@ -11,6 +11,6 @@ group :jekyll_plugins do
 	gem 'jekyll_image_encode'
 	gem 'jekyll-sitemap'
 	gem 'jekyll-mentions'
-	gem 'algoliasearch-jekyll'
+	# gem 'algoliasearch-jekyll'
 end
 

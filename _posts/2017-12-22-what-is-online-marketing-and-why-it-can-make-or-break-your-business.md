@@ -6,8 +6,8 @@ author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-12-22 11:10:13
 next: 2017-01-01-how-to-make-your-site-search-engine-friendly
-description: "With just a few steps, you'll easily double client leads."
-subtitle: "With just a few steps, you'll easily double client leads."
+description: "Can Online Marketing Make or Break Your Business? You bet it can."
+subtitle: "Can Online Marketing Make or Break Your Business? You bet it can."
 image: /images/benevolent_tech_dc_seo.png
 ---
 
