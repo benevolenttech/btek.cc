@@ -14,9 +14,9 @@ image: /images/benevolent_tech_dc_seo.png
 
 In this first of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-1. **What is Online Marketing, and Why it Can Make or Break Your Business**
-2. Make your site search engine friendly &lt;– you are here
-3. Plan your content
+1. **What is Online Marketing, and Why it Can Make or Break Your Business &lt;– you are here**
+2. [Make your site search engine friendly ]({% post_url 2017-01-01-how-to-make-your-site-search-engine-friendly %})
+3. [Plan your content]({% post_url 2017-01-13-how-to-plan-your-content %})
 4. Write content worth sharing
 5. Encourage sharing (coming soon)
 6. Advertise on a budget (coming soon)
