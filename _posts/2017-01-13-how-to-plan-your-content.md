@@ -113,6 +113,8 @@ There are some excellent paid online services out there such as [Woorank.com](ht
 
 2) [SEMrush.com](http://www.semrush.com/)&nbsp;allows you to run a number of free reports that show you the top keywords for the domain you enter. This is a quick way to get a sense of the types of terms your competitors are ranking for.
 
+3) [Hubspot's Website Grader](https://website.grader.com/)&nbsp;is a dead simple website testbench -- get insights in 30 seconds!
+
 Finally, compare and contrast your competitor’s keywords with the keywords you’ve developed.
 
 ## **And … You're done!**
