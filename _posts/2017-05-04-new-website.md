@@ -6,7 +6,7 @@ author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-05-05 14:05:06
 next: 2017-05-30-catch-us-on-rhode-island-radio
-description: Months in the works, this new skin feels right. Armed to the nines, we're launching a new marketing campaign!
+description: Months in the works, this new skin feels right. Armed to the teeth, we're launching a new marketing campaign!
 subtitle: Months in the works, this new skin feels right.
 image: /images/benevolent_tech_dc_seo.png
 ---
