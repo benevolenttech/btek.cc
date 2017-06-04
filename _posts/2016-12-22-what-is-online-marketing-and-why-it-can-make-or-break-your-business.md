@@ -5,7 +5,7 @@ categories:
 author_staff_member: brian-dombrowski
 show_comments: true
 date: 2016-12-22 11:10:13
-next: 2016-01-01-how-to-make-your-site-search-engine-friendly
+next: 2017-01-20-how-to-make-your-site-search-engine-friendly
 description: "Can Online Marketing Make or Break Your Business? You bet it can."
 subtitle: "Can Online Marketing Make or Break Your Business? You bet it can."
 image: /images/benevolent_tech_dc_seo.png
@@ -15,9 +15,9 @@ image: /images/benevolent_tech_dc_seo.png
 In this first of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
 1. **What is Online Marketing, and Why it Can Make or Break Your Business &lt;– you are here**
-2. [Make your site search engine friendly ]({% post_url 2017-01-01-how-to-make-your-site-search-engine-friendly %})
-3. [Plan your content]({% post_url 2017-01-13-how-to-plan-your-content %})
-4. Write content worth sharing
+2. [Make your site search engine friendly ]({% post_url 2017-01-20-how-to-make-your-site-search-engine-friendly %})
+3. [Plan your content]({% post_url 2017-03-21-how-to-plan-your-content %})
+4. [Write content worth sharing]({% post_url 2017-05-01-how-to-write-content-worth-sharing %})
 5. Encourage sharing (coming soon)
 6. Advertise on a budget (coming soon)
    <br>&nbsp;

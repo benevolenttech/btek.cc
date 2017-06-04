@@ -4,8 +4,8 @@ categories:
   - Marketing
 author_staff_member: brian-dombrowski
 show_comments: true
-date: 2017-01-13 14:05:06
-next: 2017-02-01-how-to-write-content-worth-sharing
+date: 2017-03-21 14:05:06
+next: 2017-05-01-how-to-write-content-worth-sharing
 description: Get more people to your website by creating content they look for.
 subtitle: Get more people to your website by creating content they look for.
 image: /images/benevolent_tech_dc_seo.png
@@ -14,10 +14,10 @@ image: /images/benevolent_tech_dc_seo.png
 
 In this third of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-1. [What is Online Marketing, and Why it Can Make or Break Your Business]({% post_url 2017-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business %})
-2. [Make your site search engine friendly]({% post_url 2017-01-01-how-to-make-your-site-search-engine-friendly %})
+1. [What is Online Marketing, and Why it Can Make or Break Your Business]({% post_url 2016-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business %})
+2. [Make your site search engine friendly]({% post_url 2017-01-20-how-to-make-your-site-search-engine-friendly %})
 3. **Plan your content &lt;– you are here**
-4. [Write content worth sharing]({% post_url 2017-02-01-how-to-write-content-worth-sharing %})
+4. [Write content worth sharing]({% post_url 2017-05-01-how-to-write-content-worth-sharing %})
 5. Encourage sharing (coming soon)
 6. Advertise on a budget (coming soon)
    <br>&nbsp;

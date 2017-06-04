@@ -4,8 +4,8 @@ categories:
   - Marketing
 author_staff_member: brian-dombrowski
 show_comments: true
-date: 2017-02-01 14:05:06
-next: 2017-01-01-how-to-make-your-site-search-engine-friendly
+date: 2017-05-01 14:05:06
+next: 2017-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business
 description: Getting people on your website is just the beginning – you need great content to go viral.
 subtitle: Getting people on your website is just the beginning – you need great content to go viral.
 image: /images/benevolent_tech_dc_seo.png
@@ -14,9 +14,9 @@ image: /images/benevolent_tech_dc_seo.png
 
 In this fourth of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-1. [What is Online Marketing, and Why it Can Make or Break Your Business]({% post_url 2017-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business %})
-2. [Make your site search engine friendly]({% post_url 2017-01-01-how-to-make-your-site-search-engine-friendly %})
-3. [Plan your content]({% post_url 2017-01-13-how-to-plan-your-content %})
+1. [What is Online Marketing, and Why it Can Make or Break Your Business]({% post_url 2016-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business %})
+2. [Make your site search engine friendly]({% post_url 2017-01-20-how-to-make-your-site-search-engine-friendly %})
+3. [Plan your content]({% post_url 2017-03-21-how-to-plan-your-content %})
 4. **Write content worth sharing &lt;– you are here**
 5. Encourage sharing (coming soon)
 6. Advertise on a budget (coming soon)

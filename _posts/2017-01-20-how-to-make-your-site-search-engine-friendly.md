@@ -4,8 +4,8 @@ categories:
   - Marketing
 author_staff_member: brian-dombrowski
 show_comments: true
-date: 2017-01-01 11:10:13
-next: 2017-01-13-how-to-plan-your-content
+date: 2017-01-20 11:10:13
+next: 2017-03-21-how-to-plan-your-content
 description: Follow these guidelines to avoid certain death by search engine gods.
 subtitle: Follow these guidelines to avoid certain death by search engine gods.
 image: /images/benevolent_tech_dc_seo.png
@@ -14,10 +14,10 @@ image: /images/benevolent_tech_dc_seo.png
 
 In this second of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
 
-1. [What is Online Marketing, and Why it Can Make or Break Your Business]({% post_url 2017-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business %})
+1. [What is Online Marketing, and Why it Can Make or Break Your Business]({% post_url 2016-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business %})
 2. **Make your site search engine friendly &lt;– you are here**
-3. [Plan your content]({% post_url 2017-01-13-how-to-plan-your-content %})
-4. [Write content worth sharing]({% post_url 2017-02-01-how-to-write-content-worth-sharing %})
+3. [Plan your content]({% post_url 2017-03-21-how-to-plan-your-content %})
+4. [Write content worth sharing]({% post_url 2017-05-01-how-to-write-content-worth-sharing %})
 5. Encourage sharing (coming soon)
 6. Advertise on a budget (coming soon)
 <br><br>
