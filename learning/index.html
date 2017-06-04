@@ -4,8 +4,8 @@ title: Learning Center
 heading: Learning Center
 subtitle: Our tips and tricks on charting the digital world.
 description: Our tips and tricks on charting the digital world.
-pagination:
-  enabled: true
+#pagination:
+#  enabled: true
 ---
 
 <section class="share diagonal alternate" style="padding:10px 0;">
@@ -21,10 +21,19 @@ pagination:
 	<div class="text-container">
 	    <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
 		<ul class="blog-posts">
-			<!-- {% for post in site.posts %}
+
+			{% comment %}
+			Can't figure out how to do the below with exclude, so I did it the long way.
+			{% assign posts = site.posts | where_exp:"item", "item.categories contains 'News'" %}
+			{% endcomment %}
+
+			{% for post in site.posts %}
+			{% unless post.categories contains 'News' %}
 			<li class="blog-post">{% include post-summary.html post=post %}</li>
-			{% endfor %} -->
-			{% include list-posts.html posts=paginator.posts %}
+			{% endunless %}
+			{% endfor %}
+
+			<!--{% include list-posts.html posts=paginator.posts %}-->
 		</ul>
 	</div>
 </section>
