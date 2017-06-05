@@ -25,7 +25,7 @@ collections:
   clients:
     output: false
 
-permalink: /post/:title.html
+permalink: /posts/:title.html
 
 # These are for paginate v1
 # paginate: 6
