@@ -8,7 +8,7 @@ date: 2017-05-01 14:05:06
 next: 2017-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business
 description: Getting people on your website is just the beginning – you need great content to go viral.
 subtitle: Getting people on your website is just the beginning – you need great content to go viral.
-image: /images/benevolent_tech_dc_seo.png
+image: /images/dc_marketing_seo.png
 ---
 
 

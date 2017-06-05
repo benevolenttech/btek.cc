@@ -8,7 +8,7 @@ date: 2017-03-21 14:05:06
 next: 2017-05-01-how-to-write-content-worth-sharing
 description: Get more people to your website by creating content they look for.
 subtitle: Get more people to your website by creating content they look for.
-image: /images/benevolent_tech_dc_seo.png
+image: /images/dc_marketing_seo.png
 ---
 
 
