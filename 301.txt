@@ -1,8 +1,8 @@
-/marketing/how-to-write-content-worth-sharing /post/how-to-write-content-worth-sharing
-/marketing/how-to-make-your-site-search-engine-friendly /post/how-to-make-your-site-search-engine-friendly
-/learning/catch-us-on-rhode-island-radio /post/catch-us-on-rhode-island-radio
-/learning/new-website /post/new-website
-/learning/how-to-write-content-worth-sharing /post/how-to-write-content-worth-sharing
-/learning/how-to-plan-your-content /post/how-to-plan-your-content
-/learning/how-to-make-your-site-search-engine-friendly /post/how-to-make-your-site-search-engine-friendly
-/learning/what-is-online-marketing-and-why-it-can-make-or-break-your-business /post/what-is-online-marketing-and-why-it-can-make-or-break-your-business
+/marketing/how-to-write-content-worth-sharing /posts/how-to-write-content-worth-sharing
+/marketing/how-to-make-your-site-search-engine-friendly /posts/how-to-make-your-site-search-engine-friendly
+/learning/catch-us-on-rhode-island-radio /posts/catch-us-on-rhode-island-radio
+/learning/new-website /posts/new-website
+/learning/how-to-write-content-worth-sharing /posts/how-to-write-content-worth-sharing
+/learning/how-to-plan-your-content /posts/how-to-plan-your-content
+/learning/how-to-make-your-site-search-engine-friendly /posts/how-to-make-your-site-search-engine-friendly
+/learning/what-is-online-marketing-and-why-it-can-make-or-break-your-business /posts/what-is-online-marketing-and-why-it-can-make-or-break-your-business
