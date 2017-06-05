@@ -4,10 +4,16 @@ layout: default
 <section class="hero diagonal">
 	<div class="container" {% if page.full_width %}style="max-width: 100%"{% endif %}>
 		{% if page.heading %}
-			<h2>{{ page.heading }}</h2>
+			{% assign heading = page.heading %}
 		{% elsif page.title %}
-			<h2>{{ page.title }}</h2>
+			{% assign heading = page.title %}
 		{% endif %}
+
+		{% if heading %}
+			<h1 style="display:none;">{{ heading }}</h1>
+			<h2>{{ heading }}</h2>
+		{% endif %}
+
 		{% if page.subtitle %}
 			<p class="subtext">
 				{{ page.subtitle }}
