@@ -7,5 +7,5 @@ date:
 description:
 subtitle: 
 next:
-image: /images/benevolent_tech_dc_seo.png
+image: /images/dc_marketing_seo.png
 ---
