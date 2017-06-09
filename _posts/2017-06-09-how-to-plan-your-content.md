@@ -4,7 +4,7 @@ categories:
   - Marketing
 author_staff_member: brian-dombrowski
 show_comments: true
-date:
+date: 2017-06-09 12:46:27
 ---
 
 
@@ -12,7 +12,7 @@ In this second of our SEO primer series, we cover the highest impact strategies 
 
 1. Make your site search engine friendly
 2. **Plan your content &lt;– you are here**
-3. Write content worth sharing
+3. Write content worth **sharing**
 4. Encourage sharing
 5. Advertise on a budget
 
@@ -54,7 +54,7 @@ Step 1: Make a list of important, relevant topics based on what you know about y
 
 To kick off this process, think about the topics you want to rank for in terms of generic buckets. You'll come up with about 5-10 topic buckets you think are important to your business, and then you'll use those topic buckets to help come up with some specific keywords later in the process.
 
-If you were a company like Benevolent Tech, for example -- selling marketing services and software consulting -- you might have general topic buckets like “SEO Companies in DC”, “Email Marketing in DC", “responsive website design" and "marketing automation."
+If you were a company like Benevolent Tech, for example – selling marketing services and software consulting – you might have general topic buckets like “SEO Companies in DC”, “Email Marketing in DC", “responsive website design" and "marketing automation."
 
 Make sense?
 
@@ -62,7 +62,7 @@ Step 2: Fill in those topic buckets with keywords.
 
 Now that you have a few topic buckets you want to focus on, it's time to identify some keywords that fall into those buckets. These are keyword phrases you think are important to rank for in the SERPs (search engine results pages) because your target customer is probably conducting searches for those specific terms.
 
-For instance, if I took that last topic bucket for an inbound marketing software company -- "marketing automation" -- I'd brainstorm some keyword phrases that I think people would type in related to that topic. Those might include:
+For instance, if I took that last topic bucket for an inbound marketing software company – "marketing automation" – I'd brainstorm some keyword phrases that I think people would type in related to that topic. Those might include:
 
 what is seo?
 
@@ -80,7 +80,7 @@ how to use Google Adwords Keyword Planner?
 
 top seo tools
 
-And so on and so on. The point of this step isn't to come up with your final list of keyword phrases -- you just want to end up with a brain dump of phrases you think potential customers might use to search for content related to that particular topic bucket. We'll narrow the lists down later in the process so you don't have something too unwieldy.
+And so on and so on. The point of this step isn't to come up with your final list of keyword phrases – you just want to end up with a brain dump of phrases you think potential customers might use to search for content related to that particular topic bucket. We'll narrow the lists down later in the process so you don't have something too unwieldy.
 
 Step 2: Find out which keywords your website is already getting found for
 
@@ -110,13 +110,13 @@ Now that you've got the right mix of keywords, it's time to narrow down your lis
 
 I like to use a mix of the Google AdWords Keyword Planner (you'll need to set up an AdWords account for this, but that doesn't mean you have to create an ad), and Google Trends.
 
-Use the Keyword Planner to flag any terms on your list that have way too little (or way too much) search volume, and don't help you maintain a healthy mix like we talked about above. But before you delete anything, check out their trend history and projections in Google Trends. You can see whether, say, some low-volume terms might actually be something you should invest in now -- and reap the benefits for later.
+Use the Keyword Planner to flag any terms on your list that have way too little (or way too much) search volume, and don't help you maintain a healthy mix like we talked about above. But before you delete anything, check out their trend history and projections in Google Trends. You can see whether, say, some low-volume terms might actually be something you should invest in now – and reap the benefits for later.
 
-And ... You're done!
+And … You're done!
 
 Congratulations! You've now got a list of keywords that'll help you focus on the right topics for your business, and get you some short-term and long-term gains. You can even download our free SEO template to help you organize your keywords and track which terms you're focusing on for different pages of your website.
 
-Be sure to re-evaluate these keywords every few months -- once a quarter is a good benchmark, but some businesses like to do it even more often than that. As you gain even more authority in the SERPs, you'll find that you can add more and more keywords to your lists to tackle as you work on maintaining your current presence, and then growing in new areas on top of that. &nbsp;I also love using Wordle to metric my usage of keywords within content.
+Be sure to re-evaluate these keywords every few months – once a quarter is a good benchmark, but some businesses like to do it even more often than that. As you gain even more authority in the SERPs, you'll find that you can add more and more keywords to your lists to tackle as you work on maintaining your current presence, and then growing in new areas on top of that. &nbsp;I also love using Wordle to metric my usage of keywords within content.
 
 Next Up: How to make good content
 
