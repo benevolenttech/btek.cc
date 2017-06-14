@@ -90,7 +90,7 @@ gems:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-mentions
-  # - algoliasearch-jekyll
+  - algoliasearch-jekyll
 
 
 exclude:
