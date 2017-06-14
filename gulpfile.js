@@ -135,7 +135,7 @@ gulp.task('js-production', ['js-libs', 'js-custom'], function (cb) {
 
 gulp.task('jekyll-build', ['css', 'js-production'], function (done) {
   browserSync.notify('<span style="color: grey">Running:</span> $ bundle exec jekyll build');
-  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--incremental'], {stdio: 'inherit'})
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
     .on('close', done);
 });
 
@@ -164,7 +164,7 @@ gulp.task('browser-sync', ['js-custom', 'css', 'jekyll-build'], function () {
 gulp.task('watch', function () {
   gulp.watch('css/_src/*', ['css']);
   gulp.watch('js/_src/*', ['js-custom']);
-  gulp.watch(['_config.yml', '**/*.html', '!_site/**/*', '_posts/*.md', '_plugins/*', 'css/*.css', 'js/*.js'], ['jekyll-rebuild']);
+  gulp.watch(['_config.yml', '**/*.html', '**/*.md', 'images/**/*', '!_site/**/*', '_posts/*.md', '_plugins/*', 'css/*.css', 'js/*.js'], ['jekyll-rebuild']);
 });
 
 gulp.task('serve', ['browser-sync', 'watch']);
