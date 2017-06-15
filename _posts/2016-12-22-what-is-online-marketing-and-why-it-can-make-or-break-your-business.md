@@ -8,7 +8,7 @@ date: 2016-12-22 11:10:13
 next: 2017-01-20-how-to-make-your-site-search-engine-friendly
 description: "Can Online Marketing Make or Break Your Business? You bet it can."
 subtitle: "Can Online Marketing Make or Break Your Business? You bet it can."
-image: /images/dc_marketing_seo.png
+image: /images/dc_seo_dive.png
 ---
 
 
