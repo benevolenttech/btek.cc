@@ -2,6 +2,9 @@
 title: How to Plan Your Content
 categories:
   - Marketing
+  - SEO
+series:
+  - SEO Primer
 author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-03-21 14:05:06
@@ -12,19 +15,9 @@ image: /images/dc_marketing_seo.png
 ---
 
 
-In this third of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
+So, you have an awesome business which basically sells itself? Think your three or four webpages will be enough to grab attention from search engines and social media? Your odds are pretty grim, friend. If you think you don’t need a blog, think again. In this third edition of our [SEO primer series](/seo-primer-series), we tell you how to find the optimal topics to write about to lure people in.
 
-1. [What is Online Marketing, and Why it Can Make or Break Your Business]({% post_url 2016-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business %})
-2. [Make your site search engine friendly]({% post_url 2017-01-20-how-to-make-your-site-search-engine-friendly %})
-3. **Plan your content &lt;– you are here**
-4. [Write content worth sharing]({% post_url 2017-05-01-how-to-write-content-worth-sharing %})
-5. Encourage sharing (coming soon)
-6. Advertise on a budget (coming soon)
-   <br>&nbsp;
-
-## **You Should Be Planning Your Content**
-
-So, you have an awesome business which basically sells itself? Think your three or four webpages will be enough to grab attention from search engines and social media? Your odds are pretty grim, friend. If you think you don’t need a blog, think again.
+**You Should Be Planning Your Content**
 
 Creating valuable content frequently can do wonders for your website. Every page on your website is an opportunity to share with your mailing lists, social media, build reputation, and keep visitors not just engaged, but happy! Think of it like standing around a 21st Century water cooler. On top of that, the more attention and reputation you attain, the higher your website will rank in search engines.
 

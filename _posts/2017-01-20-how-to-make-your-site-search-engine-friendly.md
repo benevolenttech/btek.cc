@@ -2,6 +2,9 @@
 title: How to Make Your Site Search Engine Friendly
 categories:
   - Marketing
+  - SEO
+series:
+  - SEO Primer
 author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-01-20 11:10:13
@@ -12,33 +15,7 @@ image: /uploads/dc_seo_how_to_make_your_site_search_engine_friendly.jpg
 ---
 
 
-In this second of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
-
-1. [What is Online Marketing, and Why it Can Make or Break Your Business]({% post_url 2016-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business %})
-2. **Make your site search engine friendly &lt;– you are here**
-3. [Plan your content]({% post_url 2017-03-21-how-to-plan-your-content %})
-4. [Write content worth sharing]({% post_url 2017-05-01-how-to-write-content-worth-sharing %})
-5. Encourage sharing (coming soon)
-6. Advertise on a budget (coming soon)
-<br><br>
-
-## **Series Introduction**
-
-Depending on how old you are, you might remember the early days of the Internet, which were sometime around the mid to late 1990s. In those days, there was no Google. The main search engines were Yahoo and AOL, and let’s face it, we remember just how user-un-friendly AOL tended to be.
-
-Yahoo, in those days, looked somewhat like Google does now: a bit Spartan in appearance, though with some obvious differences, such as clickable category links (e.g. sports, religion, business, etc) that took you to sub-categories. Once you clicked on the sub-category you wanted, that sub-category took you either to more sub-categories, or to lists of indexed URLs.
-
-These were also the early days of Internet browsers, with no tablets or smart phones with horizontal or vertical screen views. Internet Explorer duked it out with Netscape Navigator for popularity and usability, while Safari stayed (as it always has) in the strict “core” of Apple’s user base. And Opera, like it always has, struggled to make itself be noticed like an eternal prom-queen-wannabe who never got elected, let alone had a decent dance with her crush.
-
-Feels like ancient history now, doesn’t it? Feels like we’re a mite spoiled here in “the future,” especially now that we have Google, the once-upon-a-time school project, which has become the mother of all search engines. Remember any of the other search engines from the 90s and early 00’s? Neither do we.
-
-Of course, because Google has become this behemoth with its own distinct algorithms that make searching the now equally gigantic world of the “information superhighway” all the easier to navigate, gaining a spot in the first ten search results has turned into an ongoing battle that rivals the competitive force of the Olympic games. Only you’re looking to be the Michael Phelps of the search rankings, and not so much the swimming pool.&nbsp;
-
-So, in order to help you get to that top spot, or at least help you get to the top page of listings, we’ve put together this SEO primer series of articles. In this series, we cover the highest impact strategies to attract more people to your site.
-
-## **Part 1: How to Make Your Site Search Engine Friendly**
-
-You may have a huge fanbase and massive traffic, but ignoring search engine and social network guidelines will sink your online visibility faster than hitting an iceberg on a foggy night.
+You may have a huge fanbase and massive traffic, but ignoring search engine and social network guidelines will sink your online visibility faster than hitting an iceberg on a foggy night. In this second edition of our [SEO primer series](/seo-primer-series), we cover the critical website requirements for getting on to the search engines.
 
 Most website platforms support these guidelines, but many of them don't out of the box. Do your homework and research your options -- [or have us do it for you.](/contact)
 

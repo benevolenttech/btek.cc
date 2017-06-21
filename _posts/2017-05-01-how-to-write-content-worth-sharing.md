@@ -2,6 +2,9 @@
 title: How to Write Content Worth Sharing
 categories:
   - Marketing
+  - SEO
+series:
+  - SEO Primer
 author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-05-01 14:05:06
@@ -11,20 +14,7 @@ subtitle: Getting people on your website is just the beginning – you need grea
 image: /images/dc_marketing_seo.png
 ---
 
-
-In this fourth of our SEO primer series, we cover the highest impact strategies to attract more people to your site.
-
-1. [What is Online Marketing, and Why it Can Make or Break Your Business]({% post_url 2016-12-22-what-is-online-marketing-and-why-it-can-make-or-break-your-business %})
-2. [Make your site search engine friendly]({% post_url 2017-01-20-how-to-make-your-site-search-engine-friendly %})
-3. [Plan your content]({% post_url 2017-03-21-how-to-plan-your-content %})
-4. **Write content worth sharing &lt;– you are here**
-5. Encourage sharing (coming soon)
-6. Advertise on a budget (coming soon)
-   <br>&nbsp;
-
-## **Content is king.**
-
-That’s the “Om”-like mantra chanted by everyone and their dog, cat and hamster. You can have a site that’s SEO-friendly in other aspects, but if your metrics are down regardless of how welcoming your site is, or any other aspect of bringing in readers and/or customers, then you might want to revisit, and heavily revise, your idea of what makes “quality content.” After all, nobody wants want to share something mediocre.
+Content is king. That’s the “Om”-like mantra chanted by everyone and their dog, cat and hamster. You can have a site that’s SEO-friendly in other aspects, but if your metrics are down regardless of how welcoming your site is, or any other aspect of bringing in readers and/or customers, then you might want to revisit, and heavily revise, your idea of what makes “quality content.” After all, nobody wants want to share something mediocre. In this fourth edition of our [SEO primer series](/seo-primer-series), we reveal the secrets of writing content that converts leads to customers.
 
 **Good content will build an audience faster than anything else.**
 
