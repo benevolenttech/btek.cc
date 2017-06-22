@@ -5,5 +5,6 @@
 /learning/how-to-write-content-worth-sharing /posts/how-to-write-content-worth-sharing
 /learning/how-to-plan-your-content /posts/how-to-plan-your-content
 /learning/how-to-make-your-site-search-engine-friendly /posts/how-to-make-your-site-search-engine-friendly
-/learning/what-is-online-marketing-and-why-it-can-make-or-break-your-business /posts/what-is-online-marketing-and-why-it-can-make-or-break-your-business
+/learning/what-is-online-marketing-and-why-it-can-make-or-break-your-business /posts/what-is-online-marketing
+/posts/what-is-online-marketing-and-why-it-can-make-or-break-your-business /posts/what-is-online-marketing
 /happenings /grapevine
