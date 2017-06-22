@@ -42,13 +42,13 @@ description: Our intro to climbing your way to the top of the search results.
 </section>
 
 
-<section class="diagonal patterned" style="padding:70px 0;">
+<section class="diagonal patterned post-seperator" style="padding:70px 0;">
   <div class="container not-skewed">
     <h2 style="text-align:center; font-size:66px; margin:0;">The Posts</h2>
   </div>
 </section>
 
-<section class="diagonal alternate">
+<section class="diagonal alternate" style="padding:150px 0">
   <!--<p style="font-size:50px;text-align:center;">Coming Soon!</p>-->
 
   <div class="text-container">
@@ -64,7 +64,7 @@ description: Our intro to climbing your way to the top of the search results.
       {% for post in posts %}
       {% if post.series contains 'SEO Primer' %}
       <li class="blog-post">
-        <h3><a href="{{ site.baseurl }}{{ post.url | replace: '.html','' }}">{{ forloop.index }}. {{ post.title }}</a></h3>
+        <h4><a href="{{ site.baseurl }}{{ post.url | replace: '.html','' }}">{{ forloop.index }}. {{ post.title }}</a></h4>
         <div class="post-content">
           <p>{{ post.description }}</p>
         </div>
@@ -73,7 +73,6 @@ description: Our intro to climbing your way to the top of the search results.
       {% endfor %}
     </ul>
   </div>
-  <br><br>
 </section>
 
 <section class="share diagonal" style="padding:10px 0;">

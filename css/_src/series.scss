@@ -1,0 +1,19 @@
+.page--seo-primer-series
+{
+  .post-seperator {
+    h2 {
+      padding-right: 0;
+      @media #{$desktop} {
+        padding-right: 90px;
+      }
+    }
+  }
+  .post-content {
+    p {
+      padding-left: 0;
+      @media #{$desktop} {
+        padding-left: 28px;
+      }
+    }
+  }
+}
