@@ -2,6 +2,7 @@
 title: 'What is Online Marketing'
 categories:
   - SEO
+  - Online Marketing
 series:
   - SEO Primer
 author_staff_member: brian-dombrowski

@@ -2,6 +2,7 @@
 title: How to Plan Your Content
 categories:
   - SEO
+  - Online Marketing
 series:
   - SEO Primer
 author_staff_member: brian-dombrowski

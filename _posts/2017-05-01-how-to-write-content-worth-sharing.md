@@ -1,8 +1,8 @@
 ---
 title: How to Write Content Worth Sharing
 categories:
-  - Marketing
   - SEO
+  - Online Marketing
 series:
   - SEO Primer
 author_staff_member: brian-dombrowski
