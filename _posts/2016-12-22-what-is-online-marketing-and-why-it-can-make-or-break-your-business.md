@@ -1,5 +1,5 @@
 ---
-title: 'What is Online Marketing, and Why it Can Make or Break Your Business'
+title: 'What is Online Marketing'
 categories:
   - SEO
 series:
