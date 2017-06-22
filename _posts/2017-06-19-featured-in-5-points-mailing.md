@@ -8,7 +8,7 @@ date: 2017-06-19 15:20:00
 description: 'Fresh off the press and into #DC mailboxes → some love from our co-working space 5 Points DC (5pointsdc.com)'
 subtitle: A Quarterly Mailing to DC Residents
 next: 2017-05-04-new-website
-image: /uploads/5points-mailer-dc-seo.jpg
+image: /uploads/5points-mailer-dc-seo-square.jpg
 ---
 
 
