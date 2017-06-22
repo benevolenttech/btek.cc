@@ -1,7 +1,6 @@
 ---
 title: How to Plan Your Content
 categories:
-  - Marketing
   - SEO
 series:
   - SEO Primer

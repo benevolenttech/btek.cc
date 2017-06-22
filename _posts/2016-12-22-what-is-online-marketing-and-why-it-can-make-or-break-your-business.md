@@ -1,7 +1,6 @@
 ---
 title: 'What is Online Marketing, and Why it Can Make or Break Your Business'
 categories:
-  - Marketing
   - SEO
 series:
   - SEO Primer
@@ -11,7 +10,7 @@ date: 2016-12-22 11:10:13
 next: 2017-01-20-how-to-make-your-site-search-engine-friendly
 description: "Can Online Marketing Make or Break Your Business? You bet it can."
 subtitle: "Can Online Marketing Make or Break Your Business? You bet it can."
-image: /uploads/dc_seo_dive.gif
+image: /images/dc_marketing_seo.png
 ---
 
 Online marketing is impressively cost-effective for most businesses. In fact, some businesses achieve triple-digit growth in leads through an online marketing campaign. Sure, you can market your business without online marketing. But why would you want to? In this first edition of our [SEO primer series](/seo-primer-series), we cover the basics of online marketing terminology and strategy.
