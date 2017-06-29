@@ -65,7 +65,7 @@ image: /images/dc_marketing_seo.png
       {% for post in posts %}
       {% if post.series contains 'SEO Primer' %}
       <li class="blog-post">
-        <h4><a href="{{ site.baseurl }}{{ post.url | replace: '.html','' }}">{{ forloop.index }}. {{ post.title }}</a></h4>
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ forloop.index }}. {{ post.title }}</a></h4>
         <div class="post-content">
           <p>{{ post.description }}</p>
         </div>
