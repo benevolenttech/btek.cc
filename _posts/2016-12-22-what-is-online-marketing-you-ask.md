@@ -9,12 +9,13 @@ author_staff_member: brian-dombrowski
 show_comments: true
 date: 2016-12-22 11:10:13
 next: 2017-01-20-how-to-make-your-site-search-engine-friendly
-description: "Better late than never. Dive in!"
-subtitle: "Better late than never. Dive in!"
+description: 'Better late than never. Dive in!'
+subtitle: 'Better late than never. Dive in!'
 image: /images/dc_marketing_seo.png
 ---
 
-![](/uploads/dive.gif)
+
+&nbsp;
 
 Online marketing is impressively cost-effective for most businesses. In fact, some businesses achieve triple-digit growth in leads through an online marketing campaign. Sure, you can market your business without online marketing. But why would you want to? In this first edition of our [SEO primer series](/seo-primer-series), we cover the basics of online marketing terminology and strategy.
 
@@ -24,7 +25,7 @@ It pays to start exploring online marketing by getting familiar with terminology
 
 ## So what ***<u>is</u>*** online marketing?
 
-Online marketing -- also called Internet marketing – is the process of promoting a brand, products or services over the Internet. Online marketing spans websites, digital media, email marketing, paid advertising, social networks, podcasts, apps, e-commerce, and any other promotional activities that piggy back off the Internet.
+Online marketing – also called Internet marketing – is the process of promoting a brand, products or services over the Internet. Online marketing spans websites, digital media, email marketing, paid advertising, social networks, podcasts, apps, e-commerce, and any other promotional activities that piggy back off the Internet.
 
 Breaking it down further, there’s:
 
