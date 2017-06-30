@@ -19,9 +19,6 @@ image: /images/dc_marketing_seo.png
 
 <span class="dropcap">O</span>nline marketing is impressively cost-effective for most businesses. In fact, some businesses achieve triple-digit growth in leads through an online marketing campaign. Sure, you can market your business without online marketing. But why would you want to? In this first edition of our [SEO primer series](/seo-primer-series), we cover the basics of online marketing terminology and strategy.
 
-
-![](/uploads/versions/why-don-t-you-just-send-an-e-mail-cartoon-prints-i8639641---x----1042-763x---.jpg)
-
 It pays to start exploring online marketing by getting familiar with terminology.
 
 ## So what ***<u>is</u>*** online marketing?
@@ -59,5 +56,8 @@ Social media marketing is the process of promoting a website through various soc
 In contrast to outbound marketing like email, inbound marketing is all about maximizing the attention of your visitors once you have it. Your website is inbound marketing, because the visitor has actively chosen to give you attention. The most effective inbound marketing starts by delighting visitors with free helpful information, then tempting them with more if they act or buy now.
 
 ## Wrapping it up…
+
+![](/uploads/versions/why-don-t-you-just-send-an-e-mail-cartoon-prints-i8639641---x----1042-763x---.jpg)
+
 
 All of these efforts comprise an overall strategy of attracting clients, promoting your brand to them, and convincing them to love you. Remember, buying anything these days involves a perceived need, an analysis of a multitude of options, and an emotional reaction to YOUR product or service.
