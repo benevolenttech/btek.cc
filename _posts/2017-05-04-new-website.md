@@ -11,7 +11,7 @@ subtitle: Months in the works, this new skin feels right.
 image: /images/benevolent_tech_dc_seo.png
 ---
 
-**We are ecstatic to welcome you to our new online home!** We engineered this site in response to usage analytics and all of the great feedback our partners offered over the years.  We noticed that new customers really love the testimonials and checking references, so we are putting that in spot #1 on the homepage.
+<span class="dropcap">W</span>**e are ecstatic to welcome you to our new online home!** We engineered this site in response to usage analytics and all of the great feedback our partners offered over the years.  We noticed that new customers really love the testimonials and checking references, so we are putting that in spot #1 on the homepage.
 
 Why the complete overhaul? You know you need a new website when you make major changes to your business model. Benevolent Tech is now **100% focused on helping local mid-atlantic businesses attract and retain customers with all-out online marketing and website development**. In contrast to before the change, we now work directly with and for the end-customers.
     

@@ -15,7 +15,7 @@ image: /images/dc_marketing_seo.png
 ---
 
 
-So, you have an awesome business which basically sells itself? Think your three or four webpages will be enough to grab attention from search engines and social media? Your odds are pretty grim, friend. If you think you don’t need a blog, think again. In this third edition of our [SEO primer series](/seo-primer-series), we tell you how to find the optimal topics to write about to lure people in.
+<span class="dropcap">S</span>o, you have an awesome business which basically sells itself? Think your three or four webpages will be enough to grab attention from search engines and social media? Your odds are pretty grim, friend. If you think you don’t need a blog, think again. In this third edition of our [SEO primer series](/seo-primer-series), we tell you how to find the optimal topics to write about to lure people in.
 
 **You Should Be Planning Your Content**
 

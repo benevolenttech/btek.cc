@@ -15,7 +15,7 @@ image: /uploads/dc-seo-save-me.png
 ---
 
 
-You may have a huge fanbase and massive traffic, but ignoring search engine and social network guidelines will sink your online visibility faster than hitting an iceberg on a foggy night. In this second edition of our [SEO primer series](/seo-primer-series), we cover the critical website requirements for getting on to the search engines.
+<span class="dropcap">Y</span>ou may have a huge fanbase and massive traffic, but ignoring search engine and social network guidelines will sink your online visibility faster than hitting an iceberg on a foggy night. In this second edition of our [SEO primer series](/seo-primer-series), we cover the critical website requirements for getting on to the search engines.
 
 Most website platforms support these guidelines, but many of them don't out of the box. Do your homework and research your options -- [or have us do it for you.](/contact)
 

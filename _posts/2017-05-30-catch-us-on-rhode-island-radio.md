@@ -11,9 +11,7 @@ subtitle: Brian joins Michelle and Kyle on RIA Radio to talk shop.
 image: /images/benevolent_tech_dc_seo.png
 ---
 
-## **We're Famous!** ##
-
-Each week, [Rhode Island Avenue (RIA) Radio](http://riamainstreet.org/ria-radio-podcasts/) hosts Michelle Yancey and Kyle Todd sit down to visit with area business owners, city leaders, small business training experts, and the visionaries that help our local commercial corridors grow and thrive. [This week](http://www.buzzsprout.com/46492/519092-74-benevolent-tech-district-floor-depot.mp3) Brian joined RIA Main Street to talk origin stories and also how to protect yourself from the recent surge in computer viruses.
+<span class="dropcap">W</span>**e're Famous!** Each week, [Rhode Island Avenue (RIA) Radio](http://riamainstreet.org/ria-radio-podcasts/) hosts Michelle Yancey and Kyle Todd sit down to visit with area business owners, city leaders, small business training experts, and the visionaries that help our local commercial corridors grow and thrive. [This week](http://www.buzzsprout.com/46492/519092-74-benevolent-tech-district-floor-depot.mp3) Brian joined RIA Main Street to talk origin stories and also how to protect yourself from the recent surge in computer viruses.
 
 Tune in to learn about Rhode Island Avenue NE Main Street’s new businesses; learn about some of the not-so-secret business gems of the community; and get behind-the-scenes stories about innovative business ideas happening right here in our neighborhood.
 
