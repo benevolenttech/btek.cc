@@ -14,6 +14,7 @@ subtitle: Follow these guidelines to avoid certain death by search engine gods.
 image: /uploads/dc-seo-save-me.png
 ---
 
+![](/uploads/dc-seo-save-me-box.png)
 
 <span class="dropcap">Y</span>ou may have a huge fanbase and massive traffic, but ignoring search engine and social network guidelines will sink your online visibility faster than hitting an iceberg on a foggy night. In this second edition of our [SEO primer series](/seo-primer-series), we cover the critical website requirements for getting on to the search engines.
 
