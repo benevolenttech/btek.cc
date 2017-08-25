@@ -13,7 +13,6 @@ subtitle: >-
   Want the best landing page builder for your site and considering Instapage,
   Unbounce, LeadPages, Pagewiz or Wishpond? Here's the feature comparison you've
   been looking for.
-previous: 2017-01-20-how-to-make-your-site-search-engine-friendly
 image: /images/dc_marketing_seo.png
 ---
 
