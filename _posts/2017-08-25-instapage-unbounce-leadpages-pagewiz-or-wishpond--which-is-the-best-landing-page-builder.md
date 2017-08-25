@@ -34,11 +34,11 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
 
 <div id="landingpagetablewrapper">
 <style type="text/css">
-  .ritz::-webkit-scrollbar {
+  #landingpagetablewrapper ::-webkit-scrollbar {
       -webkit-appearance: none;
       width: 7px;
   }
-  .ritz::-webkit-scrollbar-thumb {
+  #landingpagetablewrapper ::-webkit-scrollbar-thumb {
       border-radius: 4px;
       background-color: rgba(0,0,0,.5);
       -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
