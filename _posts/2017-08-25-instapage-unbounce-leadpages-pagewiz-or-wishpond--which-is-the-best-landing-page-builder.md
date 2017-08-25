@@ -32,6 +32,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
 
 <!--<iframe width="790px" height="910px" style="max-width:100%; margin:auto;" src="/landing-page-table.html"></iframe>-->
 
+
 <div id="landingpagetablewrapper">
 
 <p class='scroll-text'>Drag to right to see more →</p>
@@ -73,13 +74,13 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
 
   .ritz .waffle td {
     text-align: center;
-    color: #000000;
+    color: #222;
     font-family: 'Helvetica Neue',Arial;
     font-size: 12pt;
     vertical-align: middle;
     white-space: nowrap;
     direction: ltr;
-    padding: 0px 10px 0px 10px;
+    padding: 5px 10px;
     border-bottom: 1px solid #aaa;
   }
 
@@ -117,6 +118,10 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
   .ritz .waffle .s3 {
     background-color: #fce8b2;
   }
+  .ritz .info {
+    font-size: 13px;
+    color: gray;
+  }
 </style>
 <div class="ritz grid-container" dir="ltr">
   <table cellpadding="0" cellspacing="0" class="waffle">
@@ -131,206 +136,183 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       </tr>
       </thead>
     <tbody>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Entry price</td>
+        <td class="s1">Price / Month<div class='info'>for all major features</div></td>
         <td class="s2">$ 113.00</td>
         <td class="s3">$ 79.00</td>
         <td class="s4">$ 48.00</td>
         <td class="s4">$ 25.00</td>
         <td class="s2">$ 99.00</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">With Sub-Accounts</td>
-        <td class="s3">$ 208.00</td>
-        <td class="s3">$ 159.00</td>
-        <td class="s3">$ 199.00</td>
-        <td class="s4">$ 25.00</td>
-        <td class="s2"></td>
-      </tr>
-      <tr style='height:36px;'>
-        
-        <td class="s1">Page Builder Quality</td>
+        <td class="s1">Page Builder Quality<div class='info'>how easy it is to do<br>common things</div></td>
         <td class="s4">9</td>
         <td class="s4">9</td>
         <td class="s3">6</td>
         <td class="s2">4</td>
         <td class="s3">6</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Template Quality</td>
+        <td class="s1">Template Quality<div class='info'>how nice the template<br>library is</div></td>
         <td class="s3">6</td>
         <td class="s3">6</td>
         <td class="s3">5</td>
         <td class="s2">3</td>
         <td class="s2">3</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Analytics Quality</td>
+        <td class="s1">Analytics Quality<div class='info'>how insightful they are</div></td>
         <td class="s4">8</td>
         <td class="s3">6</td>
         <td class="s2">4</td>
         <td class="s3">5</td>
         <td class="s4">7</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Heatmaps</td>
+        <td class="s1">Heatmaps<div class='info'>does it have them?</div></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s2"></td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Webforms</td>
+        <td class="s1">Webforms<div class='info'>can you create custom,<br>arbitrary webforms?</div></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Big Data Autofill</td>
+        <td class="s1">Big Data Autofill<div class='info'>can it guess email and<br>name for forms?</div></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s2"></td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Sticky Bars</td>
+        <td class="s1">Sticky Bars<div class='info'>does it have a top or<br>bottom subscribe bar?</div></td>
         <td class="s2"></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s2"></td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Popups</td>
+        <td class="s1">Popup Forms<div class='info'>Can you create them?</div></td>
         <td class="s2"></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s4">✓</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Split Testig Popups</td>
+        <td class="s1">Split Testing Popups<div class='info'>Can you test variations?</div></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s4">✓</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Scroll Based Popups</td>
+        <td class="s1">Scroll Based Popups<div class='info'>Can you trigger based<br>on scroll position?</div></td>
         <td class="s2"></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s4">✓</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Exit Intent Popups</td>
+        <td class="s1">Exit Intent Popups<div class='info'>Can you trigger right<br>before someone drops?</div></td>
         <td class="s2"></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s4">✓</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Popups on External Pages</td>
+        <td class="s1">Universal Popups<div class='info'>Can they be installed<br>to other CMSs?</div></td>
         <td class="s2"></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s4">✓</td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Page Reviews</td>
+        <td class="s1">Page Reviews<div class='info'>Supports internal<br>commenting on pages?</div></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s2"></td>
       </tr>
-      <tr style='height:36px;'>
+      <tr>
         
-        <td class="s1">Up/Dow Templates</td>
+        <td class="s1">Upload Templates<div class='info'>Can you upload/download<br>custom templates?</div></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s2"></td>
       </tr>
-      <tr style='height:36px;'>
-        
-        <td class="s1">Tag Manager</td>
+      <tr>
+        <td class="s1">Tag Manager<div class='info'>Easy to add<br>other analytics?</div></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s2"></td>
       </tr>
-      <tr style='height:36px;'>
-        
-        <td class="s1">Learning Curve</td>
-        <td class="s4">2</td>
-        <td class="s4">2</td>
-        <td class="s3">5</td>
-        <td class="s2">7</td>
-        <td class="s3">6</td>
-      </tr>
-      <tr style='height:36px;'>
-        
-        <td class="s1">Payment Processer</td>
+      <tr>
+        <td class="s1">Payment Processer<div class='info'>Accept Payments Easily</div></td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s2"></td>
       </tr>
-      <tr style='height:36px;'>
-        
-        <td class="s1">Wordpress Integration</td>
+      <tr>
+        <td class="s1">Wordpress Integration<div class='info'>No need to mess<br>with DNS</div></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s4">✓</td>
       </tr>
-      <tr style='height:36px;'>
-        
-        <td class="s1">Dyamic Text Replacement</td>
-        <td class="s4">✓</td>
-        <td class="s4">✓</td>
-        <td class="s2"></td>
-        <td class="s2"></td>
-        <td class="s2"></td>
-      </tr>
-      <tr style='height:36px;'>
-        
-        <td class="s1">Manage inside of Wordpress</td>
+      <tr>
+        <td class="s1">Deep Wordpress<div class='info'>Can edit pages<br>inside Wordpress</div></td>
         <td class="s6"></td>
         <td class="s6"></td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s4">✓</td>
       </tr>
-      <tr style='height:34px;'>
-        <td class="s1">Publish to Facebook</td>
+      <tr>
+        <td class="s1">Dyamic Text Replacement<div class='info'>Sync copy with an<br>ad campaign on-the-fly</div></td>
+        <td class="s4">✓</td>
+        <td class="s4">✓</td>
+        <td class="s2"></td>
+        <td class="s2"></td>
+        <td class="s2"></td>
+      </tr>
+      <tr>
+        <td class="s1">Publish to Facebook<div class='info'>To a custom Page tab</div></td>
         <td class="s2"></td>
         <td class="s2"></td>
         <td class="s2"></td>
