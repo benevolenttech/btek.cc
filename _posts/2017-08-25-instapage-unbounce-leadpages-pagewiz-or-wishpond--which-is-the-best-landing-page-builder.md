@@ -29,5 +29,3 @@ When you strip away the widgetized sidebar and navigation menu that compete for 
 Landing pages can be used for many purposes — selling a product, driving an opt-in, or promoting an upcoming launch, to name but a few. In other words, they’re super relevant to almost all websites — whatever your goal.
 
 Today, we’ll be taking a look at 5 of the very best landing page tools on the market: Instapage, Unbounce, LeadPages, Pagewiz and Wishpond — if you’re looking to potentially skyrocket conversions, read on.
-
-&nbsp;
