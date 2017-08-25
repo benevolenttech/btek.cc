@@ -34,7 +34,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
 
 <div id="landingpagetablewrapper">
 
-<p class='scroll-text'>Scroll right to see more →</p>
+<p class='scroll-text'>Drag to right to see more →</p>
 
 <style type="text/css">
   #landingpagetablewrapper ::-webkit-scrollbar {
