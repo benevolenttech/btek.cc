@@ -50,7 +50,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
   .scroll-text {
     display:none;
     font-size: 12px;
-    margin: 0 0 5px 0;
+    margin: 10px 0 5px 0;
   }
   @media only screen and (max-width:890px){
     .scroll-text { display:block; }
