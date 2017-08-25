@@ -33,6 +33,9 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
 <!--<iframe width="790px" height="910px" style="max-width:100%; margin:auto;" src="/landing-page-table.html"></iframe>-->
 
 <div id="landingpagetablewrapper">
+
+<p class='scroll-text'>Scroll right to see more →</p>
+
 <style type="text/css">
   #landingpagetablewrapper ::-webkit-scrollbar {
       -webkit-appearance: none;
@@ -46,6 +49,8 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
   
   .scroll-text {
     display:none;
+    font-size: 12px;
+    margin: 0 0 5px 0;
   }
   @media only screen and (max-width:890px){
     .scroll-text { display:block; }
@@ -113,7 +118,6 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
     background-color: #fce8b2;
   }
 </style>
-<p class='scroll-text'>Scroll right to see more →</p>
 <div class="ritz grid-container" dir="ltr">
   <table cellpadding="0" cellspacing="0" class="waffle">
     <thead>
