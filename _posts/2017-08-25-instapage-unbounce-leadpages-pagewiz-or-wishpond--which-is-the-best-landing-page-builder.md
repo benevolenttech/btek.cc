@@ -32,6 +32,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
 
 <!--<iframe width="790px" height="910px" style="max-width:100%; margin:auto;" src="/landing-page-table.html"></iframe>-->
 
+<div id="landingpagetablewrapper">
 <style type="text/css">
   .ritz::-webkit-scrollbar {
       -webkit-appearance: none;
@@ -326,4 +327,5 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
     </tbody>
   </table>
   <div style="text-align:center;">Source: www.benevolent.tech</div>
+</div>
 </div>
