@@ -339,6 +339,5 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       </tr>
     </tbody>
   </table>
-  <div style="text-align:center;">Source: www.benevolent.tech</div>
 </div>
 </div>
