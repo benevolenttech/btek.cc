@@ -43,6 +43,10 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       background-color: rgba(0,0,0,.5);
       -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
   }
+  
+  @media only screen and (max-device-width:900px){
+    .scroll-text { display:block; }
+  }
 
   .ritz {
     max-width: 100%;
@@ -107,6 +111,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
   }
 </style>
 <div class="ritz grid-container" dir="ltr">
+  <div class='scroll-text'>Scroll right to see more →</div>
   <table cellpadding="0" cellspacing="0" class="waffle">
     <thead>
       <tr style='height:48px;'>
