@@ -48,6 +48,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
     max-width: 100%;
     width: 910px;
     margin:auto;
+    overflow:scroll;
   }
   
   .ritz .waffle {
