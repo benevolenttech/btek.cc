@@ -47,7 +47,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
   .scroll-text {
     display:none;
   }
-  @media only screen and (max-device-width:900px){
+  @media only screen and (max-device-width:890px){
     .scroll-text { display:block; }
   }
 
@@ -114,7 +114,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
   }
 </style>
 <div class="ritz grid-container" dir="ltr">
-  <div class='scroll-text'>Scroll right to see more →</div>
+  <p class='scroll-text'>Scroll right to see more →</p>
   <table cellpadding="0" cellspacing="0" class="waffle">
     <thead>
       <tr style='height:48px;'>
