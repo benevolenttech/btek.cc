@@ -17,15 +17,15 @@ image: /images/dc_marketing_seo.png
 ---
 
 
-Conversions are the primary goal of any successful website — and you'll beat out the competition a carefully optimized landing page.
+Conversions are the primary goal of any successful website — and you'll beat out the competition with a carefully optimized landing page.
 
 This is because landing pages are designed with one goal and one goal only: convert leads to customers.
 
-When you strip away the sidebar and navigation menu that compete for a visitor’s attention, you’re left with a page that’s optimized to get your message across — that your website is the best in its class, and that the visitor would be making a huge mistake to look elsewhere.
+When you strip away the sidebar and navigation menu that compete for a visitor’s attention, you’re left with a page that’s optimized to get your message across: that your website is the best in its class, and that the visitor would be making a huge mistake to look elsewhere.
 
-Landing pages can be used for many purposes — selling a product, driving an opt-in, or promoting an upcoming launch, to name but a few. In other words, they’re super relevant to almost all websites — whatever your goal.
+Landing pages can be used for many purposes, for example: selling a product, driving an opt-in, or promoting an upcoming launch. In other words, they’re super relevant to almost all websites — whatever your goal.
 
-Today, we’re going further than other blogs and feature dissecting 5 of the very best landing page tools on the market: Instapage, Unbounce, LeadPages, Pagewiz and Wishpond — if you’re looking to potentially skyrocket conversions, read on.<!--<iframe width="790px" height="910px" style="max-width:100%; margin:auto;" src="/landing-page-table.html"></iframe>-->
+Today, we’re going further than other blogs and feature dissecting 5 of the very best landing page tools on the market: Instapage, Unbounce, LeadPages, Pagewiz and Wishpond — if you’re looking to potentially skyrocket conversions, read on.
 
 <div id="landingpagetablewrapper"><p class="scroll-text">Drag to right to see more &rarr;</p><style type="text/css">#landingpagetablewrapper ::-webkit-scrollbar {
       -webkit-appearance: none;
