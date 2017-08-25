@@ -138,7 +138,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
     <tbody>
       <tr>
         
-        <td class="s1">Price / Month<div class='info'>for all major features</div></td>
+        <td class="s1">Price / Month<div class='info'>For all major features</div></td>
         <td class="s2">$ 113.00</td>
         <td class="s3">$ 79.00</td>
         <td class="s4">$ 48.00</td>
@@ -147,7 +147,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       </tr>
       <tr>
         
-        <td class="s1">Page Builder Quality<div class='info'>how easy it is to do<br>common things</div></td>
+        <td class="s1">Page Builder Quality<div class='info'>How easy it is to do<br>common things?</div></td>
         <td class="s4">9</td>
         <td class="s4">9</td>
         <td class="s3">6</td>
@@ -156,7 +156,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       </tr>
       <tr>
         
-        <td class="s1">Template Quality<div class='info'>how nice the template<br>library is</div></td>
+        <td class="s1">Template Quality<div class='info'>How nice the template<br>library is</div></td>
         <td class="s3">6</td>
         <td class="s3">6</td>
         <td class="s3">5</td>
@@ -165,7 +165,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       </tr>
       <tr>
         
-        <td class="s1">Analytics Quality<div class='info'>how insightful they are</div></td>
+        <td class="s1">Analytics Quality<div class='info'>How insightful are they?</div></td>
         <td class="s4">8</td>
         <td class="s3">6</td>
         <td class="s2">4</td>
@@ -174,7 +174,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       </tr>
       <tr>
         
-        <td class="s1">Heatmaps<div class='info'>does it have them?</div></td>
+        <td class="s1">Heatmaps<div class='info'>Does it have them?</div></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s2"></td>
@@ -183,7 +183,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       </tr>
       <tr>
         
-        <td class="s1">Webforms<div class='info'>can you create custom,<br>arbitrary webforms?</div></td>
+        <td class="s1">Webforms<div class='info'>Can you create custom,<br>arbitrary webforms?</div></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
@@ -192,7 +192,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       </tr>
       <tr>
         
-        <td class="s1">Big Data Autofill<div class='info'>can it guess email and<br>name for forms?</div></td>
+        <td class="s1">Big Data Autofill<div class='info'>Can it guess email and<br>name for forms?</div></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
         <td class="s4">✓</td>
@@ -201,7 +201,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       </tr>
       <tr>
         
-        <td class="s1">Sticky Bars<div class='info'>does it have a top or<br>bottom subscribe bar?</div></td>
+        <td class="s1">Sticky Bars<div class='info'>Does it have a top or<br>bottom subscribe bar?</div></td>
         <td class="s2"></td>
         <td class="s4">✓</td>
         <td class="s2"></td>
