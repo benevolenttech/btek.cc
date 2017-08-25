@@ -304,7 +304,7 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
         <td class="s4">✓</td>
       </tr>
       <tr>
-        <td class="s1">Dyamic Text Replacement<div class='info'>Sync copy with an<br>ad campaign on-the-fly</div></td>
+        <td class="s1">Dynamic Text Replacement<div class='info'>Sync copy with an<br>ad campaign on-the-fly</div></td>
         <td class="s4">✓</td>
         <td class="s4">✓</td>
         <td class="s2"></td>
@@ -323,3 +323,5 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
   </table>
 </div>
 </div>
+
+Want help setting it up? Reach out now!
