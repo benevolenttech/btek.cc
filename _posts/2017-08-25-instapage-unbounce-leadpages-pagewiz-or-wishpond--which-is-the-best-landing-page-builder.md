@@ -44,6 +44,9 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
       -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
   }
   
+  .scroll-text {
+    display:none;
+  }
   @media only screen and (max-device-width:900px){
     .scroll-text { display:block; }
   }
