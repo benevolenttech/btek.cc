@@ -6,13 +6,13 @@ author_staff_member: brian-dombrowski
 show_comments: true
 date: 2017-08-25 00:00:00
 description: >-
-  Looking for the best landing page builder for your site and wondering whether
-  to go for Instapage, Unbounce, LeadPages, Pagewiz or Wishpond? We take a look
-  at each...
+  Want the best landing page builder for your site and considering Instapage,
+  Unbounce, LeadPages, Pagewiz or Wishpond? Here's the feature comparison you've
+  been looking for.
 subtitle: >-
-  Looking for the best landing page builder for your site and wondering whether
-  to go for Instapage, Unbounce, LeadPages, Pagewiz or Wishpond? We take a look
-  at each...
+  Want the best landing page builder for your site and considering Instapage,
+  Unbounce, LeadPages, Pagewiz or Wishpond? Here's the feature comparison you've
+  been looking for.
 next:
 image: /images/dc_marketing_seo.png
 ---
@@ -26,8 +26,7 @@ When you strip away the sidebar and navigation menu that compete for a visitor�
 
 Landing pages can be used for many purposes — selling a product, driving an opt-in, or promoting an upcoming launch, to name but a few. In other words, they’re super relevant to almost all websites — whatever your goal.
 
-Today, we’re going further than other blogs and feature dissecting 5 of the very best landing page tools on the market: Instapage, Unbounce, LeadPages, Pagewiz and Wishpond — if you’re looking to potentially skyrocket conversions, read on.
-<!--<iframe width="790px" height="910px" style="max-width:100%; margin:auto;" src="/landing-page-table.html"></iframe>-->
+Today, we’re going further than other blogs and feature dissecting 5 of the very best landing page tools on the market: Instapage, Unbounce, LeadPages, Pagewiz and Wishpond — if you’re looking to potentially skyrocket conversions, read on.<!--<iframe width="790px" height="910px" style="max-width:100%; margin:auto;" src="/landing-page-table.html"></iframe>-->
 
 <div id="landingpagetablewrapper"><p class="scroll-text">Drag to right to see more &rarr;</p><style type="text/css">#landingpagetablewrapper ::-webkit-scrollbar {
       -webkit-appearance: none;
@@ -113,7 +112,5 @@ Today, we’re going further than other blogs and feature dissecting 5 of the ve
     font-size: 13px;
     color: gray;
   }</style><div class="ritz grid-container" dir="ltr"><table cellpadding="0" cellspacing="0" class="waffle"><thead><tr style="height:48px;"><td class="s0" dir="ltr">Contestant</td><td class="s0">Instapage</td><td class="s0">Unbounce</td><td class="s0">Leadpages</td><td class="s0">Pagewiz</td><td class="s0">Wishpond</td></tr></thead><tbody><tr><td class="s1">Price / Month<div class="info">For all major features</div></td><td class="s2">$ 113.00</td><td class="s3">$ 79.00</td><td class="s4">$ 48.00</td><td class="s4">$ 25.00</td><td class="s2">$ 99.00</td></tr><tr><td class="s1">Page Builder Quality<div class="info">How easy it is to do<br />common things?</div></td><td class="s4">9</td><td class="s4">9</td><td class="s3">6</td><td class="s2">4</td><td class="s3">6</td></tr><tr><td class="s1">Template Quality<div class="info">How nice the template<br />library is</div></td><td class="s3">6</td><td class="s3">6</td><td class="s3">5</td><td class="s2">3</td><td class="s2">3</td></tr><tr><td class="s1">Analytics Quality<div class="info">How insightful are they?</div></td><td class="s4">8</td><td class="s3">6</td><td class="s2">4</td><td class="s3">5</td><td class="s4">7</td></tr><tr><td class="s1">Heatmaps<div class="info">Does it have them?</div></td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td></tr><tr><td class="s1">Webforms<div class="info">Can you create custom,<br />arbitrary webforms?</div></td><td class="s4">✓</td><td class="s4">✓</td><td class="s4">✓</td><td class="s4">✓</td><td class="s4">✓</td></tr><tr><td class="s1">Big Data Autofill<div class="info">Can it guess email and<br />name for forms?</div></td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td></tr><tr><td class="s1">Sticky Bars<div class="info">Does it have a top or<br />bottom subscribe bar?</div></td><td class="s2">&nbsp;</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td></tr><tr><td class="s1">Popup Forms<div class="info">Can you create them?</div></td><td class="s2">&nbsp;</td><td class="s4">✓</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s4">✓</td></tr><tr><td class="s1">Split Testing Popups<div class="info">Can you test variations?</div></td><td class="s4">✓</td><td class="s4">✓</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s4">✓</td></tr><tr><td class="s1">Scroll Based Popups<div class="info">Can you trigger based<br />on scroll position?</div></td><td class="s2">&nbsp;</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s4">✓</td></tr><tr><td class="s1">Exit Intent Popups<div class="info">Can you trigger right<br />before someone drops?</div></td><td class="s2">&nbsp;</td><td class="s4">✓</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s4">✓</td></tr><tr><td class="s1">Universal Popups<div class="info">Can they be installed<br />to other CMSs?</div></td><td class="s2">&nbsp;</td><td class="s4">✓</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s4">✓</td></tr><tr><td class="s1">Page Reviews<div class="info">Supports internal<br />commenting on pages?</div></td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td></tr><tr><td class="s1">Upload Templates<div class="info">Can you upload/download<br />custom templates?</div></td><td class="s4">✓</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td></tr><tr><td class="s1">Tag Manager<div class="info">Easy to add<br />other analytics?</div></td><td class="s4">✓</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td></tr><tr><td class="s1">Payment Processer<div class="info">Accept Payments Easily</div></td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td></tr><tr><td class="s1">Wordpress Integration<div class="info">No need to mess<br />with DNS</div></td><td class="s4">✓</td><td class="s4">✓</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s4">✓</td></tr><tr><td class="s1">Deep Wordpress<div class="info">Can edit pages<br />inside Wordpress</div></td><td class="s6">&nbsp;</td><td class="s6">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s4">✓</td></tr><tr><td class="s1">Dynamic Text Replacement<div class="info">Sync copy with an<br />ad campaign on-the-fly</div></td><td class="s4">✓</td><td class="s4">✓</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td></tr><tr><td class="s1">Publish to Facebook<div class="info">To a custom Page tab</div></td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s2">&nbsp;</td><td class="s4">✓</td></tr></tbody></table></div></div>
-
-&nbsp;
 
 Want help setting it up? [Reach out now](/contact)!
