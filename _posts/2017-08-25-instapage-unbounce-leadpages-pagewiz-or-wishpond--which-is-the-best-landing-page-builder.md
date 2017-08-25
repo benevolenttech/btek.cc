@@ -114,8 +114,8 @@ Today, we’ll be taking a look at 5 of the very best landing page tools on the 
     background-color: #fce8b2;
   }
 </style>
+<p class='scroll-text'>Scroll right to see more →</p>
 <div class="ritz grid-container" dir="ltr">
-  <p class='scroll-text'>Scroll right to see more →</p>
   <table cellpadding="0" cellspacing="0" class="waffle">
     <thead>
       <tr style='height:48px;'>
