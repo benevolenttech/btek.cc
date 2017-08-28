@@ -10,3 +10,5 @@
 /posts/what-is-online-marketing /posts/what-is-online-marketing-you-ask
 /happenings /grapevine
 /posts/instapage-unbounce-leadpages-pagewiz-or-wishpond-which-is-the-best-landing-page-builder /posts/which-is-the-best-landing-page-builder
+/membership-solutions /services/membership-solutions
+/work /services
