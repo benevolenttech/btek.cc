@@ -19,9 +19,9 @@ image: /images/dc_marketing_seo.png
 
 Conversions are the primary goal of any successful website — and you'll beat out the competition with a carefully optimized landing page.
 
-#### **This is because landing pages are designed with one goal and one goal only: convert leads to customers.**
+This is because landing pages are designed with one goal and one goal only: convert leads to customers.
 
-Strip away the sidebar and navigation, and you're left with a distraction less page optimized to get a message across. The message should be that your website is the best in its class and visitors would be making a huge mistake looking elsewhere.
+> ***Strip away the sidebar and navigation, and you're left with a distraction less page optimized to get a message across. The message should be that your website is the best in its class and visitors would be making a huge mistake looking elsewhere.***
 
 Landing pages can be used for many purposes, for example: selling a product, driving an opt-in, or promoting an upcoming launch. In other words, they’re super relevant to almost all websites — whatever your goal.
 
