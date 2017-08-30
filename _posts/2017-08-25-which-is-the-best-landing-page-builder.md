@@ -25,7 +25,13 @@ This is because landing pages are designed with one goal and one goal only: conv
 
 Landing pages can be used for many purposes, for example: selling a product, driving an opt-in, or promoting an upcoming launch. In other words, they’re super relevant to almost all websites — whatever your goal.
 
-Today, we’re going further than other blogs and feature dissecting 5 of the very best landing page tools on the market: Instapage, Unbounce, LeadPages, Pagewiz and Wishpond — if you’re looking to potentially skyrocket conversions, read on.
+Today, we’re going further than other blogs and feature dissecting 5 of the very best landing page tools on the market: Instapage, Unbounce, LeadPages, Pagewiz and Wishpond — first with a visual walkthrough and then by a feature comparison. If you’re looking to potentially skyrocket conversions, watch and read on.
+
+## Visual Walkthrough
+
+https://youtu.be/_2yNdHrV6OU
+
+## Feature Comparison
 
 <div id="landingpagetablewrapper"><p class="scroll-text">Drag to right to see more &rarr;</p><style type="text/css">#landingpagetablewrapper ::-webkit-scrollbar {
       -webkit-appearance: none;
