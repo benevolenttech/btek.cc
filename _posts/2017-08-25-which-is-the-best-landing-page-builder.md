@@ -16,6 +16,8 @@ subtitle: >-
 image: /images/dc_marketing_seo.png
 ---
 
+Conversions are the primary goal of any successful website — and you'll beat out the competition with a carefully optimized landing page.
+&nbsp;
 
 <script src="https://fast.wistia.com/embed/medias/t0jdcyapim.jsonp" async=""></script>
 
@@ -46,8 +48,7 @@ image: /images/dc_marketing_seo.png
 #wistia_grid_158_right{height:100%;left:0;position:absolute;top:0;}
 #wistia_grid_158_below{position:relative;}</style></div></div></div></div></div>
 
-Conversions are the primary goal of any successful website — and you'll beat out the competition with a carefully optimized landing page.
-
+&nbsp;
 This is because landing pages are designed with one goal and one goal only: convert leads to customers.
 
 ***Strip away the sidebar and navigation, and you're left with a distraction free page optimized to get a message across. The message should be that your website is the best in its class and visitors would be making a huge mistake looking elsewhere.***
