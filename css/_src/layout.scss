@@ -112,6 +112,7 @@ section {
       color: #fff;
       @media #{$mid-point} {
         font-size: 1.8rem;
+        max-width: 50rem;
       }
     }
 
