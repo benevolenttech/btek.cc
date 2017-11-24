@@ -103,6 +103,7 @@ section {
       font-size: 2.6rem;
       @media #{$mid-point} {
         font-size: 3.3rem;
+        max-width: 34rem;
       }
     }
 
