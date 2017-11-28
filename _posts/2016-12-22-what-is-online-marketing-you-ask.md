@@ -17,7 +17,7 @@ image: /images/dc_marketing_seo.png
 
 <div style="width:100%;height:0;padding-bottom:57%;position:relative;"><iframe src="https://giphy.com/embed/26FPnj46RYsIWgYLe" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 
-Online marketing is impressively cost-effective for most businesses. In fact, some businesses achieve triple-digit growth in leads through an online marketing campaign. Sure, you can market your business without online marketing. But why would you want to? In this first edition of our [SEO primer series](/seo-primer-series), we cover the basics of online marketing terminology and strategy.
+<span class="dropcap">O</span>nline marketing is impressively cost-effective for most businesses. In fact, some businesses achieve triple-digit growth in leads through an online marketing campaign. Sure, you can market your business without online marketing. But why would you want to? In this first edition of our [SEO primer series](/seo-primer-series), we cover the basics of online marketing terminology and strategy.
 
 It pays to start exploring online marketing by getting familiar with terminology.
 
