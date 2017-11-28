@@ -17,7 +17,7 @@ image: /uploads/fight2-small-square.jpeg
 ---
 
 
-Conversions are the primary goal of any successful website — and you'll beat out the competition with a carefully optimized landing page.
+<span class="dropcap">C</span>onversions are the primary goal of any successful website — and you'll beat out the competition with a carefully optimized landing page.
 
 <script src="https://fast.wistia.com/embed/medias/t0jdcyapim.jsonp" async=""></script>
 
