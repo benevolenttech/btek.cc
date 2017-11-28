@@ -9,15 +9,15 @@ author_staff_member: brian-dombrowski
 show_comments: true
 date: 2016-12-22 11:10:13
 next: 2017-01-20-how-to-make-your-site-search-engine-friendly
-description: 'Better late than never. Dive in!'
-subtitle: 'Better late than never. Dive in!'
+description: Better late than never. Dive in!
+subtitle: Better late than never. Dive in!
 image: /images/dc_marketing_seo.png
 ---
 
 
-<div style="width:100%;height:0;padding-bottom:57%;position:relative;"><iframe src="https://giphy.com/embed/26FPnj46RYsIWgYLe" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><br>
+<div style="width:100%;height:0;padding-bottom:57%;position:relative;"><iframe src="https://giphy.com/embed/26FPnj46RYsIWgYLe" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 
-<span class="dropcap">O</span>nline marketing is impressively cost-effective for most businesses. In fact, some businesses achieve triple-digit growth in leads through an online marketing campaign. Sure, you can market your business without online marketing. But why would you want to? In this first edition of our [SEO primer series](/seo-primer-series), we cover the basics of online marketing terminology and strategy.
+Online marketing is impressively cost-effective for most businesses. In fact, some businesses achieve triple-digit growth in leads through an online marketing campaign. Sure, you can market your business without online marketing. But why would you want to? In this first edition of our [SEO primer series](/seo-primer-series), we cover the basics of online marketing terminology and strategy.
 
 It pays to start exploring online marketing by getting familiar with terminology.
 
@@ -57,7 +57,8 @@ In contrast to outbound marketing like email, inbound marketing is all about max
 
 ## Wrapping it up…
 
-![](/uploads/versions/why-don-t-you-just-send-an-e-mail-cartoon-prints-i8639641---x----1042-763x---.jpg)
-
+![](data:image/png;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==)
 
 All of these efforts comprise an overall strategy of attracting clients, promoting your brand to them, and convincing them to love you. Remember, buying anything these days involves a perceived need, an analysis of a multitude of options, and an emotional reaction to YOUR product or service.
+
+Check out our other posts in our [SEO Primer Series](/seo-primer-series)!
