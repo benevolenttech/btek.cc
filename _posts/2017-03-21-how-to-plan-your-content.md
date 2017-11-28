@@ -15,7 +15,7 @@ image: /images/dc_marketing_seo.png
 ---
 
 
-<span class="dropcap">S</span>o, you have an awesome business which basically sells itself? Think your three or four webpages will be enough to grab attention from search engines and social media? Your odds are pretty grim, friend. If you think you don’t need a blog, think again. In this third edition of our [SEO primer series](/seo-primer-series), we tell you how to find the optimal topics to write about to lure people in.
+So, you have an awesome business which basically sells itself? Think your three or four webpages will be enough to grab attention from search engines and social media? Your odds are pretty grim, friend. If you think you don’t need a blog, think again. In this third edition of our [SEO primer series](/seo-primer-series), we tell you how to find the optimal topics to write about to lure people in.
 
 **You Should Be Planning Your Content**
 
@@ -49,15 +49,15 @@ Once you get the hang of it, it’s easy to favor certain words in your articles
 
 #### Step 1: Make a list of important, relevant topics based on what you know about your business.
 
-To kick off this process, think about the topics you want to rank for in terms of generic “buckets”. You'll come up with about 5-10 topic buckets you think are important to your business. Topics like “security technologies” if you are a cyber security business. Then you'll use those topic buckets to help come up with some specific keywords later in the process.
+To kick off this process, think about the topics you want to rank for in terms of generic “buckets”. You’ll come up with about 5-10 topic buckets you think are important to your business. Topics like “security technologies” if you are a cyber security business. Then you’ll use those topic buckets to help come up with some specific keywords later in the process.
 
-If you were a company like Benevolent Tech, for example – selling marketing services and software consulting – you might have general topic buckets like “SEO Companies in DC”, “Email Marketing in DC”, “responsive website design” and "marketing automation.” Make sense?
+If you were a company like Benevolent Tech, for example – selling marketing services and software consulting – you might have general topic buckets like “SEO Companies in DC”, “Email Marketing in DC”, “responsive website design” and “marketing automation.” Make sense?
 
 #### Step 2: Fill in those topic buckets with keywords.
 
-Now that you have a few topic buckets you want to focus on, it's time to identify some keywords that fall into those buckets. These are keyword phrases you think are important to rank for in the SERPs (search engine results pages) because your target customer is probably conducting searches for those specific terms.
+Now that you have a few topic buckets you want to focus on, it’s time to identify some keywords that fall into those buckets. These are keyword phrases you think are important to rank for in the SERPs (search engine results pages) because your target customer is probably conducting searches for those specific terms.
 
-For instance, if I took that last topic bucket for an inbound marketing software company – "marketing automation" – I'd brainstorm some keyword phrases that I think people would type in related to that topic. Those might include:
+For instance, if I took that last topic bucket for an inbound marketing software company – “marketing automation” – I’d brainstorm some keyword phrases that I think people would type in related to that topic. Those might include:
 
 * What is SEO?
 * Search engine optimizations tools
@@ -68,17 +68,17 @@ For instance, if I took that last topic bucket for an inbound marketing software
 * How to use Google AdWords Keyword Planner?
 * Top SEO tools
 
-And so on and so on. The point of this step isn't to come up with your final list of keyword phrases. You just want to end up with a brain dump of phrases you think potential customers might use to search for content related to that particular topic bucket. We'll narrow the lists down later in the process so the task is much more manageable. Hey, your brain power and your time is precious, right? Right.
+And so on and so on. The point of this step isn’t to come up with your final list of keyword phrases. You just want to end up with a brain dump of phrases you think potential customers might use to search for content related to that particular topic bucket. We’ll narrow the lists down later in the process so the task is much more manageable. Hey, your brain power and your time is precious, right? Right.
 
 #### Step 3: Find out which keywords your website is already getting found for
 
-With services Google Analytics, you can learn what people were searching for when they found your site. &nbsp;Drill down in the Acquisitions-&gt;Keywords section of Google analytics to see website's traffic sources, and sift through you organic search traffic bucket to identify the keywords people are using to arrive at your site.
+With services Google Analytics, you can learn what people were searching for when they found your site. &nbsp;Drill down in the Acquisitions-&gt;Keywords section of Google analytics to see website’s traffic sources, and sift through you organic search traffic bucket to identify the keywords people are using to arrive at your site.
 
 Repeat this exercise for as many topic buckets as you have. You now know what words are currently bringing people to your site. Let’s find more words.
 
 #### Step 4: Enhance your list with market research
 
-Now that you've got a mix of keywords, it's time to improve your lists with real world supply and demand statistics. You have a lot of tools at your disposal to do this, but let me share my favorite **FREE** methodology – using Google’s keyword planning tool.
+Now that you’ve got a mix of keywords, it’s time to improve your lists with real world supply and demand statistics. You have a lot of tools at your disposal to do this, but let me share my favorite **FREE** methodology – using Google’s keyword planning tool.
 
 **The [Google AdWords Keyword Planner](https://adwords.google.com/KeywordPlanner) reveals real world Google search statistics and recommendations based on those statistics.**
 
@@ -86,13 +86,13 @@ AdWords is a service for creating advertisements on Google, but you can actually
 
 Start by entering your keywords into the Keyword Planner and generating reports. Use the results to refine your list of keywords. Keywords with more than 100-100k searches per month and low competition are especially good.
 
-Here’s an even easier trick to brainstorm keywords – go to [Google.com](https://google.com) and take a look at the related search terms that appear when you do a search. When scroll to the bottom of search results, you'll notice some suggestions for searches. These keywords can spark ideas for other keywords you may want to take into consideration.
+Here’s an even easier trick to brainstorm keywords – go to [Google.com](https://google.com) and take a look at the related search terms that appear when you do a search. When scroll to the bottom of search results, you’ll notice some suggestions for searches. These keywords can spark ideas for other keywords you may want to take into consideration.
 
 **Want some help with keyword research? [Contact us](/contact) for a free custom report catered to your business.**
 
 #### Step 5: Scope out the competition
 
-Just because your competitor is doing something doesn’t mean you need to. The same goes for keywords. Just because a keyword is important to your competitor, doesn’t mean it's important to you. In fact, they may have done a poor job of building their topic buckets and are using keywords that aren’t that helpful. However, understanding what keywords your competitors are trying to rank for&nbsp;*is*&nbsp;a great way to help you give your list of keywords another evaluation.
+Just because your competitor is doing something doesn’t mean you need to. The same goes for keywords. Just because a keyword is important to your competitor, doesn’t mean it’s important to you. In fact, they may have done a poor job of building their topic buckets and are using keywords that aren’t that helpful. However, understanding what keywords your competitors are trying to rank for&nbsp;*is*&nbsp;a great way to help you give your list of keywords another evaluation.
 
 If your competitor is ranking for certain keywords that are on your list, too, it definitely makes sense to work on improving your ranking for those. However, don’t ignore the ones your competitors don’t seem to care about. Those could be great opportunities for&nbsp;**you**&nbsp;to own market share on important terms, too. &nbsp;Remember, the goal is to end up with a list of keywords that provide some quick wins but also helps you make progress toward bigger, more challenging SEO goals. And who doesn’t love goals? They make you get up off the couch, turn off the TV and do something with your life.
 
@@ -106,12 +106,14 @@ There are some excellent paid online services out there such as [Woorank.com](ht
 
 2) [SEMrush.com](http://www.semrush.com/)&nbsp;allows you to run a number of free reports that show you the top keywords for the domain you enter. This is a quick way to get a sense of the types of terms your competitors are ranking for.
 
-3) [Hubspot's Website Grader](https://website.grader.com/)&nbsp;is a dead simple website testbench -- get insights in 30 seconds!
+3) [Hubspot’s Website Grader](https://website.grader.com/)&nbsp;is a dead simple website testbench – get insights in 30 seconds!
 
 Finally, compare and contrast your competitor’s keywords with the keywords you’ve developed.
 
-## **And … You're done!**
+## **And … You’re done!**
 
-Congratulations! You've now got a list of keywords that'll help you focus on the right topics for your business, and get you some short-term and long-term gains. You can even&nbsp;[download our free SEO template](/seo-starter-spreadsheet)&nbsp;to help you organize your keywords and track which terms you're focusing on for different pages of your website. Want us to help you get started for free? [Get in touch!](/contact)
+Congratulations! You’ve now got a list of keywords that’ll help you focus on the right topics for your business, and get you some short-term and long-term gains. You can even&nbsp;[download our free SEO template](/seo-starter-spreadsheet)&nbsp;to help you organize your keywords and track which terms you’re focusing on for different pages of your website. Want us to help you get started for free? [Get in touch!](/contact)
 
-Be sure to re-evaluate these keywords frequently – at least once a quarter. As you gain more success in search engines, you'll find that you can expand your keyword optimizations into new areas while maintaining your current presence. Sounds a bit dreamy, right?
+Be sure to re-evaluate these keywords frequently – at least once a quarter. As you gain more success in search engines, you’ll find that you can expand your keyword optimizations into new areas while maintaining your current presence. Sounds a bit dreamy, right?
+
+Check out our other posts in our [SEO Primer Series](/seo-primer-series)!
