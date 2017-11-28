@@ -7,14 +7,15 @@ series:
   - SEO Primer
 author_staff_member: brian-dombrowski
 show_comments: true
-date: 2017-03-21 14:05:06
+date: 2017-03-21 14:05:00
 next: 2017-05-01-how-to-write-content-worth-sharing
 description: Get more people to your website by creating content they look for.
 subtitle: Get more people to your website by creating content they look for.
-image: /images/dc_marketing_seo.png
+image: /uploads/home-alone-seo-battleplan.jpg
 ---
 
-<div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/xUySTOigOUHucl3rfW" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+<div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/xUySTOigOUHucl3rfW" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 
 So, you have an awesome business which basically sells itself? Think your three or four webpages will be enough to grab attention from search engines and social media? Your odds are pretty grim, friend. If you think you don’t need a blog, think again. In this third edition of our [SEO primer series](/seo-primer-series), we tell you how to find the optimal topics to write about to lure people in.
 
@@ -40,7 +41,7 @@ But that’s your outward response, right? Admit it: inside, you’re probably c
 
 **So how can you do better (and more efficient) research, even if it’s not your favorite thing? Keywords.**
 
-So what are keywords? Keywords are a word or group of words which occurs in a text more often than we would expect to occur by chance alone. For example, if you wrote an article on fundraising using social networking, you’d probably have keywords like “Facebook”, “Twitter”, and “Fundraising”.&nbsp;
+So what are keywords? Keywords are a word or group of words which occurs in a text more often than we would expect to occur by chance alone. For example, if you wrote an article on fundraising using social networking, you’d probably have keywords like “Facebook”, “Twitter”, and “Fundraising”.
 
 It may feel awkward to prioritize word usage while writing, but if you don’t use the words people are actually interested in and actively searching for, you’re missing a lot of traffic. Think of it as leaving a trail of bed crumbs for people to follow to your website. It may help you to think of keyword research as a “synonym search.”
 
@@ -73,7 +74,7 @@ And so on and so on. The point of this step isn’t to come up with your final l
 
 #### Step 3: Find out which keywords your website is already getting found for
 
-With services Google Analytics, you can learn what people were searching for when they found your site. &nbsp;Drill down in the Acquisitions-&gt;Keywords section of Google analytics to see website’s traffic sources, and sift through you organic search traffic bucket to identify the keywords people are using to arrive at your site.
+With services Google Analytics, you can learn what people were searching for when they found your site.  Drill down in the Acquisitions-&gt;Keywords section of Google analytics to see website’s traffic sources, and sift through you organic search traffic bucket to identify the keywords people are using to arrive at your site.
 
 Repeat this exercise for as many topic buckets as you have. You now know what words are currently bringing people to your site. Let’s find more words.
 
@@ -93,9 +94,9 @@ Here’s an even easier trick to brainstorm keywords – go to [Google.com](http
 
 #### Step 5: Scope out the competition
 
-Just because your competitor is doing something doesn’t mean you need to. The same goes for keywords. Just because a keyword is important to your competitor, doesn’t mean it’s important to you. In fact, they may have done a poor job of building their topic buckets and are using keywords that aren’t that helpful. However, understanding what keywords your competitors are trying to rank for&nbsp;*is*&nbsp;a great way to help you give your list of keywords another evaluation.
+Just because your competitor is doing something doesn’t mean you need to. The same goes for keywords. Just because a keyword is important to your competitor, doesn’t mean it’s important to you. In fact, they may have done a poor job of building their topic buckets and are using keywords that aren’t that helpful. However, understanding what keywords your competitors are trying to rank for *is* a great way to help you give your list of keywords another evaluation.
 
-If your competitor is ranking for certain keywords that are on your list, too, it definitely makes sense to work on improving your ranking for those. However, don’t ignore the ones your competitors don’t seem to care about. Those could be great opportunities for&nbsp;**you**&nbsp;to own market share on important terms, too. &nbsp;Remember, the goal is to end up with a list of keywords that provide some quick wins but also helps you make progress toward bigger, more challenging SEO goals. And who doesn’t love goals? They make you get up off the couch, turn off the TV and do something with your life.
+If your competitor is ranking for certain keywords that are on your list, too, it definitely makes sense to work on improving your ranking for those. However, don’t ignore the ones your competitors don’t seem to care about. Those could be great opportunities for **you** to own market share on important terms, too.  Remember, the goal is to end up with a list of keywords that provide some quick wins but also helps you make progress toward bigger, more challenging SEO goals. And who doesn’t love goals? They make you get up off the couch, turn off the TV and do something with your life.
 
 Now you’re probably wondering, “how do I figure out what keywords your competitors are using and ranking for?”.
 
@@ -105,15 +106,15 @@ There are some excellent paid online services out there such as [Woorank.com](ht
 
 **Pro Tip: You can use [Wordle.com](https://wordle.com) to analyze word use in yours and competitor content**
 
-2) [SEMrush.com](http://www.semrush.com/)&nbsp;allows you to run a number of free reports that show you the top keywords for the domain you enter. This is a quick way to get a sense of the types of terms your competitors are ranking for.
+2) [SEMrush.com](http://www.semrush.com/) allows you to run a number of free reports that show you the top keywords for the domain you enter. This is a quick way to get a sense of the types of terms your competitors are ranking for.
 
-3) [Hubspot’s Website Grader](https://website.grader.com/)&nbsp;is a dead simple website testbench – get insights in 30 seconds!
+3) [Hubspot’s Website Grader](https://website.grader.com/) is a dead simple website testbench – get insights in 30 seconds!
 
 Finally, compare and contrast your competitor’s keywords with the keywords you’ve developed.
 
 ## **And … You’re done!**
 
-Congratulations! You’ve now got a list of keywords that’ll help you focus on the right topics for your business, and get you some short-term and long-term gains. You can even&nbsp;[download our free SEO template](/seo-starter-spreadsheet)&nbsp;to help you organize your keywords and track which terms you’re focusing on for different pages of your website. Want us to help you get started for free? [Get in touch!](/contact)
+Congratulations! You’ve now got a list of keywords that’ll help you focus on the right topics for your business, and get you some short-term and long-term gains. You can even [download our free SEO template](/seo-starter-spreadsheet) to help you organize your keywords and track which terms you’re focusing on for different pages of your website. Want us to help you get started for free? [Get in touch!](/contact)
 
 Be sure to re-evaluate these keywords frequently – at least once a quarter. As you gain more success in search engines, you’ll find that you can expand your keyword optimizations into new areas while maintaining your current presence. Sounds a bit dreamy, right?
 
