@@ -19,6 +19,8 @@ image: /images/dc_marketing_seo.png
 ---
 
 
+![](/uploads/versions/viral---x----500-312x---.jpg)
+
 Content is king. That’s the “Om”-like mantra chanted by everyone and their dog, cat and hamster. You can have a site that’s SEO-friendly in other aspects, but if your metrics are down regardless of how welcoming your site is, or any other aspect of bringing in readers and/or customers, then you might want to revisit, and heavily revise, your idea of what makes “quality content.” After all, nobody wants want to share something mediocre. In this fourth edition of our [SEO primer series](/seo-primer-series), we reveal the secrets of writing content that converts leads to customers.
 
 **Good content will build an audience faster than anything else.**
