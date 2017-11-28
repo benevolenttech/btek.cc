@@ -7,7 +7,7 @@ series:
   - SEO Primer
 author_staff_member: brian-dombrowski
 show_comments: true
-date: 2017-05-01 14:05:06
+date: 2017-05-01 14:05:00
 next: 2017-12-22-what-is-online-marketing
 description: >-
   Getting people on your website is just the beginning – you need great content
@@ -15,7 +15,7 @@ description: >-
 subtitle: >-
   Getting people on your website is just the beginning – you need great content
   to go viral.
-image: /images/dc_marketing_seo.png
+image: /uploads/viral-seo-marketing-2.jpg
 ---
 
 
