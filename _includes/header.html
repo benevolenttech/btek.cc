@@ -17,6 +17,11 @@
         <li><a href="{{ site.baseurl }}{{ link.link }}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a></li>
         {% endfor %}
 
+        <!-- Hidden menu items for SEO -->
+        <li style="display:none;"><a href="{{ site.baseurl }}/services/mobile-app-development">Mobile App Development</a></li>
+        <li style="display:none;"><a href="{{ site.baseurl }}/services/website-marketing">Mobile App Development</a></li>
+        <li style="display:none;"><a href="{{ site.baseurl }}/services/salesforce-consulting">Salesforce Consulting</a></li>
+
         <li>
           <style>
             #header-search-icon-a { margin-left: -10px;}
