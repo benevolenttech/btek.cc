@@ -14,6 +14,6 @@ image: /uploads/5points-mailer-dc-seo-square.jpg
 ---
 
 
-Fresh off the press and into #DC mailboxes → some love from our co-working space 5 Points DC ([http://5pointsdc.com](http://5pointsdc.com)). &lt;3 this place!
+Fresh off the press and into #DC mailboxes → some love from our co-working space 5 Points DC ([5pointsdc.com](http://5pointsdc.com)). &lt;3 this place!
 
 ![](/uploads/versions/5points-mailer-dc-seo---x----900-601x---.jpg)
