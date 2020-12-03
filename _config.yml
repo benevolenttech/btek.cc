@@ -83,7 +83,7 @@ algolia:
       - seo-starter-spreadsheet-success.html
       - newsletter-success.html
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate-v2

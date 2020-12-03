@@ -1,3 +1,8 @@
+# Fork of Urban Jekyll Template
+
+Adapted by Brian for Benevolent Tech.
+
+
 # Urban
 
 Web Agency themed business template for Jekyll. Browse through a [live demo](https://teal-worm.cloudvent.net/).
@@ -35,7 +40,7 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 Urban was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Install the dependencies with [Bundler](http://bundler.io/): `sudo gem install bundler`
 
 ~~~bash
 $ bundle install

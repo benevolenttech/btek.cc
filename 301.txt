@@ -1,16 +1,1 @@
-/marketing/how-to-write-content-worth-sharing /posts/how-to-write-content-worth-sharing
-/marketing/how-to-make-your-site-search-engine-friendly /posts/how-to-make-your-site-search-engine-friendly
-/learning/catch-us-on-rhode-island-radio /posts/catch-us-on-rhode-island-radio
-/learning/new-website /posts/new-website
-/learning/how-to-write-content-worth-sharing /posts/how-to-write-content-worth-sharing
-/learning/how-to-plan-your-content /posts/how-to-plan-your-content
-/learning/how-to-make-your-site-search-engine-friendly /posts/how-to-make-your-site-search-engine-friendly
-/learning/what-is-online-marketing-and-why-it-can-make-or-break-your-business /posts/what-is-online-marketing-you-ask
-/posts/what-is-online-marketing-and-why-it-can-make-or-break-your-business /posts/what-is-online-marketing-you-ask
-/posts/what-is-online-marketing /posts/what-is-online-marketing-you-ask
-/happenings /grapevine
-/posts/instapage-unbounce-leadpages-pagewiz-or-wishpond-which-is-the-best-landing-page-builder /posts/which-is-the-best-landing-page-builder
-/membership-solutions /services/membership-solutions
-/work /services
-/services/websites /services/website-marketing
-/services/sales-tech-consulting /services/salesforce-consulting
+/oldurl /newurl
