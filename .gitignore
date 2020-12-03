@@ -1,6 +1,6 @@
 .idea
 .sass-cache
-_site
+#_site
 node_modules
 Gemfile.lock
 *.map

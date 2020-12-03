@@ -1,0 +1,308 @@
+<!doctype html>
+
+<html lang="en" class="page--search">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Jekyll v3.7.2">
+  <meta property="fb:app_id" content="1299829076759410">
+  <meta name="theme-color" content="#94040B">
+
+  <link type="application/atom+xml" rel="alternate" href="https://benevolent.tech/feed.xml" title="Benevolent Tech" />
+
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/images/favicon.ico">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Benevolent Tech | We are a DC-based online marketing and web development agency that helps small businesses grow their business.</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Benevolent Tech" />
+<meta name="author" content="Benevolent Tech" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="We are a DC-based online marketing and web development agency that helps small businesses grow their business." />
+<meta property="og:description" content="We are a DC-based online marketing and web development agency that helps small businesses grow their business." />
+<link rel="canonical" href="https://benevolent.tech/search" />
+<meta property="og:url" content="https://benevolent.tech/search" />
+<meta property="og:site_name" content="Benevolent Tech" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Benevolent Tech"},"url":"https://benevolent.tech/search","headline":"Benevolent Tech","description":"We are a DC-based online marketing and web development agency that helps small businesses grow their business.","@type":"WebPage","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- More info on JSON-LD at https://developers.google.com/search/docs/guides/intro-structured-data -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "",
+    "telephone": "+1-202-644-2237",
+    "email": "brian(at)benevolent.tech",
+    "sameAs" : [
+      "https://www.instagram.com/benevolenttech",
+      "https://twitter.com/benevolentweb",
+      "https://facebook.com/benevolenttech",
+      "https://www.linkedin.com/company/benevolent-tech",
+      "https://www.yelp.com/biz/benevolent-tech-washington",
+      "https://member.angieslist.com/member/store/22294999",
+      "https://angel.co/benevolenttech",
+      "https://github.com/benevolenttech",
+      "https://plus.google.com/+BenevolentTechDC",
+      "https://clutch.co/profile/benevolent-tech"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2316 Rhode Island Ave NE",
+      "postalCode": "20018",
+      "addressLocality": "Washington",
+      "addressRegion": "DC",
+      "addressCountry": "USA"
+    },
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2316 Rhode Island Ave NE",
+        "postalCode": "20018",
+        "addressLocality": "Washington",
+        "addressRegion": "DC",
+        "addressCountry": "USA"
+      },
+      "url": ""
+    }
+
+  }
+  </script>
+
+  <!--[if lte IE 9]>
+<script src="/js/ie/html5shiv.js"></script><![endif]-->
+<!--[if lte IE 9]>
+<script defer src="/js/ie/respond.min.js"></script><![endif]-->
+  <!---->
+  <link rel="stylesheet" href="/css/screen.css" />
+
+</head>
+<body>
+
+
+
+<div class="main">
+
+  <div id="back-button">
+    <a href="/">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve"><polygon fill="#AAAAAB" points="96,14 82,0 48,34 14,0 0,14 34,48 0,82 14,96 48,62 82,96 96,82 62,48 "/></svg>
+    </a>
+  </div>
+  <!--<div id="left-column">-->
+  <!--<div id="category" class="facet"></div>-->
+  <!--<div id="brand" class="facet"></div>-->
+  <!--<div id="price" class="facet"></div>-->
+  <!--<div id="type" class="facet"></div>-->
+  <!--</div>-->
+
+  <div id="center-column">
+    <div id="search-input"></div>
+    <div id="search-input-icon"></div>
+    <div id="sort-by-wrapper"><span id="sort-by"></span></div>
+    <div id="stats"></div>
+    <div id="hits"></div>
+    <div id="pagination"></div>
+  </div>
+</div>
+
+<!-- /INTERFACE -->
+
+<!-- TEMPLATES -->
+<script type="text/html" id="hit-template">
+  <div class="hit">
+    <a href="{{url}}"></a>
+    <!--<a href="{{{url}}}">link</a>-->
+    <div class="hit-image">
+      <img src="data:image/png;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="" data-echo="{{image}}" alt="{{name}}">
+    </div>
+    <div class="hit-content">
+      <!--<h3 class="hit-price">${{price}}</h3>-->
+      <h2 class="hit-name">{{{_highlightResult.title.value}}}</h2>
+      <p class="hit-description">{{{_highlightResult.text.value}}}</p>
+    </div>
+  </div>
+</script>
+
+<script type="text/html" id="no-results-template">
+  <div id="no-results-message">
+    <p>We didn't find any results for the search <em>"{{query}}"</em>.</p>
+    <a href="." class='clear-all'>Clear search</a>
+  </div>
+</script>
+<!-- /TEMPLATES -->
+
+<!-- SCRIPTS -->
+<script src="/js/instantsearch.min.js"></script>
+<script>
+  /* global instantsearch */
+
+  app({
+    appId: 'MUZJLD13O2',
+    apiKey: '35caa441e6228ea7dbea9db1f8184600',
+    indexName: 'Benevolent Tech Main',
+  });
+
+  function app(opts) {
+    var search = instantsearch({
+      appId: opts.appId,
+      apiKey: opts.apiKey,
+      indexName: opts.indexName,
+      urlSync: true,
+    });
+
+    search.addWidget(
+      instantsearch.widgets.searchBox({
+        container: '#search-input',
+        placeholder: 'Search',
+      })
+    );
+
+    search.addWidget(
+      instantsearch.widgets.hits({
+        container: '#hits',
+        hitsPerPage: 10,
+        templates: {
+          item: getTemplate('hit'),
+          empty: getTemplate('no-results'),
+        },
+      })
+    );
+
+    search.addWidget(
+      instantsearch.widgets.stats({
+        container: '#stats',
+      })
+    );
+
+    search.addWidget(
+      instantsearch.widgets.sortBySelector({
+        container: '#sort-by',
+        autoHideContainer: true,
+        indices: [
+          {
+            name: opts.indexName, label: 'Most relevant',
+          },
+          /*{
+           name: `${opts.indexName}_price_asc`, label: 'Lowest price',
+           },
+           {
+           name: `${opts.indexName}_price_desc`, label: 'Highest price',
+           }*/
+        ],
+      })
+    );
+
+    /*
+     search.addWidget(
+     instantsearch.widgets.pagination({
+     container: '#pagination',
+     scrollTo: '#search-input',
+     })
+     );
+
+     search.addWidget(
+     instantsearch.widgets.refinementList({
+     container: '#category',
+     attributeName: 'categories',
+     sortBy: ['isRefined', 'count:desc', 'name:asc'],
+     limit: 10,
+     operator: 'or',
+     templates: {
+     header: getHeader('Category'),
+     },
+     })
+     );
+
+     search.addWidget(
+     instantsearch.widgets.refinementList({
+     container: '#brand',
+     attributeName: 'brand',
+     sortBy: ['isRefined', 'count:desc', 'name:asc'],
+     limit: 10,
+     operator: 'or',
+     searchForFacetValues: {
+     placeholder: 'Search for brands',
+     templates: {
+     noResults: '<div class="sffv_no-results">No matching brands.</div>',
+     },
+     },
+     templates: {
+     header: getHeader('Brand'),
+     },
+     })
+     );
+
+     search.addWidget(
+     instantsearch.widgets.rangeSlider({
+     container: '#price',
+     attributeName: 'price',
+     templates: {
+     header: getHeader('Price'),
+     },
+     })
+     );
+
+     search.addWidget(
+     instantsearch.widgets.refinementList({
+     container: '#type',
+     attributeName: 'type',
+     sortBy: ['isRefined', 'count:desc', 'name:asc'],
+     limit: 10,
+     operator: 'and',
+     templates: {
+     header: getHeader('Type'),
+     },
+     })
+     );
+     */
+
+    search.start();
+  }
+
+  function getTemplate(templateName) {
+    return document.querySelector('#' + templateName + '-template').innerHTML;
+  }
+
+  function getHeader(title) {
+    return '<h5>' + title + '</h5>';
+  }
+
+
+  var urlParams;
+  (window.onpopstate = function () {
+    var match,
+      pl     = /\+/g,  // Regex for replacing addition symbol with a space
+      search = /([^&=]+)=?([^&]*)/g,
+      decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+      query  = window.location.search.substring(1);
+
+    urlParams = {};
+    while (match = search.exec(query))
+      urlParams[decode(match[1])] = decode(match[2]);
+  })();
+  if (urlParams['src']) {
+    document.querySelector('#back-button a').href = urlParams['src'];
+  }
+
+</script>
+<!-- /SCRIPTS -->
+
+
+
+<script defer type="text/javascript" src="/js/libs.min.js"></script>
+<script defer async type="text/javascript" src="/js/custom.min.js"></script>
+
+
+
+
+<!-- Load instantsearch last b/c is really big, and only needed for search page. -->
+<script async defer src="/js/instantsearch.min.js"></script>
+
+</body>
+</html>
