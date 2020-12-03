@@ -13,7 +13,8 @@ map:
 
 <section class="diagonal">
 	<div class="container">
-		<form action="{{ site.baseurl }}/contact-success" method="post" class="contact-form">
+
+		<form action="javascript:handleContactSubmit()" method="get" class="contact-form">
 			<input type="hidden" name="_to" value="hi@benevolent.tech" />
 			<input type="text" name="_gotcha" style="display: none;" />
 
@@ -36,6 +37,19 @@ map:
 			<textarea name="message" id="message" placeholder="Hi There..."></textarea>
 
 			<input class="button" type="submit" value="Send Message" />
+			<script>
+				function handleContactSubmit() {
+					const firstName = encodeURIComponent(document.getElementById('first-name').value)
+					const lastName = encodeURIComponent(document.getElementById('last-name').value)
+					const email = encodeURIComponent(document.getElementById('email').value)
+					const message = encodeURIComponent(document.getElementById('message').value)
+					const subject = "Inquiry for Benevolent Tech"
+					const body = `Ho Benevolent Tech team,%0D%0A%0D%0A${message}%0D%0A%0D%0AYours,%0D%0A${firstName} ${lastName}%0D%0A${email}`
+					window.open('mailto:hi@benevolent.tech?' +
+								'subject=' + subject +
+								'&body=' + body,'','width=600, height=500')
+				}
+			</script>
 		</form>
 	</div>
 </section>
