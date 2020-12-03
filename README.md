@@ -2,6 +2,18 @@
 
 Adapted by Brian for Benevolent Tech.
 
+It's been many years since I made this repo, so I actually can't remember a lot of things, like why I introduced Gulp
+and where I based that off of.
+
+Basically, to get up and running you need homebrew, ruby and node v8.
+
+```
+sudo gem install bundler jekyll
+bundle install
+npm i
+gulp serve
+```
+
 
 # Urban
 
@@ -49,7 +61,7 @@ $ bundle install
 Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
 ~~~bash
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --livereload
 ~~~
 
 ## Editing
