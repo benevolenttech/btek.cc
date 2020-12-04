@@ -1,7 +1,11 @@
+var lastClick = 0;
 function handleRefClick(e, personName) {
-  e.preventDefault()
-  window.open('mailto:hi@benevolent.tech?' +
-    'subject=Can you connect me?' +
-    '&body=Can you connect me with ' + personName + ' to hear more about their project?',
-    '', 'width=600, height=500')
+  e.preventDefault();
+  if (Date.now() - lastClick > 5000) {
+    lastClick = Date.now();
+    const link = 'mailto:hi@benevolent.tech?' +
+      'subject=Can you connect me?' +
+      '&body=Can you connect me with ' + personName + ' to hear more about their project?';
+    window.open(link, '');
+  }
 }
