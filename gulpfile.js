@@ -84,8 +84,9 @@ gulp.task('css', function (cb) {
 gulp.task('js-libs', function (cb) {
   pump([
       gulp.src([
-        'js/_src/libs/smooth-scroll.js',
-        'js/_src/libs/echo.js'
+        'js/_src/libs/handleRefClick.js',
+        'js/_src/libs/echo.js',
+        'js/_src/libs/smooth-scroll.js'
       ]),
       sourcemaps.init(),
       concat('libs.min.js'),
