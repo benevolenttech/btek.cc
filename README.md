@@ -8,7 +8,7 @@ and where I based that off of.
 Basically, to get up and running you need homebrew, ruby and node v8.
 
 ```
-sudo gem install bundler jekyll
+sudo gem install bundler
 bundle install
 npm i
 gulp serve

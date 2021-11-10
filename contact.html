@@ -5,9 +5,9 @@ subtitle: We'd love to help your business.
 description: We'd love to help your business with it's SEO, marketing, and website development.
 image: /images/benevolent_tech_dc_seo.png
 map:
-  latitude: 39.314057
-  longitude: -76.630998
-  address: "2039 Park Ave, Baltimore MD 21217"
+  latitude: 30.2390944
+  longitude: -97.9060091
+  address: "7617 Roaring Springs Dr, Austin TX 78736"
   zoom: 13
 ---
 
@@ -15,7 +15,7 @@ map:
 	<div class="container">
 
 		<form action="javascript:handleContactSubmit()" method="get" class="contact-form">
-			<input type="hidden" name="_to" value="hi@benevolent.tech" />
+			<input type="hidden" name="_to" value="brian@benevolent.tech" />
 			<input type="text" name="_gotcha" style="display: none;" />
 
 			<div class="halves">
@@ -62,21 +62,17 @@ map:
 	<div class="container halves aligned-top">
 		<div>
 			<h3>Address</h3>
-				<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">	<!--{{ page.map.address | replace: ", ", ", <br>" }}-->
-					Benevolent Tech HQ<br>2039 Park Ave<br>Baltimore MD 21217
-				</a></address>
-				
-				<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">	<!--{{ page.map.address | replace: ", ", ", <br>" }}-->
-					Benevolent Tech DC<br>2316 Rhode Island Ave NE<br>Washington DC 20018
-				</a></address>
-
-				<address>	<!--{{ page.map.address | replace: ", ", ", <br>" }}-->
-					Benevolent Tech Mailbox<br>2039 Park Ave<br>Baltimore MD 21217
+				<address> <!--{{ page.map.address | replace: ", ", ", <br>" }}-->
+					<a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">	<!--{{ page.map.address | replace: ", ", ", <br>" }}-->
+						Benevolent Tech HQ<br>7617 Roaring Springs Dr<br>Austin, TX 78736
+					</a>
 				</address>
 		</div>
 		<div>
 			<h3>Email</h3>
 			<p>
+				Sorry, we aren't currently accepting email.
+				<!--
 				<a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a><br>
 				<span class="hide-on-mobile">
 					<a href="mailto:hola@benevolent.tech">hola@benevolent.tech</a><br>
@@ -84,6 +80,7 @@ map:
 					<a href="mailto:namaste@benevolent.tech">namaste@benevolent.tech</a><br>
 					<a href="mailto:marhaba@benevolent.tech">marhaba@benevolent.tech</a>
 				</span>
+				-->
 			</p>
 		</div>
 	</div>
