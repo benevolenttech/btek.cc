@@ -14,6 +14,12 @@ npm i
 gulp serve
 ```
 
+To deploy,
+
+```
+rsync -r --exclude "node_modules" --exclude ".history" ./ plesk_btech:bt-jekyll-website
+```
+
 
 # Urban
 
