@@ -14,10 +14,15 @@ npm i
 gulp serve
 ```
 
-To deploy,
+To deploy on hostinger, notice I added .htaccess and git integration:
 
 ```
-rsync -r --exclude "node_modules" --exclude ".history" ./ plesk_btech:bt-jekyll-website
+git commit -a -m "message"
+rsync _site/ public
+git push
+
+# to rsync, rsync -r --exclude "node_modules" --exclude ".history" ./ plesk_btech:bt-jekyll-website
+
 ```
 
 
