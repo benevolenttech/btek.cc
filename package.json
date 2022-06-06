@@ -1,7 +1,8 @@
 {
   "scripts": {
     "ruby-bundle": "npx bundle install",
-    "gulp": "//See all of the wonderful commands in gulp"
+    "gulp": "//See all of the wonderful commands in gulp",
+    "deploy": "to hostinger via bitbucket webhook -- see readme"
   },
   "dependencies": {},
   "devDependencies": {
