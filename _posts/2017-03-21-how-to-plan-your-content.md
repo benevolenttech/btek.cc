@@ -53,7 +53,7 @@ Once you get the hang of it, it’s easy to favor certain words in your articles
 
 To kick off this process, think about the topics you want to rank for in terms of generic “buckets”. You’ll come up with about 5-10 topic buckets you think are important to your business. Topics like “security technologies” if you are a cyber security business. Then you’ll use those topic buckets to help come up with some specific keywords later in the process.
 
-If you were a company like Benevolent Tek, for example – selling marketing services and software consulting – you might have general topic buckets like “SEO Companies in DC”, “Email Marketing in DC”, “responsive website design” and “marketing automation.” Make sense?
+If you were a company like btek, for example – selling marketing services and software consulting – you might have general topic buckets like “SEO Companies in DC”, “Email Marketing in DC”, “responsive website design” and “marketing automation.” Make sense?
 
 #### Step 2: Fill in those topic buckets with keywords.
 

@@ -1,6 +1,6 @@
 # Fork of Urban Jekyll Template
 
-Adapted by Brian for Benevolent Tek.
+Adapted by Brian for btek.
 
 It's been many years since I made this repo, so I actually can't remember a lot of things, like why I introduced Gulp
 and where I based that off of.

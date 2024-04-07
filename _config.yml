@@ -1,4 +1,4 @@
-title: Benevolent Tek
+title: btek
 url: "https://btek.cc"
 baseurl:
 google_maps_javascript_api_key: AIzaSyDKMKUAB7EOak_dTHHeUX8N0MNuYRFh_Ik
@@ -9,13 +9,13 @@ description: We are a DC-based online marketing and web development agency that 
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name: Benevolent Tek
+  name: btek
   email: hi@btek.cc
   twitter: benevolentweb # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Benevolent Tek
+  name: btek
   links:
     - https://twitter.com/benevolentweb
 
@@ -64,7 +64,7 @@ jekyll-archives:
 
 algolia:
   application_id: 'MUZJLD13O2'
-  index_name:     'Benevolent Tek Main'
+  index_name:     'btek Main'
   record_css_selector: 'p,ul,ol,h1,h2,h3,h4,h5'
   settings:
       attributesToIndex:

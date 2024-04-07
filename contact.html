@@ -43,8 +43,8 @@ map:
 					const lastName = encodeURIComponent(document.getElementById('last-name').value)
 					const email = encodeURIComponent(document.getElementById('email').value)
 					const message = encodeURIComponent(document.getElementById('message').value)
-					const subject = "Inquiry for Benevolent Tek"
-					const body = `Ho Benevolent Tek team,%0D%0A%0D%0A${message}%0D%0A%0D%0AYours,%0D%0A${firstName} ${lastName}%0D%0A${email}`
+					const subject = "Inquiry for btek"
+					const body = `Ho btek team,%0D%0A%0D%0A${message}%0D%0A%0D%0AYours,%0D%0A${firstName} ${lastName}%0D%0A${email}`
 					window.open('mailto:hi@btek.cc?' +
 								'subject=' + subject +
 								'&body=' + body,'')
@@ -64,7 +64,7 @@ map:
 			<h3>Address</h3>
 				<address> <!--{{ page.map.address | replace: ", ", ", <br>" }}-->
 					<a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">	<!--{{ page.map.address | replace: ", ", ", <br>" }}-->
-						Benevolent Tek HQ<br>7617 Roaring Springs Dr<br>Austin, TX 78736
+						btek HQ<br>7617 Roaring Springs Dr<br>Austin, TX 78736
 					</a>
 				</address>
 		</div>
