@@ -1,5 +1,5 @@
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^bek.fm$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.bek.fm$
+RewriteCond %{HTTP_HOST} ^btek.cc$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.btek.cc$
 RewriteCond %{REQUEST_URI} !_site/
 RewriteRule (.*) _site/$1 [L]

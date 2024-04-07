@@ -2,8 +2,8 @@
   <div id="footer-newsletter" style="position:absolute; top:-70px;"></div>
     <p style="padding: 0 20px;">Get free marketing advice & goodies to your inbox!</p>
     <form style="padding: 0 20px;" action="javascript:handleNewsletterSubmit()" method="get">
-      <input type="hidden" name="_to" value="hi@benevolent.tech" />
-      <input type="hidden" name="_subject" value="New newsletter signup on benevolent.tech" />
+      <input type="hidden" name="_to" value="hi@btek.cc" />
+      <input type="hidden" name="_subject" value="New newsletter signup on btek.cc" />
       <input type="text" name="_gotcha" style="display: none;" />
       <div class="halves">
         <div>
@@ -19,9 +19,9 @@
 <script>
   function handleNewsletterSubmit() {
     const email = encodeURIComponent(document.getElementById('newsletter-email').value)
-    const subject = "Inquiry for Benevolent Tech"
-    const body = `Ho Benevolent Tech team,%0D%0A%0D%0AI'm interested in your newsletter. Can you hook me up?%0D%0A%0D%0AYours,%0D%0A${email}`
-    window.open('mailto:hi@benevolent.tech?' +
+    const subject = "Inquiry for Benevolent Tek"
+    const body = `Ho Benevolent Tek team,%0D%0A%0D%0AI'm interested in your newsletter. Can you hook me up?%0D%0A%0D%0AYours,%0D%0A${email}`
+    window.open('mailto:hi@btek.cc?' +
             'subject=' + subject +
             '&body=' + body,'')
   }

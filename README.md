@@ -1,14 +1,21 @@
 # Fork of Urban Jekyll Template
 
-Adapted by Brian for Benevolent Tech.
+Adapted by Brian for Benevolent Tek.
 
 It's been many years since I made this repo, so I actually can't remember a lot of things, like why I introduced Gulp
 and where I based that off of.
 
 Basically, to get up and running you need homebrew, ruby and node v8.
+Update: gem install fails. Have to edit src/build files directly atm.
+
+Hack to get node8 working with OD cli hooks bc asdf fails on node8:
+npm i -g n
+n 8.17.0
+export PATH="/usr/local/n/versions/node/8.17.0/bin/:$PATH"
 
 ```
-sudo gem install bundler
+asdf install 2.7.8
+sudo gem install bundler -v 2.4.22
 bundle install
 npm i
 gulp serve
@@ -17,6 +24,11 @@ gulp serve
 To deploy on hostinger, notice I added .htaccess and git integration:
 
 ```
+git commit -a -m "message"
+ssh hostinger
+cd domains/btek.cc/public_html
+git pull
+
 git commit -a -m "message"
 rsync _site/ public
 git push
