@@ -5,8 +5,18 @@ Adapted by Brian for Benevolent Tek.
 It's been many years since I made this repo, so I actually can't remember a lot of things, like why I introduced Gulp
 and where I based that off of.
 
+Status: Jekyl broken. gem install fails. Have to edit src/build files directly atm.
+
+```
+manual edits
+git commit/push
+ssh hostinger
+cd domains/btek.cc/public_html
+git pull # note -- no push perms
+```
+
+
 Basically, to get up and running you need homebrew, ruby and node v8.
-Update: gem install fails. Have to edit src/build files directly atm.
 
 Hack to get node8 working with OD cli hooks bc asdf fails on node8:
 npm i -g n
