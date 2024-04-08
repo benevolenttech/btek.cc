@@ -1,13 +1,15 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/src/data/posts/index.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/src/components/post-summary.php';
+require_once 'src/data/posts/post-collection.php';
+require_once 'post-summary.php';
 
-function listPosts() {
-	foreach ($posts as $post) {
-		?>
+function listPosts()
+{
+	global $postCol;
+	foreach ($postCol->find() as $post) {
+?>
 		<li class="blog-post">
 			<?php postSummary($post) ?>
 		</li>
-		<?php
+<?php
 	}
 }

@@ -1,24 +1,20 @@
 <?php
-$post = [
-  'title' => "How to Write Content Worth Sharing",
-  'slug' => "how-to-write-content-worth-sharing",
-  'categories' => [
-    '0007',
-    '0008'
-  ],
-  'series' => [
-    'SEO'
-  ],
-  'author_staff_member' => "brian-dombrowski",
-  'date' => "2017-05-01 14:05:00",
-  'id' => "0004",
-  'next' => "",
-  'prev' => "0003",
-  'description' => "Getting people on your website is just the beginning -- you need great content to go viral.",
-  'subtitle' => "Getting people on your website is just the beginning -- you need great content to go viral.",
-  'image' => "/img/viral-seo-marketing-2.jpg"
-];
-$post['content'] = <<<CONTENT
+require_once 'post.php';
+
+$post = new Post(
+  id: "0003",
+  slug: "how-to-write-content-worth-sharing",
+  title: "How to Write Content Worth Sharing",
+  subtitle: "Getting people on your website is just the beginning -- you need great content to go viral.",
+  description: "Getting people on your website is just the beginning -- you need great content to go viral.",
+  author_staff_member: "brian-dombrowski",
+  publishedAt: "2017-05-01 14:05:00",
+  categories: ['0007', '0008'],
+  series: 'SEO',
+  image: "/img/viral-seo-marketing-2.jpg",
+  prev: null,
+  next: "0004",
+  content: <<<CONTENT
 ![](data:image/png;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==)![](/img/versions/viral-seo-marketing-2---x----1000-562x---.jpg)
 
 <span class="dropcap">C</span>ontent is king. That's the “Om”-like mantra chanted by everyone and their dog, cat and hamster. You can have a site that's SEO-friendly in other aspects, but if your metrics are down regardless of how welcoming your site is, or any other aspect of bringing in readers and/or customers, then you might want to revisit, and heavily revise, your idea of what makes “quality content.” After all, nobody wants want to share something mediocre. In this fourth edition of our [SEO primer series](/seo-primer-series), we reveal the secrets of writing content that converts leads to customers.
@@ -74,4 +70,6 @@ Titles, featured images and descriptions are the first things people see about y
 Short and sweet is the order of the day concerning your article previews. Shoot for no more than 60 characters for the title, the description's character count ought to be less than 150, and the image should be both compelling and relevant. Yeah, that sounds a bit strict, but otherwise it will get cut off in previews.
 
 Check out our other posts in our [SEO Primer Series](/seo-primer-series)!
-CONTENT;
+CONTENT,
+
+);

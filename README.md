@@ -1,5 +1,7 @@
 # Fork of Urban Jekyll Template
 
+Hostinger PHP = 8.1.27
+
 Adapted by Brian for btek.
 
 It's been many years since I made this repo, so I actually can't remember a lot of things, like why I introduced Gulp

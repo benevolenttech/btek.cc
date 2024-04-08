@@ -1,7 +1,3 @@
-<DirectoryMatch "^/_">
-    Deny from all
-</DirectoryMatch>
-
 RewriteEngine On
 
 RewriteCond %{HTTP_HOST} ^www.btek.cc$ [NC]
@@ -15,4 +11,6 @@ DirectoryIndex index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.+)$ $1.php [NC,L]
+# RewriteRule ^(.+)$ $1.php [NC,L]
+# RewriteRule . index.php
+RewriteRule ^(.*)$ router.php?q=$1 [L,QSA]

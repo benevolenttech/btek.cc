@@ -1,24 +1,20 @@
 <?php
-$post = [
-  'title' => "What is online marketing, you ask?",
-  'slug' => "what-is-online-marketing-you-ask",
-  'categories' => [
-    '0007',
-    '0008'
-  ],
-  'series' => [
-    'SEO Primer'
-  ],
-  'author_staff_member' => "brian-dombrowski",
-  'date' => "2016-12-22 11:10:13",
-  'id' => "0001",
-  'next' => "0002",
-  'prev' => "",
-  'description' => "Better late than never. Dive in!",
-  'subtitle' => "Better late than never. Dive in!",
-  'image' => "/images/dc_marketing_seo.png"
-];
-$post['content'] = <<<CONTENT
+require_once 'post.php';
+
+$post = new Post(
+  id: "0002",
+  slug: "what-is-online-marketing-you-ask",
+  title: "What is online marketing, you ask?",
+  subtitle: "Better late than never. Dive in!",
+  description: "Better late than never. Dive in!",
+  author_staff_member: "brian-dombrowski",
+  publishedAt: "2016-12-22 11:10:13",
+  categories: ['0007', '0008'],
+  series: 'SEO Primer',
+  image: "/images/dc_marketing_seo.png",
+  prev: null,
+  next: "0001",
+  content: <<<CONTENT
 <div style="width:100%;height:0;padding-bottom:57%;position:relative;"><iframe src="https://giphy.com/embed/26FPnj46RYsIWgYLe" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 
 <span class="dropcap">O</span>nline marketing is impressively cost-effective for most businesses. In fact, some businesses achieve triple-digit growth in leads through an online marketing campaign. Sure, you can market your business without online marketing. But why would you want to? In this first edition of our [SEO primer series](/seo-primer-series), we cover the basics of online marketing terminology and strategy.
@@ -66,4 +62,6 @@ In contrast to outbound marketing like email, inbound marketing is all about max
 All of these efforts comprise an overall strategy of attracting clients, promoting your brand to them, and convincing them to love you. Remember, buying anything these days involves a perceived need, an analysis of a multitude of options, and an emotional reaction to YOUR product or service.
 
 Check out our other posts in our [SEO Primer Series](/seo-primer-series)!
-CONTENT;
+CONTENT,
+
+);

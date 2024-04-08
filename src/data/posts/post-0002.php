@@ -1,24 +1,20 @@
 <?php
-$post = [
-  'title' => "How to Make Your Site Search Engine Friendly",
-  'slug' => "how-to-make-your-site-search-engine-friendly",
-  'categories' => [
-    '0007',
-    '0008'
-  ],
-  'series' => [
-    'SEO'
-  ],
-  'author_staff_member' => "brian-dombrowski",
-  'date' => "2017-01-20 11:10:13",
-  'id' => "0002",
-  'next' => "0003",
-  'prev' => "0001",
-  'description' => "Follow these guidelines to avoid certain death by search engine gods.",
-  'subtitle' => "Follow these guidelines to avoid certain death by search engine gods.",
-  'image' => "/img/dc-seo-save-me.png"
-];
-$post['content'] = <<<CONTENT
+require_once 'post.php';
+
+$post = new Post(
+  id: "0003",
+  slug: "how-to-make-your-site-search-engine-friendly",
+  title: "How to Make Your Site Search Engine Friendly",
+  subtitle: "Follow these guidelines to avoid certain death by search engine gods.",
+  description: "Follow these guidelines to avoid certain death by search engine gods.",
+  author_staff_member: "brian-dombrowski",
+  publishedAt: "2017-01-20 11:10:13",
+  categories: ['0007', '0008'],
+  series: 'SEO Primer',
+  image: "/img/dc-seo-save-me.png",
+  prev: "0001",
+  next: "0002",
+  content: <<<CONTENT
 ![](data:image/png;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==)
 
 <span class="dropcap">Y</span>ou may have a huge fanbase and massive traffic, but ignoring search engine and social network guidelines will sink your online visibility faster than hitting an iceberg on a foggy night. In this second edition of our [SEO primer series](/seo-primer-series), we cover the critical website requirements for getting on to the search engines.
@@ -62,4 +58,5 @@ We're actually working on a full tips and tricks article on performance -- sign 
 Now you know how to make your site perfect. Actually no you don't, there are four more steps in this series, But at least it's a good start.
 
 Check out our other posts in our [SEO Primer Series](/seo-primer-series)!
-CONTENT;
+CONTENT,
+);

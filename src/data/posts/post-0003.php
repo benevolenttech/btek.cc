@@ -1,24 +1,20 @@
 <?php
-$post = [
-  'title' => "How to Plan Your Content",
-  'slug' => "how-to-plan-your-content",
-  'categories' => [
-    '0007',
-    '0008'
-  ],
-  'series' => [
-    'SEO Primer'
-  ],
-  'author_staff_member' => "brian-dombrowski",
-  'date' => "2017-03-21 14:05:00",
-  'id' => "0003",
-  'next' => "0004",
-  'prev' => "0002",
-  'description' => "Get more people to your website by creating content they look for.",
-  'subtitle' => "Get more people to your website by creating content they look for.",
-  'image' => "/img/home-alone-seo-battleplan.jpg"
-];
-$post['content'] = <<<CONTENT
+require_once 'post.php';
+
+$post = new Post(
+  id: "0004",
+  slug: "how-to-plan-your-content",
+  title: "How to Plan Your Content",
+  subtitle: "Get more people to your website by creating content they look for.",
+  description: "Get more people to your website by creating content they look for.",
+  author_staff_member: "brian-dombrowski",
+  publishedAt: "2017-03-21 14:05:00",
+  categories: ['0007', '0008'],
+  series: 'SEO Primer',
+  image: "/img/home-alone-seo-battleplan.jpg",
+  prev: "0002",
+  next: "0003",
+  content: <<<CONTENT
 <div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/xUySTOigOUHucl3rfW" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 
 <span class="dropcap">S</span>o, you have an awesome business which basically sells itself? Think your three or four webpages will be enough to grab attention from search engines and social media? Your odds are pretty grim, friend. If you think you don't need a blog, think again. In this third edition of our [SEO primer series](/seo-primer-series), we tell you how to find the optimal topics to write about to lure people in.
@@ -123,4 +119,5 @@ Congratulations! You've now got a list of keywords that'll help you focus on the
 Be sure to re-evaluate these keywords frequently -- at least once a quarter. As you gain more success in search engines, you'll find that you can expand your keyword optimizations into new areas while maintaining your current presence. Sounds a bit dreamy, right?
 
 Check out our other posts in our [SEO Primer Series](/seo-primer-series)!
-CONTENT;
+CONTENT,
+);

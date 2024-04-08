@@ -1,25 +1,45 @@
 <?php
-$layout = "default";
-?> 
-<section class="hero diagonal">
-	<div class="container" {% if page.full_width %}style="max-width: 100%"{% endif %}>
-		{% if page.heading %}
-			{% assign heading = page.heading %}
-		{% elsif page.title %}
-			{% assign heading = page.title %}
-		{% endif %}
+require_once 'default.php';
 
-		{% if heading %}
-			<h1 style="display:none;">{{ heading }}</h1>
-			<h2>{{ heading }}</h2>
-		{% endif %}
+function pageLayout(
+	callable $renderChildren,
+	?string $title,
+	?string $subtitle,
+	?string $heading,
+	?string $description,
+	?string $image,
+	?bool $fullWidth,
+) {
+	defaultLayout(
+		title: $title,
+		description: $description,
+		image: $image,
+		author: null,
+		renderChildren: function () use (
+			$subtitle,
+			$heading,
+			$fullWidth,
+			$renderChildren,
+		) {
+?>
+		<section class="hero diagonal">
+			<div class="container" <?php if ($fullWidth) : ?> style="max-width: 100%" <?php endif ?>>
+				<?php if ($heading) : ?>
+					<h1 style="display:none;"><?php echo $heading; ?></h1>
+					<h2><?php echo $heading; ?></h2>
+				<?php endif ?>
 
-		{% if page.subtitle %}
-			<p class="subtext">
-				{{ page.subtitle }}
-			</p>
-		{% endif %}
-	</div>
-</section>
+				<?php if ($subtitle) : ?>
+					<p class="subtext">
+						<?php echo $subtitle; ?>
+					</p>
+				<?php endif ?>
+			</div>
+		</section>
 
-{{ content }}
+		<?php $renderChildren(); ?>
+
+<?php
+		},
+	);
+}
