@@ -1,0 +1,9 @@
+<?php
+$title = "Contact";
+$heading = "Thanks for getting in touch";
+$subtitle = "We'll get back to you as soon as possible";
+?> 
+
+<section class="diagonal">
+    <p style="font-size:50px;text-align:center;">Meanwhile, click <a href="/learning">here</a> to jumpstart learnings!</p>
+</section>

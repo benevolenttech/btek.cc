@@ -1,5 +1,18 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^btek.cc$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.btek.cc$
-RewriteCond %{REQUEST_URI} !_site/
-RewriteRule (.*) _site/$1 [L]
+<DirectoryMatch "^/_">
+    Deny from all
+</DirectoryMatch>
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www.btek.cc$ [NC]
+RewriteRule (.*)$ https://btek.cc/$1 [R=301,L]
+
+DirectoryIndex index.php
+
+# RewriteCond %{REQUEST_URI} !^/_public/
+# RewriteRule ^(.*)$ _public/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [NC,L]

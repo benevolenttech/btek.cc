@@ -1,0 +1,16 @@
+<?php
+$layout = "page";
+?> 
+
+{% assign posts=site.categories[page.title] %}
+
+<section class="diagonal">
+  <!--<p style="font-size:50px;text-align:center;">Coming Soon!</p>-->
+
+  <div class="text-container">
+    <ul class="blog-posts">
+      {% include list-posts.html posts=posts %}
+    </ul>
+  </div>
+</section>
+
