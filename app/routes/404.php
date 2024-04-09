@@ -1,5 +1,4 @@
 <?php
-require_once 'app/util/nav.php';
 require_once 'app/layouts/page.php';
 
 $notFoundRoute = new class extends RouteBase

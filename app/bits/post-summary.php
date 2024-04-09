@@ -1,8 +1,7 @@
 <?php
-require_once 'app/db.php';
 require_once 'post-title.php';
 
-function postSummary(Post $post)
+function postSummary(Db\Post $post)
 {
 ?>
 	<?php postTitle($post); ?>

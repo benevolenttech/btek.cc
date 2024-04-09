@@ -1,6 +1,4 @@
 <?php
-require_once 'app/util/nav.php';
-
 function pageNav()
 {
   global $url;

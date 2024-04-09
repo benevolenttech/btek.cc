@@ -1,6 +1,4 @@
 <?php
-require_once 'app/db.php';
-require_once 'app/util/nav.php';
 require_once 'app/layouts/page.php';
 require_once 'app/bits/staff-member.php';
 

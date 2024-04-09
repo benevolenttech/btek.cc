@@ -1,8 +1,5 @@
 <?php
-require_once 'app/db.php';
-require_once 'app/db.php';
-
-function postTitle(Post $post)
+function postTitle(Db\Post $post)
 {
 	global $categoryCol;
 ?>

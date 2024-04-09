@@ -1,6 +1,6 @@
 <?php
-require_once 'app/util/nav.php';
-require_once 'app/db.php';
+
+
 
 function htmlLayout(
   callable $renderChildren,

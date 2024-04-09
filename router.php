@@ -14,10 +14,11 @@ if (preg_match(
   return false;
 } else {
 
-  // Load all database files so they can be globally accessed
+  // Pre-load core files so they needn't be required
   foreach (glob("app/db/**/*.php") as $file) {
     include_once $file;
   }
+  include_once 'app/util/nav.php';
 
   /**
    * Look for a route file that matches the request URI and render it

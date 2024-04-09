@@ -1,7 +1,8 @@
 <?php
-require_once 'app/util/nav.php';
+
 function registerServiceWorker()
 {
+  global $url;
   if ($url->isDev) {
     return;
   }

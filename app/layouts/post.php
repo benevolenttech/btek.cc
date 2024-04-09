@@ -1,5 +1,4 @@
 <?php
-require_once 'app/db.php';
 $layout = "page";
 $author = $people[$page['author_staff_member']];
 ?>

@@ -1,6 +1,6 @@
 <?php
 
-require_once 'app/db.php';
+
 // require_once 'app/db.php/site-meta-collection.php';
 
 // echo $siteMeta->title;

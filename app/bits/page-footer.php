@@ -1,5 +1,4 @@
 <?php
-require_once 'app/db.php';
 require_once 'app/bits/social-icon.php';
 
 function pageFooter()
