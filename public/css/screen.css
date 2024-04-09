@@ -93,7 +93,7 @@ pre {
   box-shadow: 0 1px 0 #ccc, 0 1px 1px #eee;
   border-radius: 2px;
   padding: 20px 0 0;
-  background: url("/images/screenshot-buttons.svg") 4px 4px no-repeat #ddd;
+  background: url("/img/screenshot-buttons.svg") 4px 4px no-repeat #ddd;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .editable ol {
@@ -405,7 +405,7 @@ footer.partners table td {
   }
 }
 .patterned {
-  background: #222 url("/images/pattern.png");
+  background: #222 url("/img/pattern.png");
 }
 .patterned,
 .patterned p {
@@ -576,7 +576,7 @@ header a:hover {
   text-decoration: none;
 }
 header .company-name {
-  background-$image = "url(/images/logo.png);";
+  background-image: url(/img/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 160px;
@@ -585,7 +585,7 @@ header .company-name {
   z-index: 99;
 }
 header .company-name:hover {
-  background-$image = "url(/images/logo-alt.png);";
+  background-image: url(/img/logo-alt.png);
 }
 header .company-name::after {
   position: absolute;
@@ -593,7 +593,7 @@ header .company-name::after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(/images/logo-alt.png);
+  content: url(/img/logo-alt.png);
 }
 header .company-name a {
   position: absolute;
@@ -900,7 +900,7 @@ footer .footer-links-mobile .footer-links li a svg {
   height: 20px;
   content: "";
   cursor: default;
-  background: url(/images/search_icon.png) no-repeat;
+  background: url(/img/search_icon.png) no-repeat;
 }
 .page--search #hits {
   margin: 4px 0;

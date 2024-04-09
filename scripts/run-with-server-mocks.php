@@ -8,7 +8,7 @@ set_include_path(get_include_path() . PATH_SEPARATOR . '/Users/brian.dombrowski/
 
 // require_once $argv[1];
 
-require_once 'src/routes/about.php';
+require_once 'app/routes/about.php';
 $aboutRoute->render();
 // echo $aboutRoute->title;
 // pageStart();

@@ -13,17 +13,24 @@ if (preg_match(
 )) {
   return false;
 } else {
-  // echo "<p>Welcome to PHP</p>";
 
+  // Load all database files so they can be globally accessed
+  foreach (glob("app/db/**/*.php") as $file) {
+    include_once $file;
+  }
+
+  /**
+   * Look for a route file that matches the request URI and render it
+   */
   $pathname = explode('?', $_SERVER['REQUEST_URI'])[0];
   if ($pathname === '/') {
     $pathname = '/index';
   }
   $route = null;
-  if (file_exists('src/routes' . $pathname . '.php')) {
-    $route = include_once 'src/routes' . $pathname . '.php';
+  if (file_exists('app/routes' . $pathname . '.php')) {
+    $route = include_once 'app/routes' . $pathname . '.php';
   } else {
-    $route = include_once 'src/routes/404.php';
+    $route = include_once 'app/routes/404.php';
   }
   $route->render();
   return true;

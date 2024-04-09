@@ -1,11 +1,11 @@
 // sass --watch _sass/screen.scss:_includes/screen.css --style compressed
 
-$pattern: "/images/pattern.png";
-$screenshot-buttons: "/images/screenshot-buttons.svg";
+$pattern: "/img/pattern.png";
+$screenshot-buttons: "/img/screenshot-buttons.svg";
 
-$brand-color: #94040B;
+$brand-color: #94040b;
 $html-background-color: #222;
-$secondary-brand-color: #BCDEE0;
+$secondary-brand-color: #bcdee0;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 
 // Breakpoints
