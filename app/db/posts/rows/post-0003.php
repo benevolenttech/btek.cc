@@ -1,22 +1,19 @@
 <?php
-
-namespace Db;
-
 require_once 'app/db/posts/post.php';
 
 $post = new Post(
-  id: "0004",
   slug: "how-to-plan-your-content",
   title: "How to Plan Your Content",
-  subtitle: "Get more people to your website by creating content they look for.",
   description: "Get more people to your website by creating content they look for.",
   author_staff_member: "brian-dombrowski",
-  publishedAt: "2017-03-21 14:05:00",
+  publishAt: "2017-03-21 14:05:00",
   categories: ['0007', '0008'],
   series: 'SEO Primer',
-  image: "/img/home-alone-seo-battleplan.jpg",
   prev: "0002",
   next: "0003",
+  id: "0004",
+  subtitle: "Get more people to your website by creating content they look for.",
+  image: "/img/home-alone-seo-battleplan.jpg",
   content: <<<CONTENT
 <div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/xUySTOigOUHucl3rfW" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 

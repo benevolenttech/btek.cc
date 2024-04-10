@@ -89,10 +89,10 @@ function pageFooter()
 
         <ul class="footer-links">
           <li>
-            <h2><?php echo $siteMetaCol->getByName('title'); ?></h2>
+            <h2><?php echo $siteMetaCol->gbn('title'); ?></h2>
           </li>
-          <li><?php echo $siteMetaCol->getByName('description'); ?></li>
-          <li><a href="<?php echo $siteMetaCol->getByName('url'); ?>/feed.xml"><?php socialIcon('RSS'); ?> Subscribe with RSS</a></li>
+          <li><?php echo $siteMetaCol->gbn('description'); ?></li>
+          <li><a href="<?php echo $siteMetaCol->gbn('url'); ?>/feed.xml"><?php socialIcon('RSS'); ?> Subscribe with RSS</a></li>
         </ul>
       </div>
 
@@ -116,7 +116,7 @@ function pageFooter()
 
     <div class="legal-line desktop">
       <p class="container">
-        &copy; <?php echo date('Y'); ?> <?php echo $siteMetaCol->getByName('title'); ?>
+        &copy; <?php echo date('Y'); ?> <?php echo $siteMetaCol->gbn('title'); ?>
         &bull;
         benevolent tek
         &bull;
@@ -126,7 +126,7 @@ function pageFooter()
 
     <div class="legal-line mobile">
       <p class="container">
-        &copy; <?php echo date('Y'); ?> <?php echo $siteMetaCol->getByName('title'); ?><br>
+        &copy; <?php echo date('Y'); ?> <?php echo $siteMetaCol->gbn('title'); ?><br>
         Made with &lt;3 in austin, tx
       </p>
     </div>

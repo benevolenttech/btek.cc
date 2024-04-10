@@ -1,22 +1,19 @@
 <?php
-
-namespace Db;
-
 require_once 'app/db/posts/post.php';
 
 $post = new Post(
-  id: "0008",
   slug: "which-is-the-best-landing-page-builder",
   title: "Which is the Best Landing Page Builder?",
-  subtitle: "Want the best landing page builder for your site and considering Instapage, Unbounce, LeadPages, Pagewiz or Wishpond? Here's the feature comparison you've been looking for.",
   description: "Want the best landing page builder for your site and considering Instapage, Unbounce, LeadPages, Pagewiz or Wishpond? Here's the feature comparison you've been looking for.",
   author_staff_member: "brian-dombrowski",
-  publishedAt: "2017-08-25 00:00:00",
+  publishAt: "2017-08-25 00:00:00",
   categories: ["0008", "0007"],
   series: null,
-  image: "/img/fight2-small-square.jpeg",
   prev: null,
   next: null,
+  id: "0008",
+  subtitle: "Want the best landing page builder for your site and considering Instapage, Unbounce, LeadPages, Pagewiz or Wishpond? Here's the feature comparison you've been looking for.",
+  image: "/img/fight2-small-square.jpeg",
   content: "",
 );
 $post->content = <<<CONTENT

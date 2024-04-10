@@ -2,6 +2,7 @@
 
 function pathIsActive($path)
 {
+  // TODO: $_SERVER['REQUEST_URI'] = 'router'
   return $path === $_SERVER['REQUEST_URI'];
 }
 
@@ -23,21 +24,20 @@ $url = new class
     $this->pathname = explode('?', $this->rel)[0];
     $this->qs = explode('?', $this->rel)[1] ?? '';
     $this->full = $this->base . $this->rel;
-    $this->env = $siteMetaCol->getByName('url') ? 'prod' : 'dev';
+    $this->env = $siteMetaCol->gbn('url') ? 'prod' : 'dev';
     $this->isProd = $this->env === 'prod';
     $this->isDev = $this->env === 'dev';
   }
 };
 
-
 class RouteBase
 {
   public string $path;
   public string $title;
-  public string $subtitle;
+  public string $subtitle = "";
   public string $heading;
-  public string $description;
-  public string $image;
+  public string $description = "Websites are hard. We're here to help and empower you.";
+  public string $image = "/img/benevolent_tech_dc_seo.png";
   public bool $isActive;
 
   public function __construct()

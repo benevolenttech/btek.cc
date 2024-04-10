@@ -1,10 +1,7 @@
 <?php
-
-
-
 function htmlLayout(
   callable $renderChildren,
-  ?string $title = "Page",
+  ?string $title = "btek",
   ?string $description = "Websites are hard. We're here to help and empower you.",
   ?string $image = "/img/benevolent_tech_dc_seo.png",
   ?string $author = "btek",
@@ -35,8 +32,8 @@ function htmlLayout(
     <meta property="og:description" content="<?php echo $description ?>" />
     <link rel="canonical" href="<?php echo $url->full ?>" />
     <meta property="og:url" content="<?php echo $url->full ?>" />
-    <meta property="og:site_name" content="<?php echo $siteMetaCol->getByName('title') ?>" />
-    <meta property="og:image" content="<?php echo $siteMetaCol->getByName('url') . $image ?>" />
+    <meta property="og:site_name" content="<?php echo $siteMetaCol->gbn('title') ?>" />
+    <meta property="og:image" content="<?php echo $siteMetaCol->gbn('url') . $image ?>" />
 
     <!-- More info on JSON-LD at https://developers.google.com/search/docs/guides/intro-structured-data -->
     <script type="application/ld+json">
@@ -60,21 +57,21 @@ function htmlLayout(
         ],
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "<?php echo $siteMetaCol->getByName('street') ?>",
-          "postalCode": "<?php echo $siteMetaCol->getByName('postalCode') ?>",
-          "addressLocality": "<?php echo $siteMetaCol->getByName('town') ?>",
-          "addressRegion": "<?php echo $siteMetaCol->getByName('region') ?>",
-          "addressCountry": "<?php echo $siteMetaCol->getByName('country') ?>"
+          "streetAddress": "<?php echo $siteMetaCol->gbn('street') ?>",
+          "postalCode": "<?php echo $siteMetaCol->gbn('postalCode') ?>",
+          "addressLocality": "<?php echo $siteMetaCol->gbn('town') ?>",
+          "addressRegion": "<?php echo $siteMetaCol->gbn('region') ?>",
+          "addressCountry": "<?php echo $siteMetaCol->gbn('country') ?>"
         },
         "location": {
           "@type": "Place",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "<?php echo $siteMetaCol->getByName('street') ?>",
-            "postalCode": "<?php echo $siteMetaCol->getByName('postalCode') ?>",
-            "addressLocality": "<?php echo $siteMetaCol->getByName('town') ?>",
-            "addressRegion": "<?php echo $siteMetaCol->getByName('region') ?>",
-            "addressCountry": "<?php echo $siteMetaCol->getByName('country') ?>"
+            "streetAddress": "<?php echo $siteMetaCol->gbn('street') ?>",
+            "postalCode": "<?php echo $siteMetaCol->gbn('postalCode') ?>",
+            "addressLocality": "<?php echo $siteMetaCol->gbn('town') ?>",
+            "addressRegion": "<?php echo $siteMetaCol->gbn('region') ?>",
+            "addressCountry": "<?php echo $siteMetaCol->gbn('country') ?>"
           }
         }
 
@@ -108,7 +105,7 @@ function htmlLayout(
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
-        (function() {
+        (fn() {
           var u = "//analytics.btek.cc/";
           _paq.push(['setTrackerUrl', u + 'matomo.?> ']);
           _paq.push(['setSiteId', '1']);

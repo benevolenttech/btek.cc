@@ -1,6 +1,7 @@
 <?php
+require_once 'app/bits/share.php';
 $layout = "page";
-$author = $people[$page['author_staff_member']];
+$author = $person[$page['author_staff_member']];
 ?>
 
 <section class="share diagonal alternate" style="padding:10px 0;">
@@ -8,7 +9,7 @@ $author = $people[$page['author_staff_member']];
 		<table style="float:right;">
 			<tr>
 				<td>Share on </td>
-				<td style="padding-top:5px;">{% include share.html %}</td>
+				<td style="padding-top:5px;"><?php share() ?></td>
 			</tr>
 		</table>
 		<div style="clear:both"></div>
@@ -29,15 +30,12 @@ $author = $people[$page['author_staff_member']];
 		<table style="float:right;">
 			<tr>
 				<td>Share on </td>
-				<td style="padding-top:5px;">{% include share.html %}</td>
+				<td style="padding-top:5px;"><?php share() ?></td>
 			</tr>
 		</table>
 		<div style="clear:both"></div>
 	</div>
-</section>
-
-
-{% if page.author_staff_member %}
+</section>{% if page.author_staff_member %}
 <section class="diagonal patterned">
 	<div class="container">
 		<h2>Author</h2>
@@ -82,7 +80,7 @@ $author = $people[$page['author_staff_member']];
 			this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 			};
 			*/
-			(function() { // DON'T EDIT BELOW THIS LINE
+			(fn() { // DON'T EDIT BELOW THIS LINE
 				var d = document,
 					s = d.createElement('script');
 				s.src = '//{{ site.disqus_shortname }}.disqus.com/embed.js';

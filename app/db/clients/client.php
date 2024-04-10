@@ -1,7 +1,4 @@
 <?php
-
-namespace Db;
-
 class Client
 {
   public function __construct(

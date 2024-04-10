@@ -1,7 +1,4 @@
 <?php
-
-namespace Db;
-
 class SiteMeta
 {
   public function __construct(

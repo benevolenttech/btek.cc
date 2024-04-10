@@ -1,8 +1,6 @@
 <?php
 
-namespace Db;
-
-class People
+class Person
 {
   public function __construct(
     public string $id,

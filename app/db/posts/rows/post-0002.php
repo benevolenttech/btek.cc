@@ -1,22 +1,19 @@
 <?php
-
-namespace Db;
-
 require_once 'app/db/posts/post.php';
 
 $post = new Post(
-  id: "0003",
   slug: "how-to-make-your-site-search-engine-friendly",
   title: "How to Make Your Site Search Engine Friendly",
-  subtitle: "Follow these guidelines to avoid certain death by search engine gods.",
   description: "Follow these guidelines to avoid certain death by search engine gods.",
   author_staff_member: "brian-dombrowski",
-  publishedAt: "2017-01-20 11:10:13",
+  publishAt: "2017-01-20 11:10:13",
   categories: ['0007', '0008'],
   series: 'SEO Primer',
-  image: "/img/dc-seo-save-me.png",
   prev: "0001",
   next: "0002",
+  id: "0003",
+  subtitle: "Follow these guidelines to avoid certain death by search engine gods.",
+  image: "/img/dc-seo-save-me.png",
   content: <<<CONTENT
 ![](data:image/png;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==)
 

@@ -1,13 +1,14 @@
 <?php
-function staffMember($member)
+
+function staffMember(Person $person)
 {
 ?>
 	<div class="square-image">
-		<img src="<?php echo $member['imagePath'] ?>" alt="<?php echo $member['name'] ?>" />
+		<img src="<?php echo $person->imagePath ?>" alt="<?php echo $person->name ?>" />
 	</div>
 	<div class="details">
-		<div class="name"><?php echo $member['name'] ?></div>
-		<div class="position"><?php echo $member['position'] ?></div>
+		<div class="name"><?php echo $person->name ?></div>
+		<div class="position"><?php echo $person->position ?></div>
 	</div>
 <?php
 }

@@ -1,23 +1,20 @@
 <?php
-
-namespace Db;
-
 class Post
 {
   public function __construct(
-    public ?string $id = "",
     public string $slug,
     public string $title,
-    public ?string $subtitle = "",
     public string $description,
     public string $author_staff_member,
-    public string $publishedAt,
+    public string $publishAt,
     public string $content,
     /** @var string[] $categories */
-    public ?array $categories = [],
-    public ?string $series = "",
-    public ?string $next,
+    public ?array $categories,
+    public ?string $series,
     public ?string $prev,
+    public ?string $next,
+    public ?string $id = null,
+    public ?string $subtitle = null,
     public ?string $image = '/img/dc_marketing_seo.png',
   ) {
   }

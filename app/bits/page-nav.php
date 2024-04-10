@@ -41,6 +41,7 @@ function pageNav()
           <li style="display:none;"><a href="/services/website-marketing">Mobile App Development</a></li>
           <li style="display:none;"><a href="/services/salesforce-consulting">Salesforce Consulting</a></li>
 
+          <?php /* search icon
           <li>
             <style>
               #header-search-icon-a {
@@ -62,6 +63,8 @@ function pageNav()
               </svg>
             </a>
           </li>
+          */ ?>
+
           <li class="hide-above-mobile">
             <a href="/search?src=<?php echo rawurlencode($url->rel); ?>">
               Search
@@ -75,9 +78,9 @@ function pageNav()
   </header>
 
   <script>
-    (function() {
+    (fn() {
       /* Mobile Header */
-      document.getElementById("open-nav").addEventListener("click", function(event) {
+      document.getElementById("open-nav").addEventListener("click", fn(event) {
         event.preventDefault();
         document.body.classList.toggle("nav-open");
       });

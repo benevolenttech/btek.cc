@@ -29,10 +29,11 @@ if (preg_match(
   }
   $route = null;
   if (file_exists('app/routes' . $pathname . '.php')) {
-    $route = include_once 'app/routes' . $pathname . '.php';
+    include_once 'app/routes' . $pathname . '.php';
+  } else if (file_exists('app/routes' . $pathname . '/index.php')) {
+    include_once 'app/routes' . $pathname . '/index.php';
   } else {
-    $route = include_once 'app/routes/404.php';
+    include_once 'app/routes/404.php';
   }
-  $route->render();
   return true;
 }

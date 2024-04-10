@@ -1,22 +1,20 @@
 <?php
 
-namespace Db;
-
 require_once 'app/db/posts/post.php';
 
 $post = new Post(
-  id: "0002",
   slug: "what-is-online-marketing-you-ask",
   title: "What is online marketing, you ask?",
-  subtitle: "Better late than never. Dive in!",
   description: "Better late than never. Dive in!",
   author_staff_member: "brian-dombrowski",
-  publishedAt: "2016-12-22 11:10:13",
+  publishAt: "2016-12-22 11:10:13",
   categories: ['0007', '0008'],
   series: 'SEO Primer',
-  image: "/img/dc_marketing_seo.png",
   prev: null,
   next: "0001",
+  id: "0002",
+  subtitle: "Better late than never. Dive in!",
+  image: "/img/dc_marketing_seo.png",
   content: <<<CONTENT
 <div style="width:100%;height:0;padding-bottom:57%;position:relative;"><iframe src="https://giphy.com/embed/26FPnj46RYsIWgYLe" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 

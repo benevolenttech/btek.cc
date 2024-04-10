@@ -3,12 +3,12 @@ require_once 'default.php';
 
 function pageLayout(
 	callable $renderChildren,
-	?string $title,
-	?string $subtitle,
-	?string $heading,
-	?string $description,
-	?string $image,
-	?bool $fullWidth,
+	?string $title = null,
+	?string $subtitle = null,
+	?string $heading = null,
+	?string $description = null,
+	?string $image = null,
+	?bool $fullWidth = false,
 ) {
 	defaultLayout(
 		title: $title,

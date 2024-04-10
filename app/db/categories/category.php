@@ -1,7 +1,4 @@
 <?php
-
-namespace Db;
-
 class Category
 {
   public function __construct(

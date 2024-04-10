@@ -1,22 +1,19 @@
 <?php
-
-namespace Db;
-
 require_once 'app/db/posts/post.php';
 
 $post = new Post(
-  id: "0003",
   slug: "how-to-write-content-worth-sharing",
   title: "How to Write Content Worth Sharing",
-  subtitle: "Getting people on your website is just the beginning -- you need great content to go viral.",
   description: "Getting people on your website is just the beginning -- you need great content to go viral.",
   author_staff_member: "brian-dombrowski",
-  publishedAt: "2017-05-01 14:05:00",
+  publishAt: "2017-05-01 14:05:00",
   categories: ['0007', '0008'],
   series: 'SEO',
-  image: "/img/viral-seo-marketing-2.jpg",
   prev: null,
   next: "0004",
+  id: "0003",
+  subtitle: "Getting people on your website is just the beginning -- you need great content to go viral.",
+  image: "/img/viral-seo-marketing-2.jpg",
   content: <<<CONTENT
 ![](data:image/png;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==)![](/img/versions/viral-seo-marketing-2---x----1000-562x---.jpg)
 

@@ -1,13 +1,13 @@
 <?php
 require_once 'post-title.php';
 
-function postSummary(Db\Post $post)
+function postSummary(Post $p)
 {
 ?>
-	<?php postTitle($post); ?>
+	<?php postTitle($p); ?>
 	<div class="post-content">
-		<p><?php echo $post->description ?></p>
-		<p><a href="/posts/<?php echo $post->slug ?>">Read More &rarr;</a></p>
+		<p><?php echo $p->description ?></p>
+		<p><a href="#">Read More &rarr;</a></p>
 	</div>
 <?php
 }

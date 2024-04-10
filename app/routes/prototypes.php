@@ -1,38 +1,44 @@
 <?php
-$title = "Our Work";
-$heading = ""We've been busy."";
-$description = "Come see some of our recent success stories.";
-$image = "/img/benevolent_tech_dc_seo.png";
-?> 
+require_once 'app/layouts/page.php';
 
-<section class="diagonal" style="padding:10px 0;" id="learn-more">
-  <p style="text-align:right; margin-bottom:0; max-width:1000px; margin-left:auto; margin-right:auto; padding-right:20px;">
-    <a href="#learn-more" style="color:#666">Go ahead, take a look &#8595;</a>
-  </p>
-</section>
+pageLayout(
+  title: "Our Work",
+  heading: "We've been busy.",
+  description: "Come see some of our recent success stories.",
+  renderChildren: function () {
+?>
 
-<section class="diagonal alternate">
-  <div class="container editable">
-    <style>
-      ol.prototypes li {
-        position: relative;
-        width: 40%;
-        display: inline-block;
-        vertical-align: top;
-      }
-      ol.prototypes li:hover {
-        background: #BCDEE0;
-      }
-      ol.prototypes img {
-        max-width: 200px;
-      }
-      ol.prototypes a {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-      }
-    </style>
+  <section class="diagonal" style="padding:10px 0;" id="learn-more">
+    <p style="text-align:right; margin-bottom:0; max-width:1000px; margin-left:auto; margin-right:auto; padding-right:20px;">
+      <a href="#learn-more" style="color:#666">Go ahead, take a look &#8595;</a>
+    </p>
+  </section>
+
+  <section class="diagonal alternate">
+    <div class="container editable">
+      <style>
+        ol.prototypes li {
+          position: relative;
+          width: 40%;
+          display: inline-block;
+          vertical-align: top;
+        }
+
+        ol.prototypes li:hover {
+          background: #BCDEE0;
+        }
+
+        ol.prototypes img {
+          max-width: 200px;
+        }
+
+        ol.prototypes a {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+        }
+      </style>
       <ol class="prototypes">
         <li>
           <a href="http://big-macadamia.cloudvent.net/"></a>
@@ -95,10 +101,14 @@ $image = "/img/benevolent_tech_dc_seo.png";
           <p>A simple blog-centric website.</p>
         </li>
         <!--<li>-->
-          <!--<img src="/siteicon.png" />-->
-          <!--<h3><a href="">Dopetrope</a></h3>-->
-          <!--<p>A website for </p>-->
+        <!--<img src="/siteicon.png" />-->
+        <!--<h3><a href="">Dopetrope</a></h3>-->
+        <!--<p>A website for </p>-->
         <!--</li>-->
       </ol>
-  </div>
-</section>
+    </div>
+  </section>
+
+<?php
+  }
+);

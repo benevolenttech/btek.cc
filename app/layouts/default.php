@@ -6,10 +6,10 @@ require_once 'html.php';
 
 function defaultLayout(
   callable $renderChildren,
-  ?string $title,
-  ?string $description,
-  ?string $image,
-  ?string $author,
+  ?string $title = null,
+  ?string $description = null,
+  ?string $image = null,
+  ?string $author = null,
 ) {
   htmlLayout(
     title: $title,
