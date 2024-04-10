@@ -24,7 +24,7 @@ function htmlLayout(
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <link rel="manifest" href="/manifest.json">
 
-    <title><?php echo $title ?> | btek</title>
+    <title><?php echo $title ? $title . ' | ' : '' ?>btek</title>
     <meta property="og:title" content="<?php echo $title ?>" />
     <meta name="author" content="<?php echo $author ?>" />
     <meta property="og:locale" content="en_US" />

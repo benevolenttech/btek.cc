@@ -83,11 +83,11 @@ $personCol = new class extends DbCollection
     );
   }
   // Redeclaring the get methods to return currect type
-  public function get(string $id): Category
+  public function get(string $id): Person
   {
     return $this->table[$id];
   }
-  public function g(string $id): Category
+  public function g(string $id): Person
   {
     return $this->get($id);
   }

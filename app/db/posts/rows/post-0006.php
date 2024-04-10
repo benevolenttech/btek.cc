@@ -5,7 +5,7 @@ $post = new Post(
   slug: "catch-us-on-rhode-island-radio",
   title: "Catch Us On Rhode Island Radio",
   description: "Brian joins Michelle and Kyle on RIA Radio to talk shop.",
-  author_staff_member: "brian-dombrowski",
+  author_staff_member: "0001",
   publishAt: "2017-05-30 14:05:06",
   categories: ['0002'],
   series: null,

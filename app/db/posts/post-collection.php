@@ -39,12 +39,22 @@ $postCol = new class extends DbCollection
     );
   }
   // Redeclaring the get methods to return currect type
-  public function get(string $id): Category
+  public function get(string $id): Post
   {
     return parent::get($id);
   }
-  public function g(string $id): Category
+  public function g(string $id): Post
   {
     return $this->get($id);
+  }
+
+  public function getBySlug(string $id): Post
+  {
+    // look in the table for the row with the matching slug
+    foreach ($this->table as $row) {
+      if ($row->slug === $id) {
+        return $row;
+      }
+    }
   }
 };

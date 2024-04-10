@@ -14,16 +14,19 @@
 
 ```sh
 make start
-# which runs `php -t public -S localhost:8000 router.php`
+# which runs...
+php -t public -S localhost:8000 router.php
 ```
 
 ## Deploying
 
+Hostinger supports auto-deploy on push to Github, but I kinda prefer manual for this repo.
+
 ```sh
 git commit/push
-ssh hostinger
-cd domains/btek.cc/public_html
-git pull
+make deploy
+# which runs...
+ssh hostinger 'cd domains/btek.cc/public_html && git pull'
 ```
 
 

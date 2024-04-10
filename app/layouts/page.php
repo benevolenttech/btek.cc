@@ -8,13 +8,14 @@ function pageLayout(
 	?string $heading = null,
 	?string $description = null,
 	?string $image = null,
+	?string $author = null,
 	?bool $fullWidth = false,
 ) {
 	defaultLayout(
 		title: $title,
 		description: $description,
 		image: $image,
-		author: null,
+		author: $author,
 		renderChildren: function () use (
 			$subtitle,
 			$heading,

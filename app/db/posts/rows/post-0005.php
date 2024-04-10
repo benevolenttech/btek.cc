@@ -5,7 +5,7 @@ $post = new Post(
   slug: "new-website-time-to-market",
   title: "New Website, Time to Market!",
   description: "Months in the works, this new skin feels right. Armed to the teeth, we're launching a new marketing campaign!",
-  author_staff_member: "brian-dombrowski",
+  author_staff_member: "0001",
   publishAt: "2017-05-05 14:05:06",
   categories: ['0001'],
   series: null,
