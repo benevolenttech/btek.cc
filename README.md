@@ -8,7 +8,7 @@
 **Prod**
 - Host: Hostinger
 - PHP: v8.1.27
-- Apache: yes
+- Lightspeed: yes
 
 ## Running locally
 

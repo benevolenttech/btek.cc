@@ -1,16 +1,17 @@
+Options -MultiViews
+
 RewriteEngine On
 
+# redirect www to not
 RewriteCond %{HTTP_HOST} ^www.btek.cc$ [NC]
 RewriteRule (.*)$ https://btek.cc/$1 [R=301,L]
 
-DirectoryIndex index.php
+# rewrite files existing in public directory
+RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
+RewriteRule ^(.*)$ public/$1 [L]
 
-# RewriteCond %{REQUEST_URI} !^/_public/
-# RewriteRule ^(.*)$ _public/$1 [L]
+# pass through requests to public directory
+RewriteRule ^public/(.+)$ public/$1 [L,E=cache-control:public]
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-# RewriteRule ^(.+)$ $1.php [NC,L]
-# RewriteRule . index.php
+# fallback on router.php
 RewriteRule ^(.*)$ router.php?q=$1 [L,QSA]
