@@ -10,7 +10,7 @@ function postDetails(Post $p)
         <a href="/categories/<?php echo $c->slug ?>" style="text-transform: uppercase"><?php echo $c->title ?></a>
       </span>
     <?php endforeach; ?>
-    <span class="post-date"><?php echo date("F d, Y", strtotime($p->publishAt)); ?></span>
+    <span class="post-date"><?php echo date("F d, Y", $p->publishAt); ?></span>
   </p>
 <?php
 }
