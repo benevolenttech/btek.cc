@@ -40,7 +40,7 @@ class DbCollection
     ?int $limit = 100,
     ?array $exclude = null,
     ?array $sortBy = null,
-    ?string $sortDir = "asc",
+    ?string $sortDir = null,
   ): array {
     $rows = $rows ?? array_values($this->table);
     if ($exclude) {
@@ -49,6 +49,7 @@ class DbCollection
       });
     }
     if ($sortBy) {
+      $sortDir = $sortDir ?? 'asc';
       usort($rows, function ($a, $b) use ($sortBy, $sortDir) {
         foreach ($sortBy as $field) {
           $cmp = $a->$field <=> $b->$field;

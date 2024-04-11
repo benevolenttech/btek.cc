@@ -15,12 +15,16 @@ $postCol = new class extends DbCollection
     ?array $rows = null,
     ?int $limit = null,
     ?array $exclude = null,
-    ?array $sortBy = ["publishAt"],
+    ?array $sortBy = null,
     ?string $sortDir = null,
     ?array $categories = null,
     ?bool $isPublished = true,
     ?array $series = null,
   ): array {
+    if (!$sortBy) {
+      $sortBy = ['publishAt'];
+    }
+
     $posts = array_values($this->table);
     if ($isPublished) {
       $posts = array_filter($posts, fn ($p) => $p->publishAt <= time());

@@ -28,7 +28,7 @@ return function () {
 
 			<div class="text-container">
 				<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
-				<?php postList(categories: ["0007", "0008"], sortBy: ["publishAt"]); ?>
+				<?php postList(categories: ["0007", "0008"], sortDir: 'dsc'); ?>
 			</div>
 		</section>
 

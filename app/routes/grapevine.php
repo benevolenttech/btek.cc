@@ -28,7 +28,7 @@ return function () {
 			<!--<p style="font-size:50px;text-align:center;">Coming Soon!</p>-->
 
 			<div class="text-container">
-				<?php postList(); ?>
+				<?php postList(sortDir: 'dsc'); ?>
 			</div>
 		</section>
 
