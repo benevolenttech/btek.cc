@@ -36,7 +36,7 @@ class RouteBase
   public string $title;
   public string $subtitle = "";
   public string $heading;
-  public string $description = "Websites are hard. We're here to help and empower you.";
+  public string $description = "Software  hard. We're here to help and empower you.";
   public string $image = "/img/benevolent_tech_dc_seo.png";
   public bool $isActive;
 

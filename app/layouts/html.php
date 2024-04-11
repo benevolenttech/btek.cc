@@ -2,7 +2,7 @@
 function htmlLayout(
   callable $renderChildren,
   ?string $title = "btek",
-  ?string $description = "Websites are hard. We're here to help and empower you.",
+  ?string $description = "Software  hard. We're here to help and empower you.",
   ?string $image = "/img/benevolent_tech_dc_seo.png",
   ?string $author = "btek",
 ) {

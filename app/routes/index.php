@@ -3,6 +3,7 @@
 require_once 'app/layouts/page.php';
 
 pageLayout(
+  heading: "Software  hard. We're here to help and empower you.",
   renderChildren: function () {
 ?>
 
