@@ -6,6 +6,8 @@ $post = new Post(
   title: "New Website, Time to Market!",
   description: "Months in the works, this new skin feels right. Armed to the teeth, we're launching a new marketing campaign!",
   author_staff_member: "0001",
+  createdAt: "2017-05-05 14:05:06",
+  updatedAt: "2017-05-05 14:05:06",
   publishAt: "2017-05-05 14:05:06",
   categories: ['0001'],
   series: null,

@@ -1,4 +1,11 @@
-# A brochure site using a custom micro-PHP-framework
+# A brochure site using a custom, react-inspired micro-PHP-framework
+
+TODOs
+- [ ] RSS feed
+- [ ] service worker
+- [ ] lightspeed caching
+- [ ] matamo
+- [ ] setup btek.cc emails
 
 ## Env
 

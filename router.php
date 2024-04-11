@@ -1,12 +1,14 @@
 <?php
 
-
 // can target just php local server if needed
 // if (php_sapi_name() == 'cli-server') {
 /* route static assets and return false */
 // }
 
 // php -t public -S localhost:8000 router.php 
+
+
+
 
 $pathname = explode('?', $_SERVER['REQUEST_URI'])[0];
 if ($pathname === '/') {

@@ -6,6 +6,8 @@ $post = new Post(
   title: "Catch Us On Rhode Island Radio",
   description: "Brian joins Michelle and Kyle on RIA Radio to talk shop.",
   author_staff_member: "0001",
+  createdAt: "2017-05-05 14:05:06",
+  updatedAt: "2017-05-05 14:05:06",
   publishAt: "2017-05-30 14:05:06",
   categories: ['0002'],
   series: null,

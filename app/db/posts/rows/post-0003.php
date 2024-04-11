@@ -6,6 +6,8 @@ $post = new Post(
   title: "How to Plan Your Content",
   description: "Get more people to your website by creating content they look for.",
   author_staff_member: "0001",
+  createdAt: "2017-03-21 14:05:00",
+  updatedAt: "2017-03-21 14:05:00",
   publishAt: "2017-03-21 14:05:00",
   categories: ['0007', '0008'],
   series: 'SEO Primer',

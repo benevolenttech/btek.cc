@@ -6,6 +6,8 @@ $post = new Post(
   title: "How to Make Your Site Search Engine Friendly",
   description: "Follow these guidelines to avoid certain death by search engine gods.",
   author_staff_member: "0001",
+  createdAt: "2017-01-20 11:10:13",
+  updatedAt: "2017-01-20 11:10:13",
   publishAt: "2017-01-20 11:10:13",
   categories: ['0007', '0008'],
   series: 'SEO Primer',

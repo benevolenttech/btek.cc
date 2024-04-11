@@ -4,3 +4,4 @@ start:
 
 deploy:
 	ssh hostinger 'cd domains/btek.cc/public_html && git pull'
+	@echo Deployed to https://btek.cc

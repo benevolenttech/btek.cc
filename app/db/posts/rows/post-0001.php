@@ -7,6 +7,8 @@ $post = new Post(
   title: "What is online marketing, you ask?",
   description: "Better late than never. Dive in!",
   author_staff_member: "0001",
+  createdAt: "2016-12-22 11:10:13",
+  updatedAt: "2016-12-22 11:10:13",
   publishAt: "2016-12-22 11:10:13",
   categories: ['0007', '0008'],
   series: 'SEO Primer',

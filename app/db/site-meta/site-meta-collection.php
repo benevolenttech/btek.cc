@@ -1,5 +1,5 @@
 <?php
-require_once 'app/db/db-collection.php';
+require_once 'app/db/db.php';
 require_once 'site-meta.php';
 
 $siteMetaCol = new class extends DbCollection

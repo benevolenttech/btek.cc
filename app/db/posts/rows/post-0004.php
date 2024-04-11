@@ -6,6 +6,8 @@ $post = new Post(
   title: "How to Write Content Worth Sharing",
   description: "Getting people on your website is just the beginning -- you need great content to go viral.",
   author_staff_member: "0001",
+  createdAt: "2017-05-01 14:05:00",
+  updatedAt: "2017-05-01 14:05:00",
   publishAt: "2017-05-01 14:05:00",
   categories: ['0007', '0008'],
   series: 'SEO Primer',

@@ -1,5 +1,5 @@
 <?php
-require_once 'app/db/db-collection.php';
+require_once 'app/db/db.php';
 require_once 'category.php';
 
 $categoryCol = new class extends DbCollection

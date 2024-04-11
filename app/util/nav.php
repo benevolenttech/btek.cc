@@ -2,7 +2,6 @@
 
 function pathIsActive($path)
 {
-  // TODO: $_SERVER['REQUEST_URI'] = 'router'
   return $path === $_SERVER['REQUEST_URI'];
 }
 

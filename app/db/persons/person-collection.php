@@ -1,6 +1,6 @@
 <?php
 
-require_once 'app/db/db-collection.php';
+require_once 'app/db/db.php';
 require_once 'person.php';
 
 $personCol = new class extends DbCollection

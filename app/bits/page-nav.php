@@ -2,6 +2,10 @@
 function pageNav()
 {
   global $url;
+  function activeClass($path)
+  {
+    echo pathIsActive($path) ? 'active' : '';
+  };
 ?>
   <header>
     <div class="container">
@@ -11,27 +15,27 @@ function pageNav()
         <a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
         <ul>
           <li>
-            <a href="/about" class="<?php pathIsActive('/about') ?>">
+            <a href="/about" class="<?php activeClass('/about') ?>">
               About
             </a>
           </li>
           <li>
-            <a href="/services" class="<?php pathIsActive('/services') ?>">
+            <a href="/services" class="<?php activeClass('/services') ?>">
               Services
             </a>
           </li>
           <li>
-            <a href="/learning" class="<?php pathIsActive('/learning') ?>">
+            <a href="/learning" class="<?php activeClass('/learning') ?>">
               Learn
             </a>
           </li>
           <li>
-            <a href="/grapevine" class="<?php pathIsActive('/grapevine') ?>">
+            <a href="/grapevine" class="<?php activeClass('/grapevine') ?>">
               Grapevine
             </a>
           </li>
           <li>
-            <a href="/contact" class="<?php pathIsActive('/contact') ?>">
+            <a href="/contact" class="<?php activeClass('/contact') ?>">
               Connect
             </a>
           </li>

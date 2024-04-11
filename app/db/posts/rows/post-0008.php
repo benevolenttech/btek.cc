@@ -6,6 +6,8 @@ $post = new Post(
   title: "Which is the Best Landing Page Builder?",
   description: "Want the best landing page builder for your site and considering Instapage, Unbounce, LeadPages, Pagewiz or Wishpond? Here's the feature comparison you've been looking for.",
   author_staff_member: "0001",
+  createdAt: "2017-08-25 00:00:00",
+  updatedAt: "2017-08-25 00:00:00",
   publishAt: "2017-08-25 00:00:00",
   categories: ["0008", "0007"],
   series: null,

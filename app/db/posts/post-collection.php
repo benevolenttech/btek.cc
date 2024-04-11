@@ -1,5 +1,5 @@
 <?php
-require_once 'app/db/db-collection.php';
+require_once 'app/db/db.php';
 
 $postCol = new class extends DbCollection
 {
@@ -7,8 +7,9 @@ $postCol = new class extends DbCollection
   {
     foreach (glob(__DIR__ . '/rows/*.php') as $filename) {
       include_once $filename;
-      $this->table[$post->id] = $post;
+      $this->set($post);
     }
+    parent::__construct();
   }
   public function find(
     ?array $rows = null,
