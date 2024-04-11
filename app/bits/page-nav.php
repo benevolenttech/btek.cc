@@ -78,9 +78,9 @@ function pageNav()
   </header>
 
   <script>
-    (fn() {
+    (function() {
       /* Mobile Header */
-      document.getElementById("open-nav").addEventListener("click", fn(event) {
+      document.getElementById("open-nav").addEventListener("click", function(event) {
         event.preventDefault();
         document.body.classList.toggle("nav-open");
       });

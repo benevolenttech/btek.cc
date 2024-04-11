@@ -36,7 +36,6 @@ include_once 'app/util/nav.php';
  */
 
 $route = null;
-$posArgs = [];
 
 if (file_exists('app/routes' . $pathname . '.php')) {
   $route = 'app/routes' . $pathname . '.php';
@@ -70,11 +69,11 @@ if (file_exists('app/routes' . $pathname . '.php')) {
       continue;
     } else if (file_exists($lastPath . '/[arg]')) {
       $pathParts[$i] = '[arg]';
-      $posArgs[] = $pathParts[$i];
+      $url->posArgs[] = $pathParts[$i];
       $lastPath = $lastPath . '/[arg]';
       continue;
     } else if (file_exists($lastPath . '/[arg].php')) {
-      $posArgs[] = $pathParts[$i];
+      $url->posArgs[] = $pathParts[$i];
       $route = $lastPath . '/[arg].php';
       break;
     }
@@ -83,9 +82,9 @@ if (file_exists('app/routes' . $pathname . '.php')) {
 }
 
 if ($route) {
-  include_once $route;
+  (include_once $route)();
 } else {
-  include_once 'app/routes/404.php';
+  (include_once 'app/routes/404.php')();
 }
 
 return true;

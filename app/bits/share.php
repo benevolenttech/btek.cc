@@ -20,7 +20,7 @@ function share()
     <!-- linkedin -->
     <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $site ?><?php echo $page ?>" onclick="window.open(this.href, 'linkedin-share', 'width=490,height=530');return false;"><?php socialIcon("LinkedIn") ?></a></li>
     <!-- pinterest -->
-    <!--<li><a href="javascript:void((fn()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><?php socialIcon("Pinterest") ?></a></li>-->
+    <!--<li><a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><?php socialIcon("Pinterest") ?></a></li>-->
     <!-- StumbleUpon-->
     <!--<li><a href="http://www.stumbleupon.com/submit?url=<?php echo $site ?><?php echo $page ?>&title={{ page.title | url_encode }}" onclick="window.open(this.href, 'stumbleupon-share', 'width=490,height=530');return false;"><i class="fa fa-stumbleupon"></i></a></li>-->
     <!-- Email -->

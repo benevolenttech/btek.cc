@@ -105,7 +105,7 @@ function htmlLayout(
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
-        (fn() {
+        (function() {
           var u = "//analytics.btek.cc/";
           _paq.push(['setTrackerUrl', u + 'matomo.?> ']);
           _paq.push(['setSiteId', '1']);

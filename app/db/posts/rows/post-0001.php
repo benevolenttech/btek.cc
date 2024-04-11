@@ -16,7 +16,7 @@ $post = new Post(
   subtitle: "Better late than never. Dive in!",
   image: "/img/dc_marketing_seo.png",
   content: <<<CONTENT
-<div style="width:100%;height:0;padding-bottom:57%;position:relative;"><iframe src="https://giphy.com/embed/26FPnj46RYsIWgYLe" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
+<div style="width:100%;height:0;padding-bottom:57%;position:relative;margin-bottom:30px;border-radius:20px;overflow:hidden;"><iframe src="https://giphy.com/embed/26FPnj46RYsIWgYLe" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 
 <span class="dropcap">O</span>nline marketing is impressively cost-effective for most businesses. In fact, some businesses achieve triple-digit growth in leads through an online marketing campaign. Sure, you can market your business without online marketing. But why would you want to? In this first edition of our [SEO primer series](/seo-primer-series), we cover the basics of online marketing terminology and strategy.
 

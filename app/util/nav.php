@@ -13,6 +13,7 @@ $url = new class
   public string $qs;
   public string $rel;
   public string $full;
+  public array $posArgs = []; // is filled in by router.php
   public string $env;
   public bool $isProd;
   public bool $isDev;

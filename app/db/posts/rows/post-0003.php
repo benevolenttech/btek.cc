@@ -15,7 +15,8 @@ $post = new Post(
   subtitle: "Get more people to your website by creating content they look for.",
   image: "/img/home-alone-seo-battleplan.jpg",
   content: <<<CONTENT
-<div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/xUySTOigOUHucl3rfW" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
+
+<div style="width:100%;height:0;padding-bottom:54%;position:relative;margin-bottom:30px;border-radius:20px;overflow:hidden;"><iframe src="https://giphy.com/embed/xUySTOigOUHucl3rfW" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 
 <span class="dropcap">S</span>o, you have an awesome business which basically sells itself? Think your three or four webpages will be enough to grab attention from search engines and social media? Your odds are pretty grim, friend. If you think you don't need a blog, think again. In this third edition of our [SEO primer series](/seo-primer-series), we tell you how to find the optimal topics to write about to lure people in.
 
