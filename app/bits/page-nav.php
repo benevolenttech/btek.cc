@@ -67,13 +67,14 @@ function pageNav()
               </svg>
             </a>
           </li>
-          */ ?>
 
           <li class="hide-above-mobile">
             <a href="/search?src=<?php echo rawurlencode($url->rel); ?>">
               Search
             </a>
           </li>
+
+          */ ?>
 
         </ul>
       </nav>

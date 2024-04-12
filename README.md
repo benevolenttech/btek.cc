@@ -4,7 +4,7 @@ TODOs
 - [ ] service worker
 - [ ] lightspeed caching
 - [ ] matamo
-- [ ] setup btek.cc emails
+- [ ] improve content
 
 ## Env
 
