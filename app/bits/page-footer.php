@@ -35,7 +35,7 @@ function pageFooter()
       'links' => [
         [
           'name' => 'Facebook',
-          'link' => 'https://www.facebook.com/benevolenttech',
+          'link' => 'https://www.facebook.com/profile.php?id=61558489345865',
           'social_icon' => 'Facebook',
           'new_window' => true
         ],
@@ -53,7 +53,7 @@ function pageFooter()
         ],
         [
           'name' => 'LinkedIn',
-          'link' => 'https://www.linkedin.com/company-beta/10853689/',
+          'link' => 'https://www.linkedin.com/company/benevolent-tek',
           'social_icon' => 'LinkedIn',
           'new_window' => true
         ]

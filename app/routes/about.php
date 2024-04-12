@@ -6,7 +6,7 @@ return function () {
   pageLayout(
     title: "About",
     subtitle: "We have a benevolent mission.",
-    heading: "We have a benevolent mission.",
+    heading: "We strive to ensure our communication services truly benefit businesses and the communities they serve.",
     description: "We strive to ensure our communication services truly benefit businesses and the communities they serve.",
     renderChildren: function () {
       global $personCol;
