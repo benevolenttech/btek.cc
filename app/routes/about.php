@@ -5,8 +5,8 @@ require_once 'app/bits/staff-member.php';
 return function () {
   pageLayout(
     title: "About",
-    subtitle: "We have a benevolent mission.",
-    heading: "We strive to ensure our communication services truly benefit businesses and the communities they serve.",
+    subtitle: "We strive to ensure our communication services truly benefit businesses and the communities they serve.",
+    heading: "We have a benevolent mission.",
     description: "We strive to ensure our communication services truly benefit businesses and the communities they serve.",
     renderChildren: function () {
       global $personCol;
