@@ -5,3 +5,9 @@ start:
 deploy:
 	ssh hostinger 'cd domains/btek.cc/public_html && git pull'
 	@echo Deployed to https://btek.cc
+
+commit:
+	git add -A
+	git commit -m "Update"
+	git push
+	$(MAKE) deploy
