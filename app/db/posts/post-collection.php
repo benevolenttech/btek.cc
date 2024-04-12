@@ -18,7 +18,7 @@ $postCol = new class extends DbCollection
     ?array $sortBy = null,
     ?string $sortDir = null,
     ?array $categories = null,
-    ?bool $isPublished = true,
+    ?bool $isPublished = null,
     ?array $series = null,
   ): array {
     if (!$sortBy) {
@@ -26,7 +26,7 @@ $postCol = new class extends DbCollection
     }
 
     $posts = array_values($this->table);
-    if ($isPublished) {
+    if ($isPublished || $isPublished === null) {
       $posts = array_filter($posts, fn ($p) => $p->publishAt <= time());
     }
     if ($categories) {
