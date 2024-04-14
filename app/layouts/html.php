@@ -107,7 +107,7 @@ function htmlLayout(
         _paq.push(['enableLinkTracking']);
         (function() {
           var u = "//analytics.btek.cc/";
-          _paq.push(['setTrackerUrl', u + 'matomo.?> ']);
+          _paq.push(['setTrackerUrl', u + 'matomo.php']);
           _paq.push(['setSiteId', '1']);
           var d = document,
             g = d.createElement('script'),

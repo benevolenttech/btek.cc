@@ -33,6 +33,9 @@ git commit/push
 make deploy
 # which runs...
 ssh hostinger 'cd domains/btek.cc/public_html && git pull'
+
+# or for lazy, commits and deploys
+make commit
 ```
 
 
