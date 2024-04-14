@@ -2,19 +2,20 @@
 
 TODOs
 - [ ] service worker
-- [ ] lightspeed caching
-- [ ] matamo
 - [ ] improve content
+- [ ] php strict mode
+- [ ] litespeed htaccess support
 
 ## Env
 
 **Development**
-- PHP >= v8
+- PHP >= v8 bc type-safety feature usage
 
 **Prod**
 - Host: Hostinger
-- PHP: v8.1.27
-- Lightspeed: yes
+  - PHP: v8.3
+  - CDN: yes
+  - Superviser: Litespeed w/ htaccess support
 
 ## Running locally
 
@@ -27,6 +28,8 @@ php -t public -S localhost:8000 router.php
 ## Deploying
 
 Hostinger supports auto-deploy on push to Github, but I kinda prefer manual for this repo.
+
+Note: Hostinger 
 
 ```sh
 git commit/push
