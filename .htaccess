@@ -8,7 +8,6 @@ RewriteRule (.*)$ https://btek.cc/$1 [R=301,L]
 
 # rewrite files existing in public directory
 RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
-RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
 RewriteRule ^(.*)$ public/$1 [L]
 
 # pass through requests to public directory
