@@ -3,7 +3,7 @@ require_once 'default.php';
 
 function pageLayout(
 	callable $renderChildren,
-	?string $title = null,
+	string $title = null,
 	?string $subtitle = null,
 	?string $heading = null,
 	?string $description = null,

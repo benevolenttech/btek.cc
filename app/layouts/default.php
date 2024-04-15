@@ -6,7 +6,7 @@ require_once 'html.php';
 
 function defaultLayout(
   callable $renderChildren,
-  ?string $title = null,
+  string $title = null,
   ?string $description = null,
   ?string $image = null,
   ?string $author = null,
