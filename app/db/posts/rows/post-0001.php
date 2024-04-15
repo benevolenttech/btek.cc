@@ -60,8 +60,6 @@ In contrast to outbound marketing like email, inbound marketing is all about max
 
 ## Wrapping it up…
 
-![](data:image/png;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==)
-
 All of these efforts comprise an overall strategy of attracting clients, promoting your brand to them, and convincing them to love you. Remember, buying anything these days involves a perceived need, an analysis of a multitude of options, and an emotional reaction to YOUR product or service.
 
 Check out our other posts in our [SEO Primer Series](/seo-primer-series)!

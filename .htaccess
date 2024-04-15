@@ -1,4 +1,5 @@
 Options -MultiViews
+Header set Cache-Control max-age=86400, public
 
 RewriteEngine On
 
@@ -11,8 +12,7 @@ RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
 RewriteRule ^(.*)$ public/$1 [L]
 
 # pass through requests to public directory
-RewriteRule ^public/(.+)$ public/$1 [L,QSA,E=cache-control:public]
+RewriteRule ^public/(.+)$ public/$1 [L,QSA]
 
 # fallback on router.php
-Header set Cache-Control max-age=86400, public
 RewriteRule ^(.*)$ router.php?q=$1 [L,QSA]
