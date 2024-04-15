@@ -40,7 +40,7 @@ return function () {
         <a href="{{url}}"></a>
         <!--<a href="{{{url}}}">link</a>-->
         <div class="hit-image">
-          <img src="{{image}}" alt="{{name}}">
+          <img alt="{{name}}" src="{{image}}">
         </div>
         <div class="hit-content">
           <!--<h3 class="hit-price">${{price}}</h3>-->

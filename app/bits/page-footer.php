@@ -92,7 +92,9 @@ function pageFooter()
             <h2><?php echo $siteMetaCol->gbn('title'); ?></h2>
           </li>
           <li><?php echo $siteMetaCol->gbn('description'); ?></li>
-          <li><a href="<?php echo $siteMetaCol->gbn('url'); ?>/feed.xml"><?php socialIcon('RSS'); ?> Subscribe with RSS</a></li>
+          <li>
+            <a href="<?php echo $siteMetaCol->gbn('url'); ?>/feed.xml"><?php socialIcon('RSS'); ?> Subscribe with RSS</a>
+          </li>
         </ul>
       </div>
 

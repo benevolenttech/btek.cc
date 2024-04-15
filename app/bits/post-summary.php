@@ -9,13 +9,15 @@ function postSummary(Post $p, bool $isBack = false)
 	<?php postDetails($p); ?>
 	<div class="post-content">
 		<p><?php echo $p->description ?></p>
-		<p><a href="/posts/<?php echo $p->slug ?>">
+		<p>
+			<a href="/posts/<?php echo $p->slug ?>">
 				<?php if ($isBack) : ?>
 					&larr; Read more
 				<?php else : ?>
 					Read More &rarr;
 				<?php endif; ?>
-			</a></p>
+			</a>
+		</p>
 	</div>
 <?php
 }

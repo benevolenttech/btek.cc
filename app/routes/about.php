@@ -1,5 +1,6 @@
 <?php
 require_once 'app/layouts/page.php';
+require_once 'app/bits/badge-section.php';
 require_once 'app/bits/staff-member.php';
 
 return function () {
@@ -13,7 +14,9 @@ return function () {
 ?>
     <section class="diagonal alternate" style="padding-bottom:50px;">
       <div class="container">
-        <p><img alt="" width="100%" height="auto" src="/img/equation.svg" /></p>
+        <p>
+          <img alt="benevolent + love + tech = btek" width="100%" height="auto" src="/img/equation.svg" />
+        </p>
         <p>I started btek because I love working with and helping small businesses, especially those who foster community. Coming from a technical background, I found my interests and skills best align with small businesses with software and custom electronics.</p>
         <p class="hide-on-mobile" style="float:right; margin:0 30px 20px;padding:20px 30px 10px;text-align:center;border:1px solid gray;">
           <strong>Total Customers Served</strong><br>
@@ -30,7 +33,9 @@ return function () {
         </p>
         <p><strong>Customers are dropping off your website and going to competitors because your customer portal sucks. <a href="/contact">Team up now</a> and get found.</strong></p>
         <p>Not quite ready? Check out our <a href="/learning/">learning center</a>&nbsp;or join our <a href="#footer-newsletter">mailing-list</a>.</p>
-        <p><img alt="" width="200" height="170" src="/img/versions/brian---x----200-170x---.png" /></p>
+        <p>
+          <img alt="brian" width="200" height="170" src="/img/versions/brian---x----200-170x---.png" />
+        </p>
       </div>
     </section>
 
@@ -54,17 +59,17 @@ return function () {
           <tr>
             <td>
               <a href="http://www.5pointsdc.com" target="_blank">
-                <img src="/img/5points.png" width="100%" />
+                <img alt="logo for 5points business center" src="/img/5points.png" width="100%" />
               </a>
             </td>
             <td>
               <a href="http://productmaven.co" target="_blank">
-                <img src="/img/product-maven-logo.png" width="100%" />
+                <img alt="logo for product maven" src="/img/product-maven-logo.png" width="100%" />
               </a>
             </td>
             <td>
               <a href="http://sbworksdc.org" target="_blank">
-                <img src="/img/sbworks.png" width="100%" />
+                <img alt="logo for sbworks" src="/img/sbworks.png" width="100%" />
               </a>
             </td>
           </tr>
@@ -83,67 +88,30 @@ return function () {
 
         <div class="hide-above-mobile">
           <p>
-            <a href="http://www.5pointsdc.com" target="_blank"><img src="/img/5points.png" width="60%" /></a><br>
+            <a aria-label="logo for 5points" href="http://www.5pointsdc.com" target="_blank">
+              <img alt="logo for 5points" src="/img/5points.png" width="60%" />
+            </a><br>
             Friendly Co-working Space in Northeast DC
           </p>
           <br>
           <p>
-            <a href="http://productmaven.co" target="_blank"><img src="/img/product-maven-logo.png" width="60%" /></a><br>
+            <a aria-label="lgoo for product maven" href="http://productmaven.co" target="_blank">
+              <img alt="logo for product maven" src="/img/product-maven-logo.png" width="60%" />
+            </a><br>
             Expert Cloud Software Product Managers
           </p>
           <br>
           <p>
-            <a href="http://sbworksdc.org" target="_blank"><img src="/img/sbworks.png" width="60%" /></a><br>
+            <a aria-label="logo for sbworksdc" href="http://sbworksdc.org" target="_blank">
+              <img alt="logo for sbworksdc" src="/img/sbworks.png" width="60%" />
+            </a><br>
             The one-stop-shop of small business assistance in DC
           </p>
         </div>
       </div>
     </section>
 
-    <section class="partners share diagonal alternate">
-      <div style="text-align:center; padding:0 20px;">
-        <h3>Online Reviews</h3>
-        <table class="hide-on-mobile">
-          <tr>
-            <td>
-              <a target="_blank" href="https://clutch.co/profile/benevolent-tech#reviews" target="_blank">
-                <img src="/img/clutch.png" width="100%" />
-              </a>
-            </td>
-            <td>
-              <a target="_blank" href="https://maps.google.com/?cid=5725988273627858551" target="_blank">
-                <img style="background:white; padding:15px; width:191px; height:auto;" src="/img/google.png" width="100%" />
-              </a>
-            </td>
-            <td>
-              <a target="_blank" href="https://www.yelp.com/biz/benevolent-tech-washington" target="_blank">
-                <img src="/img/yelp.png" width="100%" />
-              </a>
-            </td>
-          </tr>
-        </table>
-
-        <div class="hide-above-mobile">
-          <p>
-            <a target="_blank" href="https://clutch.co/profile/benevolent-tech#reviews" target="_blank">
-              <img src="/img/clutch.png" width="60%" />
-            </a>
-          </p>
-          <br>
-          <p>
-            <a target="_blank" href="https://maps.google.com/?cid=5725988273627858551" target="_blank">
-              <img style="background:white; padding:15px; width:191px; height:auto;" src="/img/google.png" width="60%" />
-            </a>
-          </p>
-          <br>
-          <p>
-            <a target="_blank" href="https://www.yelp.com/biz/benevolent-tech-washington" target="_blank">
-              <img src="/img/yelp.png" width="60%" />
-            </a>
-          </p>
-        </div>
-      </div>
-    </section>
+    <?php badgeSection() ?>
 
     <script>
       (() => {

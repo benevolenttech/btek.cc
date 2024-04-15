@@ -18,7 +18,7 @@ $post = new Post(
   image: "/img/viral-seo-marketing-2.jpg",
   content: <<<CONTENT
 
-<img src="/img/viral-seo-marketing-2.jpg" alt="Viral SEO Marketing" style="width:100%;border-radius:20px;margin-bottom:20px;" />
+<img alt="Viral SEO Marketing" src="/img/viral-seo-marketing-2.jpg" style="width:100%;border-radius:20px;margin-bottom:20px;" />
 
 
 <span class="dropcap">C</span>ontent is king. That's the “Om”-like mantra chanted by everyone and their dog, cat and hamster. You can have a site that's SEO-friendly in other aspects, but if your metrics are down regardless of how welcoming your site is, or any other aspect of bringing in readers and/or customers, then you might want to revisit, and heavily revise, your idea of what makes “quality content.” After all, nobody wants want to share something mediocre. In this fourth edition of our [SEO primer series](/seo-primer-series), we reveal the secrets of writing content that converts leads to customers.

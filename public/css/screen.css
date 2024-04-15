@@ -408,7 +408,8 @@ footer.partners table td {
   background: #222 url("/img/pattern.png");
 }
 .patterned,
-.patterned p {
+.patterned p,
+.patterned * {
   color: #fefefe;
 }
 .patterned a {

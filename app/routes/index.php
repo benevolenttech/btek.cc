@@ -1,6 +1,7 @@
 <?php
 
 require_once 'app/layouts/page.php';
+require_once 'app/bits/team-up-section.php';
 
 return function () {
   pageLayout(
@@ -22,13 +23,31 @@ return function () {
       <div class="container halves">
         <div>
           <ul class="image-list image-list-right">
-            <li><a href="#connect-with-alan" onclick="handleRefClick(event, 'Alan Magan')"><img src="/img/bt-apmfoodworks.png" width="300" style="max-width:80%;" /></a></li>
+            <li>
+              <a aria-label="connect with alan" href="#connect-with-alan" onclick="handleRefClick(event, 'Alan Magan')">
+                <img alt="apmfoodworks logo" src="/img/bt-apmfoodworks.png" width="300" style="max-width:80%;">
+              </a>
+            </li>
           </ul>
         </div>
         <div>
-          <p class="hide-above-mobile" style="text-align: center;"><a href="#connect-with-alan" onclick="handleRefClick(event, 'Alan Magan')"><img src="/img/bt-apmfoodworks.png" width="200" style="max-width:80%;" /></a></p>
-          <h3 class="editable"><a href="#connect-with-alan" onclick="handleRefClick(event, 'Alan Magan')">APM Foodworks</a></h3>
-          <p class="editable">"btek recommended tweaks to our blog posts and unifying our 3 brands into one e-commerce website to maximize SEO. We saw a 240% boost in Google rankings in 1 month!" - <a href="#connect-with-alan" onclick="handleRefClick(event, 'Alan Magan')">Alan Magan</a></p>
+          <p class="hide-above-mobile" style="text-align: center;">
+            <a aria-label="connect with alan" href="#connect-with-alan" onclick="handleRefClick(event, 'Alan Magan')">
+              <img alt="apmfoodworks logo" src="/img/bt-apmfoodworks.png" width="200" style="max-width:80%;">
+            </a>
+          </p>
+          <h3>
+            <a aria-label="connect with alan" href="#connect-with-alan" onclick="handleRefClick(event, 'Alan Magan')">
+              APM Foodworks
+            </a>
+          </h3>
+          <p>
+            "btek recommended tweaks to our blog posts and unifying our 3 brands into one e-commerce&nbsp;
+            website to maximize SEO. We saw a 240% boost in Google rankings in 1 month!" -&nbsp;
+            <a aria-label="connect with alan" href="#connect-with-alan" onclick="handleRefClick(event, 'Alan Magan')">
+              Alan Magan
+            </a>
+          </p>
         </div>
       </div>
     </section>
@@ -36,67 +55,140 @@ return function () {
     <section class="diagonal patterned">
       <div class="container halves">
         <div>
-          <p class="hide-above-mobile" style="text-align: center;"><a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')"><img src="/img/bt-saraanani.png" width="200" style="max-width:80%;" /></a></p>
-          <h3 class="editable"><a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">Sara Anani, Inc.</a></h3>
-          <p class="editable">"There aren't many dev shops out there that could deliver my vision -- btek is truly skilled at website development." - <a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">Sara Anani</a></p>
+          <p class="hide-above-mobile" style="text-align: center;">
+            <a aria-label="connect with sara" href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">
+              <img alt="sara image" src="/img/bt-saraanani.png" width="200" style="max-width:80%;">
+            </a>
+          </p>
+          <h3>
+            <a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">
+              Sara Anani, Inc.
+            </a>
+          </h3>
+          <p>
+            "There aren't many dev shops out there that could deliver my vision -- btek is truly skilled&nbsp;
+            at website development." -&nbsp;
+            <a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">Sara Anani</a>
+          </p>
         </div>
         <div>
           <ul class="image-list">
-            <li><a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')"><img src="/img/bt-saraanani.png" width="300" style="max-width:80%;" /></a></li>
+            <li>
+              <a aria-label="connect with sara" href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">
+                <img alt="sara image" src="/img/bt-saraanani.png" width="300" style="max-width:80%;">
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </section>
-
-    <!--<section class="diagonal">-->
-    <!--<div class="container editable" style="margin-top:20px;margin-bottom:-50px;max-width:700px;">-->
-    <!--<h3 style="text-align:center;">How We Help</h3>-->
-    <!--<ol>-->
-    <!--<li>Building you a beautiful, sales-optimized website to guide customers happily down a path to purchasing your product, while at the same time reflecting your brand vision.</li>-->
-    <!--<li>Getting your business more attention with custom-tailored search engine optimization, advertising and social media branding.</li>-->
-    <!--<li>Continuous improvements based on real-world analytics.</li>-->
-    <!--</ol>-->
-    <!--</div>-->
-    <!--</section>-->
 
     <section class="diagonal alternate">
       <div class="container halves">
         <div>
-          <ul class="image-list">
-            <li style="font-size:150%;">You</li>
-            <li style="margin-bottom:20px;">+</li>
-            <li><img src="/img/thumb-lg.png" width="130" style="max-width:80%;" /></li>
+          <ul class="image-list image-list-right">
+            <li>
+              <a aria-label="connect with hirely" href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')">
+                <img alt="image of hirely website" src="/img/bt-hirely.png" width="300" style="max-width:80%;">
+              </a>
+            </li>
           </ul>
         </div>
         <div>
-          <p class="hide-above-mobile" style="font-size:60px;">You + <img src="/img/thumb-lg.png" width="55" /></p>
-          <h3 class="editable">We Are Your Partners</h3>
-          <p class="editable">Customers are searching the internet right now for your offering and choose competitors because they don't know you exist.</p>
-          <p><a href="/contact" class="button">Team up and get found &#8594;</a></p>
-          <!--<ol>-->
-          <!--<li>Strategy</li>-->
-          <!--<li>Keyword planning</li>-->
-          <!--<li>On-site and off-site optimization</li>-->
-          <!--<li>Content creation</li>-->
-          <!--<li>Ad campaigns</li>-->
-          <!--</ol>-->
-          <!--<p>↳ all with a focus on generating leads and growing your business.</p>-->
+          <p class="hide-above-mobile" style="text-align: center;">
+            <a aria-label="connect with hirely" href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')">
+              <img alt="image of hirely website" src="/img/bt-hirely.png" width="200" style="max-width:80%;">
+            </a>
+          </p>
+          <h3>
+            <a aria-label="connect with hirely" href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')">
+              Hirely
+            </a>
+          </h3>
+          <p>
+            "We had btek get our cloud application project back on track after a messy loss with our former&nbsp;
+            leader. Can't recommend enough!" -&nbsp;
+            <a href="mailto:chris.rosenbaum@gmail.com?subject=Would you recommend btek?">Chris</a>
+          </p>
         </div>
       </div>
     </section>
 
+    <section class="diagonal patterned">
+      <div class="container halves">
+        <div>
+          <p class="hide-above-mobile" style="text-align: center;">
+            <a aria-label="connect with ryan" href="#connect-with-productmaven" onclick="handleRefClick(event, 'Ryan Troll')">
+              <img alt="image of productmaven website" src="/img/bt-product-maven.png" width="200" style="max-width:80%;">
+            </a>
+          </p>
+          <h3>
+            <a aria-label="connect with ryan" href="#connect-with-productmaven" onclick="handleRefClick(event, 'Ryan Troll')">Product Maven</a>
+          </h3>
+          <p>
+            "btek acts as our in-house website tech expert, advising us on our hardest web projects." -&nbsp;
+            <a href="#connect-with-productmaven" onclick="handleRefClick(event, 'Ryan Troll')">Ryan</a>
+          </p>
+        </div>
+        <div>
+          <ul class="image-list">
+            <li>
+              <a aria-label="connect with ryan" href="#connect-with-productmaven" onclick="handleRefClick(event, 'Ryan Troll')">
+                <img alt="image of productmaven website" src="/img/bt-product-maven.png" width="300" style="max-width:80%;">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="diagonal alternate">
+      <div class="container halves">
+        <div>
+          <ul class="image-list image-list-right">
+            <li>
+              <a aria-label="goto seasonstherapy website" href="https://seasonstherapy.com" target="_blank">
+                <img alt="image of seasonstherapy website" src="/img/bt-seasons-therapy.png" width="300" style="max-width:80%;">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="hide-above-mobile" style="text-align: center;">
+            <a aria-label="goto seasonstherapy website" href="https://www.seasonstherapy.com" target="_blank">
+              <img alt="image of seasonstherapy website" src="/img/bt-seasons-therapy.png" width="200" style="max-width:80%;">
+            </a>
+          </p>
+          <h3>
+            <a aria-label="goto seasonstherapy website" href="https://www.seasonstherapy.com" target="_blank">Seasons Therapy</a>
+          </h3>
+          <p>
+            "I had btek do my website 4 years ago and couldn't be happier. Best of all, the design was so on-point&nbsp;
+            that it's still relevant!" -&nbsp;
+            <a aria-label="connect with Ruth" href="mailto:ruthdom@comcast.net?subject=Would you recommend btek?">Ruth</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <?php teamUpSection(); ?>
+
     <!--<section class="diagonal patterned">-->
     <!--<div class="container halves">-->
     <!--<div>-->
-    <!--<h3 class="editable">Some of our work</h3>-->
-    <!--<p class="editable">We take pride in our previous work and our happy partners. We cater to small businesses and non-profits to boost business and increase exposure.</p>-->
-    <!--<p class="editable"><a href="/portfolio/">View Full Portfolio &rarr;<p></p>-->
+    <!--<h3>Some of our work</h3>-->
+    <!--<p>We take pride in our previous work and our happy partners. We cater to small businesses and non-profits to boost business and increase exposure.</p>-->
+    <!--<p>
+<a href="/portfolio/">View Full Portfolio &rarr;<p></p>-->
     <!--</div>-->
     <!--<div>-->
     <!--<ul class="image-grid home">-->
     <!--{% for client in clients limit: 4 %}-->
-    <!--&lt;!&ndash; <li><a href="{{ client.url }}"><img src="{% client.imagePath %}" /> &ndash;&gt;-->
-    <!--<li style="background-image:url({% client.imagePath %});"><a target="_blank" href="{{ client.externalUrl }}"></a>-->
+    <!--&lt;!&ndash; <li>
+<a href="{{ client.url }}">
+<img src="{% client.imagePath %}" /> &ndash;&gt;-->
+    <!--<li style="background-image:url({% client.imagePath %});">
+<a target="_blank" href="{{ client.externalUrl }}"></a>-->
     <!--{% endfor %}-->
     <!--</ul>-->
     <!--</div>-->

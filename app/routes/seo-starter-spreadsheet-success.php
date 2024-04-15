@@ -19,7 +19,9 @@ return function () {
 
         <section class="diagonal">
             <div class="container" style="text-align:center;">
-                <p><a class="button" href="http://bit.ly/2n0N38C">BIG DOWNLOAD BUTTON</a></p>
+                <p>
+                    <a class="button" href="http://bit.ly/2n0N38C">BIG DOWNLOAD BUTTON</a>
+                </p>
             </div>
         </section>
 

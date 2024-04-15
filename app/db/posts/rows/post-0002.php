@@ -17,7 +17,7 @@ $post = new Post(
   subtitle: "Follow these guidelines to avoid certain death by search engine gods.",
   image: "/img/dc-seo-save-me.png",
   content: <<<CONTENT
-![](data:image/png;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==)
+!["save me!"](/img/dc-seo-save-me-box.png)
 
 <span class="dropcap">Y</span>ou may have a huge fanbase and massive traffic, but ignoring search engine and social network guidelines will sink your online visibility faster than hitting an iceberg on a foggy night. In this second edition of our [SEO primer series](/seo-primer-series), we cover the critical website requirements for getting on to the search engines.
 
@@ -37,7 +37,7 @@ Search engines are imperfect at detecting inner pages of your website. Search en
 
 You've probably noticed that your browser shows an indicator of whether a website is using secure networking next to the current URL. Well, search engines will dock you for not having it.
 
-![](data:image/png;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==)
+!["secure in browser header"](/img/versions/https---x----400-85x---.png)
 
 Turns out that search engines kinda care about keeping their users safe (even Yahoo!), go figure? And in these days of identity theft, you might as well have HTTPS for your site. It's kinda like having an overprotective daddy with not just a shotgun, but a semiautomatic rifle and martial arts skills on top of it.
 

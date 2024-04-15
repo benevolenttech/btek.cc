@@ -11,7 +11,7 @@ return function () {
 
     <section class="diagonal" style="padding:10px 0;" id="learn-more">
       <p style="text-align:right; margin-bottom:0; max-width:1000px; margin-left:auto; margin-right:auto; padding-right:20px;">
-        <a href="#learn-more" style="color:#666">Go ahead, take a look &#8595;</a>
+        <a alt="goto learn-more" href="#learn-more" style="color:#666">Go ahead, take a look &#8595;</a>
       </p>
     </section>
 
@@ -103,7 +103,8 @@ return function () {
           </li>
           <!--<li>-->
           <!--<img src="/siteicon.png" />-->
-          <!--<h3><a href="">Dopetrope</a></h3>-->
+          <!--<h3>
+<a href="">Dopetrope</a></h3>-->
           <!--<p>A website for </p>-->
           <!--</li>-->
         </ol>

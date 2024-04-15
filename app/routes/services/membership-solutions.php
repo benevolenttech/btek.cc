@@ -1,5 +1,6 @@
 <?php
 require_once 'app/layouts/page.php';
+require_once 'app/bits/team-up-section.php';
 
 return function () {
   pageLayout(
@@ -21,14 +22,14 @@ return function () {
         <h2 style="text-align:center;">Why Choose Us</h2><br>
       </div>
       <div class="container halves">
-        <div class="editable">
+        <div>
           <ol>
             <li>Unlike other technical firms, we specialize in sites: member management, on-boarding, trial plans, churn and revenue tracking.</li>
             <li>All of our projects are fixed-fee, when we give you a price for the project that's the price you'll pay. We will never hit you up for more money half-way through the project.</li>
           </ol>
         </div>
-        <div class="editable">
-          <img width="90%" src="/img/churn.png" />
+        <div>
+          <img alt="member churn chart" width="90%" src="/img/churn.png" />
         </div>
       </div>
     </section>
@@ -37,91 +38,29 @@ return function () {
       <div class="container halves">
         <div>
           <ul class="image-list image-list-right">
-            <li><a href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')"><img src="/img/bt-hirely.png" width="300" style="max-width:80%;" /></a></li>
+            <li>
+              <a aria-label="connect with hirely" href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')">
+                <img alt="image of hirely website" alt="hirely website" src="/img/bt-hirely.png" width="300" style="max-width:80%;">
+              </a>
+            </li>
           </ul>
         </div>
         <div>
-          <p class="hide-above-mobile" style="text-align: center;"><a href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')"><img src="/img/bt-hirely.png" width="200" style="max-width:80%;" /></a></p>
-          <h3 class="editable">Testimonial: <a href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')">Hirely</a></h3>
-          <p class="editable">"We had btek get our cloud application project back on track after a messy loss with our former leader. Can't recommend enough!" - <a href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')">Chris</a></p>
+          <p class="hide-above-mobile" style="text-align: center;">
+            <a aria-label="connect with hirely" href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')">
+              <img alt="image of hirely website" alt="hirely website" src="/img/bt-hirely.png" width="200" style="max-width:80%;">
+            </a>
+          </p>
+          <h3>
+            Testimonial:&nbsp;
+            <a aria-label="connect with hirely" href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')">Hirely</a>
+          </h3>
+          <p>"We had btek get our cloud application project back on track after a messy loss with our former leader. Can't recommend enough!" - <a href="#connect-with-hirely" onclick="handleRefClick(event, 'the Hirely team')">Chris</a></p>
         </div>
       </div>
     </section>
 
-    <section class="diagonal">
-      <div class="container">
-        <h2 style="text-align:center;">We Are Your Partners</h2><br>
-      </div>
-      <div class="container halves">
-        <div>
-          <ul class="image-list">
-            <li style="font-size:150%;">You</li>
-            <li style="margin-bottom:20px;">+</li>
-            <li><img src="/img/thumb-lg.png" width="130" style="max-width:80%;" /></li>
-          </ul>
-        </div>
-        <div>
-          <p class="hide-above-mobile" style="font-size:60px;">You + <img src="/img/thumb-lg.png" width="55" /></p>
-          <p class="editable">Is your churn rate within a healthy range?</p>
-          <p><a href="https://info.recurly.com/research/churn-rate-benchmarks?utm_source=hpflex" target="_blank" class="button">See How You Compare &#8594;</a></p>
-          <p><a href="/contact" class="button">Team up get better &#8594;</a></p>
-          <!--<ol>-->
-          <!--<li>Strategy</li>-->
-          <!--<li>Keyword planning</li>-->
-          <!--<li>On-site and off-site optimization</li>-->
-          <!--<li>Content creation</li>-->
-          <!--<li>Ad campaigns</li>-->
-          <!--</ol>-->
-          <!--<p>↳ all with a focus on generating leads and growing your business.</p>-->
-        </div>
-
-      </div>
-    </section>
-
-    <section class="partners share diagonal alternate">
-      <div style="text-align:center; padding:0 20px;">
-        <h3>Online Reviews</h3>
-        <table class="hide-on-mobile">
-          <tr>
-            <td>
-              <a target="_blank" href="https://clutch.co/profile/benevolent-tech#reviews" target="_blank">
-                <img src="/img/clutch.png" width="100%" />
-              </a>
-            </td>
-            <td>
-              <a target="_blank" href="https://maps.google.com/?cid=5725988273627858551" target="_blank">
-                <img style="background:white; padding:15px; width:191px; height:auto;" src="/img/google.png" width="100%" />
-              </a>
-            </td>
-            <td>
-              <a target="_blank" href="https://www.yelp.com/biz/benevolent-tech-washington" target="_blank">
-                <img src="/img/yelp.png" width="100%" />
-              </a>
-            </td>
-          </tr>
-        </table>
-
-        <div class="hide-above-mobile">
-          <p>
-            <a target="_blank" href="https://clutch.co/profile/benevolent-tech#reviews" target="_blank">
-              <img src="/img/clutch.png" width="60%" />
-            </a>
-          </p>
-          <br>
-          <p>
-            <a target="_blank" href="https://maps.google.com/?cid=5725988273627858551" target="_blank">
-              <img style="background:white; padding:15px; width:191px; height:auto;" src="/img/google.png" width="60%" />
-            </a>
-          </p>
-          <br>
-          <p>
-            <a target="_blank" href="https://www.yelp.com/biz/benevolent-tech-washington" target="_blank">
-              <img src="/img/yelp.png" width="60%" />
-            </a>
-          </p>
-        </div>
-      </div>
-    </section>
+    <?php teamUpSection(""); ?>
 
     <!--<section class="diagonal patterned">-->
     <!--<div class="container">-->

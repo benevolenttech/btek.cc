@@ -33,7 +33,7 @@ return function () {
         <p>Those are the questions we&rsquo;re here to help answer. Together, we&rsquo;re diving deeper into your idea so you can sharpen you focus and test the market.</p>
       </div>
       <div class="container">
-        <img src="/img/5-Weeks-To-Marketing-Clarity.png" width="100%" />
+        <img alt="infographic" src="/img/5-Weeks-To-Marketing-Clarity.png" width="100%" />
       </div>
       <div class="container editable">
         <p>&nbsp;</p>

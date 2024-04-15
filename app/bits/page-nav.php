@@ -9,7 +9,9 @@ function pageNav()
 ?>
   <header>
     <div class="container">
-      <div class="company-name"><a href="/"></a></div>
+      <div class="company-name">
+        <a href="/"></a>
+      </div>
 
       <nav>
         <a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
@@ -41,9 +43,15 @@ function pageNav()
           </li>
 
           <!-- Hidden menu items for SEO -->
-          <li style="display:none;"><a href="/services/mobile-app-development">Mobile App Development</a></li>
-          <li style="display:none;"><a href="/services/website-marketing">Mobile App Development</a></li>
-          <li style="display:none;"><a href="/services/salesforce-consulting">Salesforce Consulting</a></li>
+          <li style="display:none;">
+            <a href="/services/mobile-app-development">Mobile App Development</a>
+          </li>
+          <li style="display:none;">
+            <a href="/services/website-marketing">Mobile App Development</a>
+          </li>
+          <li style="display:none;">
+            <a href="/services/salesforce-consulting">Salesforce Consulting</a>
+          </li>
 
           <?php /* search icon
           <li>

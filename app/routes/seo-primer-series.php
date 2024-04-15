@@ -29,7 +29,9 @@ return function () {
 
       <div class="text-container editable">
         <p><strong>We&rsquo;ve come a long way since the early days of the Internet.</strong></p>
-        <p><img alt="" src="/img/versions/katie-couric-seo-internet-big---x----1000-507x---.jpg" width="1000" height="507" /></p>
+        <p>
+          <img alt="" src="/img/versions/katie-couric-seo-internet-big---x----1000-507x---.jpg" width="1000" height="507" />
+        </p>
         <p><span class="dropcap">B</span>ack then, a few, bare-bones search engines helped &ldquo;computer geeks&rdquo; navigate a relatively limited number of websites along the &ldquo;information superhighway.&rdquo;</p>
         <p>But today, practically anyone in world can tap into a seemingly endless storehouse of information just by typing a few words and clicking a mouse.</p>
         <p>Search engines, including the behemoth Google, have made all that possible. Their sophisticated algorithms can help you get your products and services to a wide audience without spending a ton of money.</p>
@@ -49,7 +51,9 @@ return function () {
       <!--<p style="font-size:50px;text-align:center;">Coming Soon!</p>-->
 
       <div class="text-container">
-        <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
+        <p class="editor-link">
+          <a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a>
+        </p>
         <?php postList(series: ["SEO Primer"]); ?>
       </div>
     </section>

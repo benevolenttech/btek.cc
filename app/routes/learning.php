@@ -27,7 +27,9 @@ return function () {
 			<!--<p style="font-size:50px;text-align:center;">Coming Soon!</p>-->
 
 			<div class="text-container">
-				<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
+				<p class="editor-link">
+					<a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a>
+				</p>
 				<?php postList(categories: ["0007", "0008"], sortDir: 'dsc'); ?>
 			</div>
 		</section>

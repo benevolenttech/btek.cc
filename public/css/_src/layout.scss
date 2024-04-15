@@ -356,7 +356,8 @@ section {
   background: #222 url($pattern);
 
   &,
-  p {
+  p,
+  * {
     color: #fefefe;
   }
   a {

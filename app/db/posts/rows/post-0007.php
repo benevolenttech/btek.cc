@@ -19,6 +19,6 @@ $post = new Post(
   content: <<<CONTENT
 Fresh off the press and into #DC mailboxes → some love from our co-working space 5 Points DC ([5pointsdc.com](http://5pointsdc.com)). &lt;3 this place!
 
-![](/img/versions/5points-mailer-dc-seo---x----900-601x---.jpg)
+!["mail postcard"](/img/versions/5points-mailer-dc-seo---x----900-601x---.jpg)
 CONTENT,
 );
