@@ -8,11 +8,12 @@ RewriteRule (.*)$ https://btek.cc/$1 [R=301,L]
 
 # rewrite files existing in public directory
 RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
-Header set Cache-Control max-age=86400, public
 RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
 RewriteRule ^(.*)$ public/$1 [L]
 
 # pass through requests to public directory
+RewriteRule ^public/(.+)$ -f
+Header set Cache-Control max-age=86400, public
 RewriteRule ^public/(.+)$ public/$1 [L,QSA]
 
 # fallback on router.php
