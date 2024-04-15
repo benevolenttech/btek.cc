@@ -1,7 +1,6 @@
 Options -MultiViews
 
-# Don't set this now that we are using Cache Manager
-# Header set Cache-Control max-age=86400, public
+Header set Cache-Control max-age=86400, public
 
 RewriteEngine On
 
