@@ -4,7 +4,6 @@ TODOs
 - [ ] service worker
 - [ ] improve content
 - [ ] php strict mode
-- [ ] litespeed htaccess support
 
 ## Env
 
