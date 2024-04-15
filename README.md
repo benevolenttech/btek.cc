@@ -26,18 +26,4 @@ php -t public -S localhost:8000 router.php
 
 ## Deploying
 
-Hostinger supports auto-deploy on push to Github, but I kinda prefer manual for this repo.
-
-Note: Hostinger 
-
-```sh
-git commit/push
-make deploy
-# which runs...
-ssh hostinger 'cd domains/btek.cc/public_html && git pull'
-
-# or for lazy, commits and deploys
-make commit
-```
-
-
+Hostinger supports auto-deploy on push to Github, which is the best way to clear caches. So just push to main.
