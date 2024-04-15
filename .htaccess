@@ -11,7 +11,7 @@ RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
 RewriteRule ^(.*)$ public/$1 [L]
 
 # pass through requests to public directory
-RewriteRule ^public/(.+)$ public/$1 [L,E=cache-control:public]
+RewriteRule ^public/(.+)$ public/$1 [L,QSA,E=cache-control:public]
 
 # fallback on router.php
 RewriteRule ^(.*)$ router.php?q=$1 [L,QSA,E=cache-control:public]
