@@ -23,7 +23,10 @@ $url = new class
     $this->rel = $_SERVER['REQUEST_URI'];
     $this->pathname = explode('?', $this->rel)[0];
     $this->qs = explode('?', $this->rel)[1] ?? '';
-    $this->full = $this->base . $this->rel;
+    // full= check $_SERVER if https or http and add that to the string
+    $this->full =
+      (isset($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : 'http') .
+      '://' . $this->base . $this->rel;
     $this->env = $siteMetaCol->gbn('url') ? 'prod' : 'dev';
     $this->isProd = $this->env === 'prod';
     $this->isDev = $this->env === 'dev';

@@ -1,12 +1,19 @@
 <?php
 function htmlLayout(
   callable $renderChildren,
-  ?string $title = "btek",
-  ?string $description = "Software  hard. We're here to help and empower you.",
-  ?string $image = "/img/benevolent_tech_dc_seo.png",
-  ?string $author = "btek",
+  ?string $title = null,
+  ?string $description = null,
+  ?string $image = null,
+  ?string $author = null,
 ) {
   global $siteMetaCol, $url;
+
+  $title = $title ? $title : $siteMetaCol->gbn('title');
+  $description = $description ? $description : $siteMetaCol->gbn('description');
+  $image = $image ? $image : $siteMetaCol->gbn('image');
+  if (strpos($image, 'http') !== 0) $image = $siteMetaCol->gbn('url') . $image;
+  $author = $author ? $author : $siteMetaCol->gbn('title');
+
 ?>
   <!doctype html>
 
@@ -32,8 +39,8 @@ function htmlLayout(
     <meta property="og:description" content="<?php echo $description ?>" />
     <link rel="canonical" href="<?php echo $url->full ?>" />
     <meta property="og:url" content="<?php echo $url->full ?>" />
-    <meta property="og:site_name" content="<?php echo $siteMetaCol->gbn('title') ?>" />
-    <meta property="og:image" content="<?php echo $siteMetaCol->gbn('url') . $image ?>" />
+    <meta property="og:site_name" content="<?php echo $title ?>" />
+    <meta property="og:image" content="<?php echo $image ?>" />
 
     <!-- More info on JSON-LD at https://developers.google.com/search/docs/guides/intro-structured-data -->
     <script type="application/ld+json">

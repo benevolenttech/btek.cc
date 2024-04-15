@@ -54,7 +54,7 @@ $siteMetaCol = new class extends DbCollection
     $this->table['0010'] = new SiteMeta(
       id: '0010',
       name: 'description',
-      value: 'A boutique online communications shop for small businesses.',
+      value: 'A boutique online communications shop for non-profits and small businesses.',
     );
     $this->table['0011'] = new SiteMeta(
       id: '0011',
@@ -63,6 +63,11 @@ $siteMetaCol = new class extends DbCollection
     );
     $this->table['0012'] = new SiteMeta(
       id: '0012',
+      name: 'image',
+      value: '/img/benevolent_tech_dc_seo.png',
+    );
+    $this->table['0013'] = new SiteMeta(
+      id: '0013',
       name: 'version',
       value: '1.0.0',
     );
