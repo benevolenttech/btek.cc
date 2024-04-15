@@ -1,5 +1,7 @@
 Options -MultiViews
 
+Header set Cache-Control max-age=1800, public
+
 RewriteEngine On
 
 # redirect www to not
@@ -14,6 +16,4 @@ RewriteRule ^(.*)$ public/$1 [L]
 RewriteRule ^public/(.+)$ public/$1 [L,QSA]
 
 # fallback on router.php
-RewriteCond ^(.*)$ !-f
-Header set Cache-Control max-age=1800, public
 RewriteRule ^(.*)$ router.php?q=$1 [L,QSA]
