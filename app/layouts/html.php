@@ -8,7 +8,7 @@ function htmlLayout(
 ) {
   global $siteMetaCol, $url;
 
-  $title = $title ? $title : $siteMetaCol->gbn('title');
+  $title = $title ? $title : 'Home';
   $description = $description ? $description : $siteMetaCol->gbn('description');
   $image = $image ? $image : $siteMetaCol->gbn('image');
   if (strpos($image, 'http') !== 0) $image = $siteMetaCol->gbn('url') . $image;
@@ -31,8 +31,8 @@ function htmlLayout(
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <link rel="manifest" href="/manifest.json">
 
-    <title><?php echo $title ? $title . ' | ' : '' ?>btek</title>
-    <meta property="og:title" content="<?php echo $title ?>" />
+    <title><?php echo $title . ' | ' . $siteMetaCol->gbn('title') ?></title>
+    <meta property="og:title" content="<?php echo $title . ' | ' . $siteMetaCol ?>" />
     <meta name="author" content="<?php echo $author ?>" />
     <meta property="og:locale" content="en_US" />
     <meta name="description" content="<?php echo $description ?>" />
