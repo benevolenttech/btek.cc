@@ -8,7 +8,6 @@ function htmlLayout(
 ) {
   global $siteMetaCol, $url;
 
-  $title = $title ? $title : 'Home';
   $description = $description ? $description : $siteMetaCol->gbn('description');
   $image = $image ? $image : $siteMetaCol->gbn('image');
   if (strpos($image, 'http') !== 0) $image = $siteMetaCol->gbn('url') . $image;

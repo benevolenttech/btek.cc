@@ -5,6 +5,7 @@ require_once 'app/bits/team-up-section.php';
 
 return function () {
   pageLayout(
+    title: "Home",
     heading: "Software  hard. We're here to help and empower you.",
     renderChildren: function () {
 ?>
