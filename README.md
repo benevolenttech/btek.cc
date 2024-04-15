@@ -19,7 +19,7 @@ TODOs
 ## Running locally
 
 ```sh
-make start
+make dev
 # which runs...
 php -t public -S localhost:8000 router.php
 ```
