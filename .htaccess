@@ -1,7 +1,5 @@
 Options -MultiViews
 
-Header set Cache-Control max-age=86400, public
-
 RewriteEngine On
 
 # redirect www to not
@@ -9,6 +7,8 @@ RewriteCond %{HTTP_HOST} ^www.btek.cc$ [NC]
 RewriteRule (.*)$ https://btek.cc/$1 [R=301,L]
 
 # rewrite files existing in public directory
+RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
+Header set Cache-Control max-age=86400, public
 RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
 RewriteRule ^(.*)$ public/$1 [L]
 
