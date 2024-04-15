@@ -16,17 +16,16 @@ function htmlLayout(
 ?>
   <!doctype html>
 
-  <html lang="en" class="page--{{ page.url | slice: 1,page.url.size | replace: '/','--' }}">
+  <html lang="en" class="page--<?php echo $url->slug ?>">
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Jekyll v{{ jekyll.version }}">
-    <meta property="fb:app_id" content="1299829076759410">
-    <meta name="theme-color" content="#94040B">
+    <meta property="fb:app_id" content="<?php echo $siteMetaCol->gbn('fb-app-id') ?>">
+    <meta name="theme-color" content="#222222">
 
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/icon-180.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="/icon-192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <link rel="manifest" href="/manifest.json">
 

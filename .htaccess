@@ -1,6 +1,7 @@
 Options -MultiViews
 
-Header set Cache-Control max-age=86400, public
+Header set Cache-Control max-age=1800, public
+
 
 RewriteEngine On
 

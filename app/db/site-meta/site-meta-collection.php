@@ -68,6 +68,11 @@ $siteMetaCol = new class extends DbCollection
     );
     $this->table['0013'] = new SiteMeta(
       id: '0013',
+      name: 'fb-app-id',
+      value: '1299829076759410',
+    );
+    $this->table['0014'] = new SiteMeta(
+      id: '0014',
       name: 'version',
       value: '1.0.0',
     );

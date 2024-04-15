@@ -9,6 +9,7 @@ $url = new class
 {
   public string $base;
   public string $pathname;
+  public string $slug;
   public string $qs;
   public string $rel;
   public string $full;
@@ -22,6 +23,7 @@ $url = new class
     $this->base = $_SERVER['HTTP_HOST'];
     $this->rel = $_SERVER['REQUEST_URI'];
     $this->pathname = explode('?', $this->rel)[0];
+    $this->slug = explode('/', $this->pathname)[-1];
     $this->qs = explode('?', $this->rel)[1] ?? '';
     // full= check $_SERVER if https or http and add that to the string
     $this->full =
