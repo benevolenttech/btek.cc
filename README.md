@@ -4,6 +4,7 @@ TODOs
 - [ ] service worker
 - [ ] improve content
 - [ ] php strict mode
+- [ ] gravatar
 
 ## Env
 
