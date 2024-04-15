@@ -10,7 +10,7 @@ function pageNav()
   <header>
     <div class="container">
       <div class="company-name">
-        <a href="/"></a>
+        <a aria-label="goto homepage" href="/"></a>
       </div>
 
       <nav>
