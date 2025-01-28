@@ -57,26 +57,23 @@ return function () {
       <div class="container halves">
         <div>
           <p class="hide-above-mobile" style="text-align: center;">
-            <a aria-label="connect with sara" href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">
-              <img alt="sara image" src="/img/bt-saraanani.png" width="200" style="max-width:80%;">
+            <a aria-label="connect with ryan" href="mailto:bdombro@gmail.com">
+              <img alt=" image of productmaven website" src="/img/bt-product-maven.png" width="200" style="max-width:80%;">
             </a>
           </p>
           <h3>
-            <a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">
-              Sara Anani, Inc.
-            </a>
+            <a aria-label="connect with ryan" href="mailto:bdombro@gmail.com">Product Maven</a>
           </h3>
           <p>
-            "There aren't many dev shops out there that could deliver my vision -- btek is truly skilled&nbsp;
-            at website development." -&nbsp;
-            <a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">Sara Anani</a>
+            "btek acts as our in-house website tech expert, advising us on our hardest web projects." -&nbsp;
+            <a href="mailto:bdombro@gmail.com" target="_blank">Ryan</a>
           </p>
         </div>
         <div>
           <ul class="image-list">
             <li>
-              <a aria-label="connect with sara" href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">
-                <img alt="sara image" src="/img/bt-saraanani.png" width="300" style="max-width:80%;">
+              <a aria-label="connect with ryan" href="mailto:bdombro@gmail.com">
+                <img alt="image of productmaven website" src="/img/bt-product-maven.png" width="300" style="max-width:80%;">
               </a>
             </li>
           </ul>
@@ -119,23 +116,26 @@ return function () {
       <div class="container halves">
         <div>
           <p class="hide-above-mobile" style="text-align: center;">
-            <a aria-label="connect with ryan" href="#connect-with-productmaven" onclick="handleRefClick(event, 'Ryan Troll')">
-              <img alt="image of productmaven website" src="/img/bt-product-maven.png" width="200" style="max-width:80%;">
+            <a aria-label="connect with sara" href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">
+              <img alt="sara image" src="/img/bt-saraanani.png" width="200" style="max-width:80%;">
             </a>
           </p>
           <h3>
-            <a aria-label="connect with ryan" href="#connect-with-productmaven" onclick="handleRefClick(event, 'Ryan Troll')">Product Maven</a>
+            <a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">
+              Sara Anani, Inc.
+            </a>
           </h3>
           <p>
-            "btek acts as our in-house website tech expert, advising us on our hardest web projects." -&nbsp;
-            <a href="#connect-with-productmaven" onclick="handleRefClick(event, 'Ryan Troll')">Ryan</a>
+            "There aren't many dev shops out there that could deliver my vision -- btek is truly skilled&nbsp;
+            at website development." -&nbsp;
+            <a href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">Sara Anani</a>
           </p>
         </div>
         <div>
           <ul class="image-list">
             <li>
-              <a aria-label="connect with ryan" href="#connect-with-productmaven" onclick="handleRefClick(event, 'Ryan Troll')">
-                <img alt="image of productmaven website" src="/img/bt-product-maven.png" width="300" style="max-width:80%;">
+              <a aria-label="connect with sara" href="#connect-with-sara" onclick="handleRefClick(event, 'Sara Anani')">
+                <img alt="sara image" src="/img/bt-saraanani.png" width="300" style="max-width:80%;">
               </a>
             </li>
           </ul>
@@ -148,7 +148,7 @@ return function () {
         <div>
           <ul class="image-list image-list-right">
             <li>
-              <a aria-label="goto seasonstherapy website" href="https://seasonstherapy.com" target="_blank">
+              <a aria-label="connect with Season's Therapy" href="#connect-with-seasonstherapy" onclick="handleRefClick(event, 'Seasons Therapy')">
                 <img alt="image of seasonstherapy website" src="/img/bt-seasons-therapy.png" width="300" style="max-width:80%;">
               </a>
             </li>
@@ -156,12 +156,12 @@ return function () {
         </div>
         <div>
           <p class="hide-above-mobile" style="text-align: center;">
-            <a aria-label="goto seasonstherapy website" href="https://www.seasonstherapy.com" target="_blank">
+            <a aria-label="connect with Season's Therapy" href="#connect-with-seasonstherapy" onclick="handleRefClick(event, 'Seasons Therapy')">
               <img alt="image of seasonstherapy website" src="/img/bt-seasons-therapy.png" width="200" style="max-width:80%;">
             </a>
           </p>
           <h3>
-            <a aria-label="goto seasonstherapy website" href="https://www.seasonstherapy.com" target="_blank">Seasons Therapy</a>
+            <a aria-label="connect with Season's Therapy" href="#connect-with-seasonstherapy" onclick="handleRefClick(event, 'Seasons Therapy')">Seasons Therapy</a>
           </h3>
           <p>
             "I had btek do my website 4 years ago and couldn't be happier. Best of all, the design was so on-point&nbsp;

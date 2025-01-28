@@ -26,6 +26,7 @@ function pageNav()
               Services
             </a>
           </li>
+          <?php /*
           <li>
             <a href="/learning" class="<?php activeClass('/learning') ?>">
               Learn
@@ -36,6 +37,7 @@ function pageNav()
               Grapevine
             </a>
           </li>
+          */ ?>
           <li>
             <a href="/contact" class="<?php activeClass('/contact') ?>">
               Connect

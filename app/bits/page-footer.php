@@ -16,14 +16,14 @@ function pageFooter()
           'name' => 'Services',
           'link' => '/services'
         ],
-        [
-          'name' => 'Learning',
-          'link' => '/learning'
-        ],
-        [
-          'name' => 'Grapevine',
-          'link' => '/grapevine'
-        ],
+        // [
+        //   'name' => 'Learning',
+        //   'link' => '/learning'
+        // ],
+        // [
+        //   'name' => 'Grapevine',
+        //   'link' => '/grapevine'
+        // ],
         [
           'name' => 'Contact',
           'link' => '/contact'

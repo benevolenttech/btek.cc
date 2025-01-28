@@ -68,7 +68,7 @@ return function () {
 				<div>
 					<h3>Email</h3>
 					<p>
-						Sorry, we aren't currently accepting email.
+						Please use the form above to send us an email
 						<!--
 				<a href="mailto:{{ site.data.site.contact_email_address }}">{{ site.data.site.contact_email_address }}</a><br>
 				<span class="hide-on-mobile">

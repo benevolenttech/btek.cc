@@ -32,7 +32,7 @@ return function () {
         </ol>
         </p>
         <p><strong>Customers are dropping off your website and going to competitors because your customer portal sucks. <a href="/contact">Team up now</a> and get found.</strong></p>
-        <p>Not quite ready? Check out our <a href="/learning/">learning center</a>&nbsp;or join our <a href="#footer-newsletter">mailing-list</a>.</p>
+        <!-- <p>Not quite ready? Check out our <a href="/learning/">learning center</a>&nbsp;or join our <a href="#footer-newsletter">mailing-list</a>.</p> -->
         <p>
           <img alt="brian" width="200" height="170" src="/img/versions/brian---x----200-170x---.png" />
         </p>
