@@ -166,7 +166,7 @@ return function () {
           <p>
             "I had btek do my website 4 years ago and couldn't be happier. Best of all, the design was so on-point&nbsp;
             that it's still relevant!" -&nbsp;
-            <a aria-label="connect with Ruth" href="mailto:ruthdom@comcast.net?subject=Would you recommend btek?">Ruth</a>
+            <a aria-label="connect with Ruth" href="#connect-with-seasonstherapy" onclick="handleRefClick(event, 'Seasons Therapy')">Ruth</a>
           </p>
         </div>
       </div>
